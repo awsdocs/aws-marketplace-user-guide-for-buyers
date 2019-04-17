@@ -28,11 +28,11 @@
  You can convert your hourly pricing to subscription pricing simply by buying a new annual subscription or subscriptions\. AWS Marketplace will automatically convert your hourly pricing to the annual subscription\. You do not need to restart or change the instance\. 
 
 **Tip**  
- Consider buying enough annual subscriptions to cover your steady\-state workload\. On the [Your Software](file:///C:\Users\andyruth\Desktop\$%7bmodel.helpUrls%5blibrary%5d%7d) page, you can find the list of your currently running software products and instances\. Products that offer annual subscription pricing have a **Buy Annual Subscription** button\. 
+ Consider buying enough annual subscriptions to cover your steady\-state workload\. On the [Your Marketplace Software](https://aws.amazon.com/marketplace/library?ref_=header_user_your_software) page, you can find the list of your currently running software products and instances\. Products that offer annual subscription pricing have a **Buy Annual Subscription** button\. 
 
 ### Where can I see all my purchased annual subscriptions?<a name="where-can-i-see-all-my-purchased-annual-subscriptions"></a>
 
- You can review all of your annual subscriptions on the [Your Software](file:///C:\Users\andyruth\Desktop\$%7bmodel.helpUrls%5blibrary%5d%7d) page\. 
+ You can review all of your annual subscriptions on the [Your Marketplace Software](https://aws.amazon.com/marketplace/library?ref_=header_user_your_software) page\. 
 
 ### When will I be billed for my annual subscriptions?<a name="when-will-i-be-billed-for-my-annual-subscriptions"></a>
 
@@ -48,7 +48,7 @@
 
 ### What happens if I accidentally buy an annual subscription?<a name="what-happens-if-i-accidentally-buy-an-annual-subscription"></a>
 
- Contact [AWS Support](file:///C:\Users\andyruth\Desktop\$%7bmodel.helpUrls%5bcontactUsRef%5d%7d)\. 
+ Contact the [Support Center](https://aws.amazon.com/marketplace/help/contact-us)\. 
 
 ### I bought an annual subscription for product P, and EC2 instance type Y\. The product P has another supported instance type Z\. Can I change my instance type from Y to Z? How?<a name="i-bought-an-annual-subscription-for-product-p-and-ec2-instance-type-y.-the-product-p-has-another-supported-instance-type-z.-can-i-change-my-instance-type-from-y-to-z-how"></a>
 

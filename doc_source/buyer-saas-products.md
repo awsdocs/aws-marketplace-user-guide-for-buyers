@@ -4,7 +4,7 @@
 
 ## SaaS Subscriptions<a name="saas-subscriptions"></a>
 
- With SaaS subscriptions, the sofrware vendor tracks your usage and you pay only for what you use\. This pay\-as\-you go pricing model is similar to that of many AWS services\. Billing for your usage of a SaaS product is managed through your AWS bill\. 
+ With SaaS subscriptions, the software vendor tracks your usage and you pay only for what you use\. This pay\-as\-you go pricing model is similar to that of many AWS services\. Billing for your usage of a SaaS product is managed through your AWS bill\. 
 
 ## SaaS Contracts<a name="buyer-saas-contracts"></a>
 

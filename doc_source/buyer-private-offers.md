@@ -1,49 +1,47 @@
 # Private Offers<a name="buyer-private-offers"></a>
 
- AWS Marketplace Seller Private Offer enables you to receive non\-publicly available prices on publicly listed products\. Each private offer has pricing and licensing terms unique to your AWS account\. Private offers are extended directly by the seller with a set expiration date\. At the expiration date, you are automatically moved to the product public offer\. 
+ The AWS Marketplace seller private offer feature enables you to receive product pricing from a vendor that isn't publicly available\. You negotiate pricing and terms with the seller, and the seller creates a private offer for the AWS account that you designate\. You accept the private offer and start receiving the negotiated price and terms of use\. 
 
-## Frequently Asked Questions<a name="buyer-private-offers-frequently-asked-questions"></a>
+Each private offer has pricing and licensing terms specifically offered to your account\. The seller of the product extends a private offer to you, and the offer has a set expiration date\. If you don't accept the private offer by the expiration date, depending on the type of product the private offer is for, you're either automatically moved to the product's public offer or no longer subscribed to the product\. 
 
-### I’m a software buyer\. How do I begin using AWS Marketplace Seller Private Offer?<a name="im-a-software-buyer.-how-do-i-begin-using-aws-marketplace-seller-private-offer"></a>
+If you're using the consolidated billing feature in AWS Organizations, we recommend that the account that you designate is your master account\. However, private offers can be made to member accounts, and any member account can accept an offer to their account or to the master account\. For more information on consolidated billing, see [Consolidated Billing for Organizations](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/consolidated-billing.html) in the *AWS Billing and Cost Management User Guide*\. 
 
-You can view private offers by visiting the products public fulfillment page\. If you have a private offer, you see a blue banner indicating that you have a private offer\. You can also reach a private offer directly from the private offer URL\. When you’re ready to purchase, you subscribe using the same process as other AWS Marketplace product\. 
+## Product Types Eligible for Private Offers<a name="buyer-private-offers-types"></a>
 
-### I’m a software buyer\. How does this work with linked accounts?<a name="im-a-software-buyer.-how-does-this-work-with-linked-accounts"></a>
+You can get private offers for the following product types\.
 
- You can subscribe to a private offer using the master payor account or any associated linked account\. There can only be one private offer for a product to any account\. However, there can be multiple private offers to the same product as long as they are to different accounts\. For all linked accounts, you must subscribe through the AWS Marketplace website\. 
 
-### Can I use AWS Marketplace Seller Private Offer from the EC2 console?<a name="can-i-use-aws-marketplace-seller-private-offer-from-the-ec2-console"></a>
+| Offer Type | Description | 
+| --- | --- | 
+|  SaaS contract  |  With a SaaS contract, you commit to upfront payment for your expected usage of a SaaS product\. Contract durations are 1\-month, 1\-year, 2\-year, or 3\-year terms\. You're billed in advance for the use of the product software\.  | 
+|  SaaS contract with a flexible payment schedule  |  Same as a SaaS contract, but with a custom payment schedule where payments can be spread over up to 3 years\.  | 
+|  SaaS contract with pay\-as\-you\-go pricing for additional usage  |  Same as a SaaS contract, but with negotiated pricing for usage beyond what you negotiated in your contract\.  | 
+|  SaaS subscription  |  With a SaaS subscription, you agree to a price for use of a product\. The independent software vendor \(ISV\) tracks and reports your usage to AWS Marketplace, and you're billed for what you use\.   | 
+|  AMI hourly  |  With AMI hourly, you negotiate an hourly rate for using an AMI, rounded up to the nearest hour\.   | 
+|  AMI annual  |  With AMI annual, you negotiate an hourly price for using the AMI\. The price that you negotiate is effective for 1 year\.  | 
+|  AMI Bring Your Own License model \(BYOL\)  |  With AMI BYOL, you can negotiate a price for using an AMI and use software licenses that you already own\. This type of private offer requires that you work with the ISV or a channel partner to sign a custom transaction request \(CTF\) form to agree to pricing, terms, and payment schedule\. The form allows AWS Marketplace to subscribe to the BYOL AMI product on your behalf\.   | 
 
- No, all private offers must start on the AWS Marketplace site to review specific terms\. After subscribing to an AMI\-based product, you can deploy the product from the EC2 console using the AMI ID\. After accepting a private offer, any products initially deployed through the EC2 console will receive the new price\. 
+## Preparing to Accept a Private Offer<a name="buyer-private-offers-prerequsite-steps"></a>
 
-### I'm a software buyer\. What is the step\-by\-step process to subscribe to, and then launch the private offer? What interface needs to be used, the EC2 console or the AWS Marketplace portal?<a name="im-a-software-buyer.-what-is-the-step-by-step-process-to-subscribe-to-and-then-launch-the-private-offer-what-interface-needs-to-be-used-the-ec2-console-or-the-aws-marketplace-portal"></a>
+A typical private offer is negotiated for the duration of 1 year, and you pay the entire amount of the offer when you accept it\. Before you accept a private offer, verify the billing structure for your company, your method of payment for AWS billing, and your tax settings\.
 
- You can access a private offer using the link the seller provides\. The link takes you to the product fulfillment page\. From there, you must log in with credentials for the AWS account the offer was made to\. Private offers must be accessed from the AWS Marketplace page\. You can find your most recent private offer by navigating to the software vendor's public product detail page and choosing **Continue** to access the product fulfillment page\. After authenticating, you will see a blue banner indicating you have a private offer\. Follow the link in the banner to access the most recently created private offer for that product\. To accept the private offer, choose **Accept Offer**\. Until the expiration date noted in the pricing box, any running instances, annual software purchases, metering records, or contract purchases, will be charged at your private offer rates\. 
+### Verifying Your AWS Billing and Cost Management Preferences<a name="buyer-private-offers-prerequsite-steps-billing"></a>
 
-### When I purchase software using Private Offer, does it change how the software can be used?<a name="when-i-purchase-software-using-private-offer-does-it-change-how-the-software-can-be-used"></a>
+Billing and Cost Management is the service that you use to pay your AWS bill, monitor your usage, and budget your costs\. You can use the consolidated billing feature in AWS Organizations to consolidate billing and payment for multiple accounts or multiple Amazon Internet Services Pvt\. Ltd \(AISPL\) accounts\. Every organization in AWS Organizations has a master account that pays the charges of all the member accounts\. The master account is called a payer account, and the member account is called a linked account\. Before negotiating a private offer, verify how your company pays their AWS bill and which account the private offer is made to\. 
 
- No\. The software you purchase behaves the same as it would if you purchased the software without a private offer\. 
+### Verifying Your Payment Method<a name="buyer-private-offers-prerequsite-steps-payment-method"></a>
 
-### I’m a software buyer\. How do I check my usage of products purchased through AWS Marketplace Seller Private Offer?<a name="im-a-software-buyer.-how-do-i-check-my-usage-of-products-purchased-through-aws-marketplace-seller-private-offer"></a>
+Before accepting a private offer, verify that your payment method supports paying the entire cost of the private offer\. To verify your payment method, open the Billing and Cost Management console at [https://console\.aws\.amazon\.com/billing/](https://console.aws.amazon.com/billing/)\.
 
- Products with a private offer show up like any other AWS Marketplace product in your monthly bill\. You can use detailed billing to view your usage for each AWS Marketplace purchased products\. Each will have a line item corresponding to each kind of usage\. The product title will be appended with “\- private offer”\.
+**Note**  
+If the private offer is a SaaS contract with a flexible payment schedule, you must have invoicing in place before you accept the offer\.
 
-### Does subscribing to a private offer launch an instance?<a name="does-subscribing-to-a-private-offer-launch-an-instance"></a>
+### Verifying Your Tax Settings<a name="buyer-private-offers-prerequsite-steps-tax-settings"></a>
 
- No\. Subscribing to a private offer does not require launching a new instance of the software\. Accepting the private offer will modify the price to correspond to your private offer price\. If a product offers 1\-click launch, you can deploy a new instance of the software\. If a product defaults to 1\-click launch, you can accept a private offer without launching a new instance\. To launch without deploying a new instance, choose **Manual Launch** on the fulfillment page\. You can use the EC2 console to deploy additional instances, just like you would for other AWS Marketplace products\. 
+If your company qualifies for a tax exemption, verify your tax settings\. To view or modify your tax settings, sign in to the AWS Management Console and, in your account settings, view the tax settings\. For more information on tax registration, see [How do I add or update my tax registration number or business legal address for my AWS account?](https://aws.amazon.com/premiumsupport/knowledge-center/update-tax-registration-number/)\.
 
-### I'm a software buyer\. How do I know which account ID the software seller used to create the private offer?<a name="im-a-software-buyer.-how-do-i-know-which-account-id-master-payer-the-software-seller-used-to-create-the-private-offer"></a>
+## Viewing and Subscribing to a Private Offer<a name="buyer-private-offers-subscribing"></a>
 
- When the software seller extends a private offer to you, you receive confirmation on the account included in a private offer\. Private offers are linked to the specific software buyer's account listed\. The software seller creates the private offer for the account you specify\. Each private offer can be made to up to 25 accounts\. All accounts associated with an offer are listed in the AWS Marketplace Management Portal, on the **Offers** view\. 
-
-### After subscribing to a private offer, can all linked AWS accounts utilize the offer? Do I have any control to limit which linked accounts have access?<a name="after-subscribing-to-a-private-offer-can-all-linked-aws-accounts-utilize-the-offer-do-i-have-any-control-to-limit-which-linked-accounts-have-access"></a>
-
- When a private offer is accepted, each linked account will receive that price when using the product\. Any user with permission to use AWS Marketplace will see \(blue private offer ribbon\) and can use the private offer when they visit the products fulfillment page\. Whatever offer is accepted by the account is the price for that product\. 
-
-### I am running an AMI and paying hourly and have just put a private offer for annual billing in place\. How do I convert the AMI to take advantage of the private offer?<a name="i-am-running-an-ami-and-paying-hourly-and-have-just-put-a-private-offer-for-annoual-billing-in-place.-how-do-i-convert-the-ami-to-take-advantage-of-the-private-offer"></a>
-
- Annual subscriptions function in a manner similar to a voucher system\. The subscription completely offsets the cost of running one instance hour of an hourly product per hour\. If you purchase an annual subscription through a private offer, the offer is used for running instances, whether the instance was launched when a public or private offer was in place\. 
-
-### I am a software buyer\. How can I tell which existing instances are hourly and which are annual?<a name="i-am-a-software-buyer.-how-can-i-tell-which-existing-instances-are-hourly-and-which-are-annual"></a>
-
- You can review all of your annual subscriptions in In AWS Marketplace under **Your Software**\. If an annual subscription is purchased by one account in a linked account family, it is shared across the entire linked account family\. If the purchasing account does not have any running instances, the annual subscription is counted toward the usage in another linked account running that software\. For more information about annual subscriptions, see [AMI Subscriptions](buyer-ami-subscriptions.md)\. 
+The steps required to accept a private offer vary, depending on the product type, delivery method, and payment schedule of your private offer\. With all private offers, you view and accept the offer by logging in to AWS Marketplace and navigating to the offer page for the product\. To view the offer page, you can either:
++ **Use the link the seller provided** – The seller might have sent you a link that takes you directly to the private offer\. If so, use that link to directly access the private offer\.
++ **Navigate to the product page** – Sign in to [AWS Marketplace](https://aws.amazon.com/marketplace) and navigate to the product page for the product\. During the subscription process, you see a banner at the top of the page showing the private offer, offer ID, and expiration for the offer\. If you have more than one private offer for that product, each offer appears under **Offer name**\.

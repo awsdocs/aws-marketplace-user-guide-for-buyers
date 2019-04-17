@@ -18,7 +18,7 @@
 
 ### How do I get my account number for third\-party support?<a name="how-do-i-get-my-account-number-for-third-party-support"></a>
 
- Navigate to AWS Marketplace and choose **Your Account**\. Log in using the user name and password that the account administrator gave you\. Choose **Review and change your AWS profile**\. The account number appears under **Welcome**\. For details, see [Controlling Access to AWS Marketplace Subscriptions](ControllingAccessToAWSMarketplaceSubscriptions.md) \.
+ Navigate to AWS Marketplace and choose **Your Account**\. Log in using the user name and password that the account administrator gave you\. Choose **Review and change your AWS profile**\. The account number appears under **Welcome**\.
 
 ### What is AWS Marketplace Product Support Connection, and why should I use it?<a name="what-is-aws-marketplace-product-support-connection-and-why-should-i-use-it"></a>
 

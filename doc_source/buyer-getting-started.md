@@ -118,7 +118,7 @@
 
 ## Where to Go Next<a name="where-to-go-next"></a>
 
- For more information about product categories and types, see [Product Categories](buyer-product-categories.md) and [Product Types](buyer-product-types.md)\.  
+ For more information about product categories and types, see [Product Categories](buyer-product-categories.md) and [Product Types](buyer-product-types.md)\. 
 
  For more information about Amazon EC2, see the service documentation at [Amazon Elastic Compute Cloud Documentation](http://docs.aws.amazon.com/ec2/)\. 
 
