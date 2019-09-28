@@ -6,7 +6,7 @@ After you have created users in IAM, users can sign in with their own user names
 
 1. Open the IAM console at [https://console\.aws\.amazon\.com/iam/](https://console.aws.amazon.com/iam/)\.
 
-1. In the left navigation pane, choose **Dashboard**\.
+1. In the navigation pane, choose **Dashboard**\.
 
 1. Near the top of the content pane, find **IAM users sign\-in link:** and take note of the sign\-in link, which has a format like this:
 
@@ -16,7 +16,7 @@ After you have created users in IAM, users can sign in with their own user names
 **Note**  
 If you want the URL for your sign\-in page to contain your company name \(or other friendly identifier\) instead of your AWS account ID, you can create an alias for your account by choosing **Customize**\. For more information, see [Your AWS Account ID and Its Alias](https://docs.aws.amazon.com/IAM/latest/UserGuide/console_account-alias.html) in the *IAM User Guide*\. 
 
-1. Distribute this URL to the people at your company who can work with AWS Marketplace, along with the user name and password that you created for each\. Instruct them to use your account's unique sign\-in URL to sign in before they access AWS Marketplace\. 
+1. Distribute this URL to the people at your company who can work with the AWS Marketplace, along with the user name and password that you created for each\. Instruct them to use your account's unique sign\-in URL to sign in before they access the AWS Marketplace\. 
 
 As users work in AWS Marketplace, AWS enforces the appropriate permissions\. For example, user John might belong to a group that has only read\-only permissions to work with your subscriptions\. When he signs in to AWS Marketplace, he can choose the **Your Software** link at the top of the page\.
 

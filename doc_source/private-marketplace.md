@@ -20,7 +20,7 @@
 
 1.  On the fulfillment page, review the details for the fulfillment and choose **Subscribe**\. 
 
- If the product is not approved in your private marketplace, **Subscribe** will be dimmed, and you will not be able to complete the fulfillment action\. You will also see a red banner at the top of the page indicating that that product is not currently approved for procurement\. 
+ If the product is not approved in your private marketplace, **Subscribe** will be dimmed, and you will not be able to complete the fulfillment action\. You will also see a red banner at the top of the page indicating that the product is not currently approved for procurement\. 
 
 ## Adding a Product to Your Private Marketplace<a name="request-adding-a-product-to-your-private-marketplace"></a>
 

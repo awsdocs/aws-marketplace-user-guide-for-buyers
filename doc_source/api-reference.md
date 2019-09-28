@@ -1,6 +1,6 @@
 # API Reference<a name="api-reference"></a>
 
- You can use this reference to build private images using the AWS Marketplace Image Build Service API\. The AWS account that you use to build a private image must have the IAM permissions specified in the AWSMarketplaceImageBuildFullAccess managed policies\. You can use an existing role or create a new role using this\. To add the policy to a user, group or role: 
+ You can use this reference to build private images using the AWS Marketplace Image Build Service API\. The AWS account that you use to build a private image must have the IAM permissions specified in the `AWSMarketplaceImageBuildFullAccess` or `AWSMarketplaceFullAccess` managed policies\. You can use an existing role or create a new role using this\. To add the `AWSMarketplaceImageBuildFullAccess` policy to a user, group or role: 
 
 1.  Sign in to the AWS Management Console and open the AWS IAM console at [https://console\.aws\.amazon\.com/iam/](https://console.aws.amazon.com/iam/)\. 
 
@@ -14,7 +14,13 @@
 
 1.  Select the users, groups and roles you want to attach this policy to, and then choose **Attach Policy**\. 
 
- The next time that a user or member of a group or role you selected accesses the AWS Marketplace website, they can perform the tasks associated with the private image build process\. 
+**Note**  
+Three of the actions described in the `AWSMarketplaceImageBuildFullAccess` policy are performed on your behalf by AWS Marketplace for using private image builds\. Those actions are defined below:  
+**aws\-marketplace:ListBuilds** – Retrieves information about build records for all builds associated with the AWS account in use\. Note that you can only retrieve information about builds you own\.
+**aws\-marketplace:StartBuilds** – Initiates a build that installs the specified AWS Marketplace product on the source AMI, creating a new AMI in the same AWS Region\.
+**aws\-marketplace:DescribeBuilds** – Retrieves information about all build records associated with the input build identifiers\. Maximum number of build identifiers in an call is 50\.
+
+With the permissions defined by these policies in place, the next time that a user or member of a group or role you selected accesses the AWS Marketplace website, they can perform private image build related tasks\.
 
 ## Building a Private Image Using the CLI<a name="building-a-private-image-using-the-cli"></a>
 
@@ -23,7 +29,7 @@
  **Code** 
 
 ```
-{
+<![CDATA[{
   "version":"2.0",
   "metadata":{
     "apiVersion":"2017-12-15",
@@ -53,7 +59,7 @@
         {"shape":"InvalidMaxResultsException"},
         {"shape":"InvalidFilterException"}
       ],
-      "documentation":"&lt;p>Retrieves information about build records for all builds associated with the AWS account in use, including status, explanation, and the id of the resulting AMI. The results are in descending order of creation time. You can filter results by build id, status and fulfillment option id. Use the pagination parameters to retrieve results in a set of sequential pages. You can only retrieve information about builds you own.&lt;/p>"
+      "documentation":"<p>Retrieves information about build records for all builds associated with the AWS account in use, including status, explanation, and the id of the resulting AMI. The results are in descending order of creation time. You can filter results by build id, status and fulfillment option id. Use the pagination parameters to retrieve results in a set of sequential pages. You can only retrieve information about builds you own.</p>"
     },
     "StartBuild":{
       "name":"StartBuild",
@@ -74,7 +80,7 @@
         {"shape":"InvalidSnsTopicArnException"},
         {"shape":"UnauthorizedOperationException"}
       ],
-      "documentation":"&lt;p>Initiates a build that installs the specified Marketplace product on the source AMI, creating a new AMI in the same region.&lt;/p>"
+      "documentation":"<p>Initiates a build that installs the specified Marketplace product on the source AMI, creating a new AMI in the same region.</p>"
     }
   },
   "shapes":{
@@ -83,58 +89,58 @@
       "members":{
         "BuildId":{
           "shape":"String",
-          "documentation":"&lt;p>Unique identifier for a build.&lt;/p>"
+          "documentation":"<p>Unique identifier for a build.</p>"
         },
         "DestinationImage":{
           "shape":"DestinationImage",
-          "documentation":"&lt;p>Details about the new image to be created in the same region.&lt;/p>"
+          "documentation":"<p>Details about the new image to be created in the same region.</p>"
         },
         "FulfillmentOptionIds":{
           "shape":"StringList",
-          "documentation":"&lt;p>List of fulfillment option ids of Marketplace software products to install on the image.They need to be retrieved from the Marketplace Website.&lt;/p>"
+          "documentation":"<p>List of fulfillment option ids of Marketplace software products to install on the image.They need to be retrieved from the Marketplace Website.</p>"
         },
         "Products":{
           "shape":"ProductList",
-          "documentation":"&lt;p>Details about the Marketplace software products to install on the image. This structure is populated by Marketplace.&lt;/p>"
+          "documentation":"<p>Details about the Marketplace software products to install on the image. This structure is populated by Marketplace.</p>"
         },
         "SourceImage":{
           "shape":"SourceImage",
-          "documentation":"&lt;p>Details about the existing source image on which to install the software product.&lt;/p>"
+          "documentation":"<p>Details about the existing source image on which to install the software product.</p>"
         },
         "SnsTopicArn":{
           "shape":"String",
-          "documentation":"&lt;p>The full ARN of the SNS topic that will be notified when the build status changes.&lt;/p>"
+          "documentation":"<p>The full ARN of the SNS topic that will be notified when the build status changes.</p>"
         },
         "Status":{
           "shape":"BuildStatus",
-          "documentation":"&lt;p>Current status of the build. Possible build statuses include the following:&lt;/p> &lt;ul> &lt;li> &lt;p>InProgress - A new build has been defined and started.&lt;/p> &lt;/li> &lt;li> &lt;p>InternalError - The build was terminated due to a retryable error.&lt;/p> &lt;/li> &lt;li> &lt;p>Failed - The build has failed and a new image has not been created.&lt;/p> &lt;/li> &lt;li> &lt;p>Succeeded - The build has finished and a new image has been created.&lt;/p> &lt;/li> &lt;/ul>"
+          "documentation":"<p>Current status of the build. Possible build statuses include the following:</p> <ul> <li> <p>InProgress - A new build has been defined and started.</p> </li> <li> <p>InternalError - The build was terminated due to a retryable error.</p> </li> <li> <p>Failed - The build has failed and a new image has not been created.</p> </li> <li> <p>Succeeded - The build has finished and a new image has been created.</p> </li> </ul>"
         },
         "StandardOutputUrl":{
           "shape":"String",
-          "documentation":"&lt;p> A presigned S3 URL to the logs emitted by the installer on STDOUT during install process.&lt;/p>"
+          "documentation":"<p> A presigned S3 URL to the logs emitted by the installer on STDOUT during install process.</p>"
         },
         "StandardErrorUrl":{
           "shape":"String",
-          "documentation":"&lt;p> A presigned S3 URL to the logs emitted by the installer on STDERR during install process.&lt;/p>"
+          "documentation":"<p> A presigned S3 URL to the logs emitted by the installer on STDERR during install process.</p>"
         },
         "ErrorDetail":{"shape":"ErrorDetail"},
         "StartTime":{
           "shape":"DateTime",
-          "documentation":"&lt;p>Time stamp indicating when the build was created, in ISO 8601 format.&lt;/p>"
+          "documentation":"<p>Time stamp indicating when the build was created, in ISO 8601 format.</p>"
         },
         "LastUpdateTime":{
           "shape":"DateTime",
-          "documentation":"&lt;p>Time stamp indicating when the build was last updated, in ISO 8601 format.&lt;/p>"
+          "documentation":"<p>Time stamp indicating when the build was last updated, in ISO 8601 format.</p>"
         }
       },
-      "documentation":"&lt;p>Container for the properties describing each build that meets the filter requirements.&lt;/p>"
+      "documentation":"<p>Container for the properties describing each build that meets the filter requirements.</p>"
     },
     "BuildLimitExceededException":{
       "type":"structure",
       "members":{
         "Message":{"shape":"String"}
       },
-      "documentation":"&lt;p>This exception is thrown when the number of concurrent builds exceeds the maximum allowed.&lt;/p>",
+      "documentation":"<p>This exception is thrown when the number of concurrent builds exceeds the maximum allowed.</p>",
       "exception":true
     },
     "BuildList":{
@@ -154,56 +160,60 @@
     "DescribeBuildsRequest":{
       "type":"structure",
       "members":{
+        "BuildIds":{
+          "shape":"StringList",
+          "documentation":"<p>List of unique build identifiers.</p>"
+        },
         "NextToken":{
           "shape":"NextToken",
-          "documentation":"&lt;p>(Optional) Token that indicates the start of the next sequential page of results. Use the token that is returned with a previous call to this action. To specify the start of the result set, do not specify a value.&lt;/p>"
+          "documentation":"<p>(Optional) Token that indicates the start of the next sequential page of results. Use the token that is returned with a previous call to this action. To specify the start of the result set, do not specify a value.</p>"
         },
         "MaxResults":{
           "shape":"MaxResults",
-          "documentation":"&lt;p>(Optional) An upper limit on the number of build descriptions that can be returned.&lt;/p>"
+          "documentation":"<p>(Optional) An upper limit on the number of build descriptions that can be returned.</p>"
         },
         "Filters":{
           "shape":"FilterList",
-          "documentation":"&lt;p>(Optional) One or more filters. Possible values are:&lt;/p> &lt;ul> &lt;li> &lt;p>build-id - A unique identifier which refers to a particular build.&lt;/p> &lt;/li> &lt;li> &lt;p>fulfillment-option-id - A fulfillment option identifier which refers to a set of builds.&lt;/p> &lt;/li> &lt;li> &lt;p>product-id - A product identifier which refers to a set of builds.&lt;/p> &lt;/li> &lt;li> &lt;p>status - Build status (in-progress | internal-error | failed | succeeded) which refers to a set of builds.&lt;/p> &lt;/li> &lt;/ul>"
+          "documentation":"<p>(Optional) One or more filters. Possible values are: </p> <ul> <li> <p>build-id - A unique identifier which refers to a particular build.</p> </li> <li> <p>fulfillment-option-id - A fulfillment option identifier which refers to a set of builds.</p> </li> <li> <p>product-id - A product identifier which refers to a set of builds.</p> </li> <li> <p>status - Build status (in-progress | internal-error | failed | succeeded) which refers to a set of builds.</p> </li> </ul>"
         }
       },
-      "documentation":"&lt;p>Container for request parameters to the DescribeBuilds operation.&lt;/p>"
+      "documentation":"<p>Container for request parameters to the DescribeBuilds operation.</p>"
     },
     "DescribeBuildsResult":{
       "type":"structure",
       "members":{
         "NextToken":{
           "shape":"NextToken",
-          "documentation":"&lt;p>Token that indicates the start of the next sequential page of results.&lt;/p>"
+          "documentation":"<p>Token that indicates the start of the next sequential page of results.</p>"
         },
         "Builds":{
           "shape":"BuildList",
-          "documentation":"&lt;p>List of builds, which hold properties describing each build that meets the filter requirements.&lt;/p>"
+          "documentation":"<p>List of builds, which hold properties describing each build that meets the filter requirements.</p>"
         }
       },
-      "documentation":"&lt;p>Container for the result of the DescribeBuilds operation.&lt;/p>"
+      "documentation":"<p>Container for the result of the DescribeBuilds operation.</p>"
     },
     "DestinationImage":{
       "type":"structure",
       "members":{
         "Id":{
           "shape":"String",
-          "documentation":"&lt;p>The id of the new image on which the software product has been installed.&lt;/p>"
+          "documentation":"<p>The id of the new image on which the software product has been installed.</p>"
         },
         "Description":{
           "shape":"String",
-          "documentation":"&lt;p>A description for the new image to be created in the same region.&lt;/p>"
+          "documentation":"<p>A description for the new image to be created in the same region.</p>"
         },
         "Name":{
           "shape":"String",
-          "documentation":"&lt;p>A name for the new image.&lt;/p> &lt;p>Constraints: 3-128 alphanumeric characters, parentheses (()), square brackets ([]), spaces ( ), periods (.), slashes (/), dashes (-), single quotes ('), at-signs (@), or underscores(_)&lt;/p>"
+          "documentation":"<p>A name for the new image.</p> <p>Constraints: 3-128 alphanumeric characters, parentheses (()), square brackets ([]), spaces ( ), periods (.), slashes (/), dashes (-), single quotes ('), at-signs (@), or underscores(_)</p>"
         }
       },
-      "documentation":"&lt;p>Details about the new image to be created in the same region.&lt;/p>"
+      "documentation":"<p>Details about the new image to be created in the same region.</p>"
     },
     "ErrorCode":{
       "type":"string",
-      "documentation":"&lt;ul> &lt;li> &lt;p>SSMAgentNotFound - Error code representing condition when either SSM agent was not running on the instance or was unreachable.&lt;/p> &lt;/li> &lt;li> &lt;p>InstallFailed - Error code representing condition when installtion timed out or exited with non zero return value.&lt;/p> &lt;/li> &lt;/ul>",
+      "documentation":"<ul> <li> <p>SSMAgentNotFound - Error code representing condition when either SSM agent was not running on the instance or was unreachable.</p> </li> <li> <p>InstallFailed - Error code representing condition when installation timed out or exited with non zero return value.</p> </li> </ul>",
       "enum":[
         "SSMAgentNotFound",
         "InstallFailed"
@@ -214,28 +224,28 @@
       "members":{
         "Code":{
           "shape":"ErrorCode",
-          "documentation":"&lt;p>Error code providing specific detail on the error.&lt;/p>"
+          "documentation":"<p>Error code providing specific detail on the error.</p>"
         },
         "Message":{
           "shape":"String",
-          "documentation":"&lt;p>Error message providing specific detail on the error.&lt;/p>"
+          "documentation":"<p>Error message providing specific detail on the error.</p>"
         }
       },
-      "documentation":"&lt;p>A container for error code and an error message.&lt;/p>"
+      "documentation":"<p>A container for error code and an error message.</p>"
     },
     "Filter":{
       "type":"structure",
       "members":{
         "Name":{
           "shape":"String",
-          "documentation":"&lt;p>The name of the filter. Filter names are case-sensitive.&lt;/p>"
+          "documentation":"<p>The name of the filter. Filter names are case-sensitive.</p>"
         },
         "Values":{
           "shape":"StringList",
-          "documentation":"&lt;p>One or more filter values. Filter values are case-sensitive.&lt;/p>"
+          "documentation":"<p>One or more filter values. Filter values are case-sensitive.</p>"
         }
       },
-      "documentation":"&lt;p>A filter name and value pair that is used to return a more specific list of results. Filters can be used to match a set of resources by various criteria, such as tags, attributes, or ids.&lt;/p>"
+      "documentation":"<p>A filter name and value pair that is used to return a more specific list of results. Filters can be used to match a set of resources by various criteria, such as tags, attributes, or ids.</p>"
     },
     "FilterList":{
       "type":"list",
@@ -246,7 +256,7 @@
       "members":{
         "Message":{"shape":"String"}
       },
-      "documentation":"&lt;p>This exception is thrown when an idempotent operation is retried and the parameters do not match the original call with the same idempotency token.&lt;/p>",
+      "documentation":"<p>This exception is thrown when an idempotent operation is retried and the parameters do not match the original call with the same idempotency token.</p>",
       "exception":true
     },
     "InstallerMismatchException":{
@@ -254,7 +264,7 @@
       "members":{
         "Message":{"shape":"String"}
       },
-      "documentation":"&lt;p>This exception is thrown when the specified fulfillment option id is not compatible with the platform of the specified source image id.&lt;/p>",
+      "documentation":"<p>This exception is thrown when the specified fulfillment option id is not compatible with the platform of the specified source image id.</p>",
       "exception":true
     },
     "InternalServerErrorException":{
@@ -262,7 +272,7 @@
       "members":{
         "Message":{"shape":"String"}
       },
-      "documentation":"&lt;p>This exception is thrown on an internal server error.&lt;/p>",
+      "documentation":"<p>This exception is thrown on an internal server error.</p>",
       "exception":true,
       "fault":true
     },
@@ -271,7 +281,7 @@
       "members":{
         "Message":{"shape":"String"}
       },
-      "documentation":"&lt;p>This exception is thrown when the specified destination image name does not meet the constraints.&lt;/p>",
+      "documentation":"<p>This exception is thrown when the specified destination image name does not meet the constraints.</p>",
       "exception":true
     },
     "InvalidFilterException":{
@@ -279,7 +289,7 @@
       "members":{
         "Message":{"shape":"String"}
       },
-      "documentation":"&lt;p>This exception is thrown when the specified filter does not exist.&lt;/p>",
+      "documentation":"<p>This exception is thrown when the specified filter does not exist.</p>",
       "exception":true
     },
     "InvalidFulfillmentOptionIdException":{
@@ -287,7 +297,7 @@
       "members":{
         "Message":{"shape":"String"}
       },
-      "documentation":"&lt;p>This exception is thrown when the specified fulfillment option id does not exist.&lt;/p>",
+      "documentation":"<p>This exception is thrown when the specified fulfillment option id does not exist.</p>",
       "exception":true
     },
     "InvalidMaxResultsException":{
@@ -295,7 +305,7 @@
       "members":{
         "Message":{"shape":"String"}
       },
-      "documentation":"&lt;p>This exception is thrown when the specified value for maximum number of results to be returned is not valid.&lt;/p>",
+      "documentation":"<p>This exception is thrown when the specified value for maximum number of results to be returned is not valid.</p>",
       "exception":true
     },
     "InvalidNextTokenException":{
@@ -303,7 +313,7 @@
       "members":{
         "Message":{"shape":"String"}
       },
-      "documentation":"&lt;p>This exception is thrown when the specified next token is not valid.&lt;/p>",
+      "documentation":"<p>This exception is thrown when the specified next token is not valid.</p>",
       "exception":true
     },
     "InvalidSnsTopicArnException":{
@@ -311,7 +321,7 @@
       "members":{
         "Message":{"shape":"String"}
       },
-      "documentation":"&lt;p>This exception is thrown when the specified SNS topic ARN does not exist.&lt;/p>",
+      "documentation":"<p>This exception is thrown when the specified SNS topic ARN does not exist.</p>",
       "exception":true
     },
     "InvalidSourceImageIdException":{
@@ -319,7 +329,7 @@
       "members":{
         "Message":{"shape":"String"}
       },
-      "documentation":"&lt;p>This exception is thrown when the specified source image id does not exist.&lt;/p>",
+      "documentation":"<p>This exception is thrown when the specified source image id does not exist.</p>",
       "exception":true
     },
     "MaxResults":{
@@ -337,18 +347,18 @@
       "members":{
         "Id":{
           "shape":"String",
-          "documentation":"&lt;p>The id of the Marketplace software product to install on the image. This field is populated by Marketplace.&lt;/p>"
+          "documentation":"<p>The id of the Marketplace software product to install on the image. This field is populated by Marketplace.</p>"
         },
         "Version":{
           "shape":"String",
-          "documentation":"&lt;p>The version of the Marketplace software product to install on the image. This field is populated by Marketplace.&lt;/p>"
+          "documentation":"<p>The version of the Marketplace software product to install on the image. This field is populated by Marketplace.</p>"
         },
         "Title":{
           "shape":"String",
-          "documentation":"&lt;p>The title of the Marketplace software product to install on the image. This field is populated by Marketplace.&lt;/p>"
+          "documentation":"<p>The title of the Marketplace software product to install on the image. This field is populated by Marketplace.</p>"
         }
       },
-      "documentation":"&lt;p>Details about the Marketplace software product to install on the image. This structure is populated by Marketplace.&lt;/p>"
+      "documentation":"<p>Details about the Marketplace software product to install on the image. This structure is populated by Marketplace.</p>"
     },
     "ProductList":{
       "type":"list",
@@ -359,14 +369,14 @@
       "members":{
         "Id":{
           "shape":"String",
-          "documentation":"&lt;p>The id of the existing source image.&lt;/p>"
+          "documentation":"<p>The id of the existing source image.</p>"
         },
         "Name":{
           "shape":"String",
-          "documentation":"&lt;p>The name of the existing source image.&lt;/p>"
+          "documentation":"<p>The name of the existing source image.</p>"
         }
       },
-      "documentation":"&lt;p>Details about the existing source image on which to install the software product&lt;/p>"
+      "documentation":"<p>Details about the existing source image on which to install the software product</p>"
     },
     "StartBuildRequest":{
       "type":"structure",
@@ -378,45 +388,45 @@
       "members":{
         "ClientToken":{
           "shape":"String",
-          "documentation":"&lt;p>(Optional) Unique, case-sensitive identifier you provide to ensure idempotency of the request. We recommend UUID.&lt;/p>",
+          "documentation":"<p>(Optional) Unique, case-sensitive identifier you provide to ensure idempotency of the request. We recommend UUID.</p>",
           "idempotencyToken":true
         },
         "FulfillmentOptionIds":{
           "shape":"StringList",
-          "documentation":"&lt;p>List of fulfillment option ids of Marketplace software products to install on the image.They need to be retrieved from the Marketplace Website.&lt;/p>"
+          "documentation":"<p>List of fulfillment option ids of Marketplace software products to install on the image.They need to be retrieved from the Marketplace Website.</p>"
         },
         "SourceImageId":{
           "shape":"String",
-          "documentation":"&lt;p>The id of the image on which to install the software product.&lt;/p>"
+          "documentation":"<p>The id of the image on which to install the software product.</p>"
         },
         "DestinationImageName":{
           "shape":"String",
-          "documentation":"&lt;p>A name for the new image.&lt;/p> &lt;p>Constraints: 3-128 alphanumeric characters, parentheses (()), square brackets ([]), spaces ( ), periods (.), slashes (/), dashes (-), single quotes ('), at-signs (@), or underscores(_)&lt;/p>"
+          "documentation":"<p>A name for the new image.</p> <p>Constraints: 3-128 alphanumeric characters, parentheses (()), square brackets ([]), spaces ( ), periods (.), slashes (/), dashes (-), single quotes ('), at-signs (@), or underscores(_)</p>"
         },
         "DestinationImageDescription":{
           "shape":"String",
-          "documentation":"&lt;p>(Optional) A description for the new image in the same region.&lt;/p>"
+          "documentation":"<p>(Optional) A description for the new image in the same region.</p>"
         },
         "SnsTopicArn":{
           "shape":"String",
-          "documentation":"&lt;p>(Optional) The full ARN of the SNS Topic that will be notified when the build status changes.&lt;/p>"
+          "documentation":"<p>(Optional) The full ARN of the SNS Topic that will be notified when the build status changes.</p>"
         }
       },
-      "documentation":"&lt;p>Container for request parameters to the StartBuild operation.&lt;/p>"
+      "documentation":"<p>Container for request parameters to the StartBuild operation.</p>"
     },
     "StartBuildResult":{
       "type":"structure",
       "members":{
         "BuildId":{
           "shape":"String",
-          "documentation":"&lt;p>Unique identifier for the started build.&lt;/p>"
+          "documentation":"<p>Unique identifier for the started build.</p>"
         },
         "Products":{
           "shape":"ProductList",
-          "documentation":"&lt;p>Details about the Marketplace software products to install on the image. This structure is populated by Marketplace.&lt;/p>"
+          "documentation":"<p>Details about the Marketplace software products to install on the image. This structure is populated by Marketplace.</p>"
         }
       },
-      "documentation":"&lt;p>Container for the result of the StartBuild operation.&lt;/p>"
+      "documentation":"<p>Container for the result of the StartBuild operation.</p>"
     },
     "String":{"type":"string"},
     "StringList":{
@@ -428,12 +438,12 @@
       "members":{
         "Message":{"shape":"String"}
       },
-      "documentation":"&lt;p>This exception is thrown when the IAM principal referred to by the request credentials does not have appropriate permissions.&lt;/p>",
+      "documentation":"<p>This exception is thrown when the IAM principal referred to by the request credentials does not have appropriate permissions.</p>",
       "exception":true
     }
   },
-  "documentation":"&lt;fullname>AWS Marketplace Image Build Service&lt;/fullname> &lt;p>AWS Marketplace customers can use this API to build new images and to retrieve information about all of their builds.&lt;/p>"
-}
+  "documentation":"<fullname>AWS Marketplace Image Build Service</fullname> <p>AWS Marketplace customers can use this API to build new images and to retrieve information about all of their builds.</p>"
+}]]>
 ```
 
  **Command** 

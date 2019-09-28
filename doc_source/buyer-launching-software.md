@@ -10,7 +10,7 @@
 
 ### When would I use Launch with EC2 Console instead of Launch with 1\-Click?<a name="when-would-i-use-launch-with-ec2-console-instead-of-launch-with-1-click"></a>
 
-The 1\-Click Launch option helps you launch quickly using the recommended options\. If you prefer more options, such as launching in a VPC or using Spot Instances, then **Launch with EC2 Console** provides the information that you need to launch AWS Marketplace products via channels other than the AWS Marketplace website\. Examples include the Amazon EC2 Console or Amazon EC2 APIs\. The **1\-Click Launch** option is not supported in the AWS GovCloud \(US\) Region\. 
+The 1\-Click Launch option helps you launch quickly using the recommended options\. If you prefer more options, such as launching in a VPC or using Spot Instances, then **Launch with EC2 Console** provides the information that you need to launch AWS Marketplace products via channels other than the AWS Marketplace website\. Examples include the Amazon EC2 Console or Amazon EC2 APIs\.
 
 ### How do I launch an AWS Marketplace product with the Amazon EC2 console?<a name="how-do-i-launch-an-aws-marketplace-product-with-the-ec2-console"></a>
 

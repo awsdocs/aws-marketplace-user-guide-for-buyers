@@ -16,9 +16,9 @@ If you have a SaaS contract in place, you can change SaaS dimensions or add more
 
  To shift from a SaaS subscription to a SaaS contract, you must first unsubscribe from the SaaS subscription\. Then you accept the private offer for the SaaS contract\. To view your existing SaaS subscriptions, choose **Your Marketplace Software** in the upper\-right corner of AWS Marketplace\. 
 
-## Changing from an Existing SaaS Contract to a New SaaS Contract<a name="buyer-private-offers-upgrading-saas-contract-to-saas-contract"></a>
+## Changing from an Existing SaaS or AMI Contract to a New Contract<a name="buyer-private-offers-upgrading-saas-contract-to-saas-contract"></a>
 
- If you have a SaaS contract in place from a previous private offer and you want to accept a new private offer for the same product, you must do one of the following:
+ If you have a SaaS or AMI contract in place from a previous private offer and you want to accept a new private offer for the same product, you must do one of the following:
 + Wait for the current contract to expire before accepting the new one
 + Work with the product vendor and the AWS Marketplace customer support team to terminate your current contract
 + Accept the private offer using a different AWS account from the one that has the contract
@@ -28,7 +28,7 @@ If you have a SaaS contract in place, you can change SaaS dimensions or add more
  When you move from an AMI hourly subscription to an AMI annual subscription, the subscription works similar to a voucher system\. Each hour of AMI usage is offset by one unit in the AMI annual subscription\. When you purchase the annual subscription through a private offer, all associated accounts that are subscribed to the product are automatically switched to the pricing negotiated in the private offer\. Linked accounts that start a subscription after the private offer is in place must subscribe to the private offer when they subscribe\.
 
 **Note**  
-To switch from an hourly subscription to an annual subscription, you must use the same instance type\.
+The annual licenses on your old offer are deactivated immediately upon acceptance of the terms of the new offer\. Work with the ISV to discuss compensation for the old licenses and how to proceed forward with the new offer\.
 
 ## Changing from AMI Annual to AMI Hourly<a name="buyer-private-offers-upgrading-ami-annual-to-ami-hourly"></a>
 

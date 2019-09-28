@@ -24,7 +24,7 @@
 
 1.  Choose **Continue to Configuration**\. 
 
-1.  On the **Configure this software** page, for **Fulfillment Option**, choose **Private Amazon Machine Image \(Beta\)**\. 
+1.  On the **Configure this software** page, for **Fulfillment Option**, choose **Private Amazon Machine Image**\. 
 
 1.  In the **Private Image** section, for **1\. Choose a region**, choose your region\. For **2\. Choose a private image to launch**, choose **Create New Private Image**\. 
 
