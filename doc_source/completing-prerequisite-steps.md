@@ -84,12 +84,14 @@
                    "s3:GetObject",
                    "s3:PutObject"
                ],
-               "Resource": "arn:aws:s3:::ssmlogbucket-us-east-1-<account-id>/*",
+               "Resource": "arn:aws:s3:::awsexamplebucket>/*",
                "Effect": "Allow"
            }
        ]
    }
    ```
+**Note**  
+You'll need to create the bucket, *awsexamplebucket* before you begin this process\. This bucket is also the same one you defined in the `aws marketplaceimagebuild start-build` command, using the `--output-installation-log-s3-bucket-name` option\. For more information on this command, see [Building a Private Image Using the CLI](api-reference.md#building-a-private-image-using-the-cli)\.
 
 1.  Choose **Review policy**\. 
 

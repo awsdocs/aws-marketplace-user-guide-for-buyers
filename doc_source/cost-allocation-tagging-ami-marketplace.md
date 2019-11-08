@@ -1,6 +1,6 @@
 # Cost Allocation Tagging<a name="cost-allocation-tagging-ami-marketplace"></a>
 
-Starting in November, 2019, AWS Marketplace will support cost allocation tagging for AMI\-based software products\. With this upcoming change, new and existing Amazon EC2 instance tags will automatically populate against corresponding AWS Marketplace AMI usage\. You can use activated cost allocation tags to identify and track AMI usage through Cost Explorer, the AWS Cost and Usage report, AWS Budgets or other cloud spend analysis tools\.
+AWS Marketplace supports cost allocation tagging for AMI\-based software products\. New and existing Amazon EC2 instance tags will automatically populate against corresponding AWS Marketplace AMI usage\. You can use activated cost allocation tags to identify and track AMI usage through Cost Explorer, the AWS Cost and Usage report, AWS Budgets or other cloud spend analysis tools\.
 
 You can use tags to organize your resources, and cost allocation tags to track your AWS costs on a detailed level\. After you activate cost allocation tags, AWS uses the cost allocation tags to organize your resource costs on your cost allocation report, to make it easier for you to categorize and track your AWS costs\.
 

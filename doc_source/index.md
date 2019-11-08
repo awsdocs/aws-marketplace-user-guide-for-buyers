@@ -1,4 +1,4 @@
-# AWS Marketplace User Guide for AWS Marketplace Subscribers
+# AWS Marketplace Subscribers Guide
 
 -----
 *****Copyright &copy; 2019 Amazon Web Services, Inc. and/or its affiliates. All rights reserved.*****
@@ -44,7 +44,7 @@ Amazon's trademarks and trade dress may not be used in
             + [Error Messages](private-image-build-error-messages.md)
 + [Paying For Products](buyer-paying-for-products.md)
 + [Private Marketplace](private-marketplace.md)
-   + [Creating and Managing a Private Marketplace](private-catalog-admisitration.md)
+   + [Creating and Managing a Private Marketplace](private-catalog-administration.md)
 + [Private Offers](buyer-private-offers.md)
    + [Subscribing to a SaaS Private Offer](buyer-private-offers-subscribing-saas-private-offer.md)
    + [Subscribing to an AMI Private Offer](buyer-private-offers-subscribing-ami-private-offer.md)

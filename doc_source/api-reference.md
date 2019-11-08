@@ -454,7 +454,7 @@ $ aws configure add-model --service-model file:<insert path to
       marketplaceimagebuild
 ```
 
- To start a build, execute the following code\. 
+ To start a build, execute the following code\. Note that you must first create the Amazon S3 bucket that you want to use, called *awsexamplebucket* in this example\.
 
 ```
 $ aws marketplaceimagebuild start-build \
@@ -463,7 +463,7 @@ $ aws marketplaceimagebuild start-build \
       --output-image-name "ubuntu-ami" \ 
       --output-image-description "Ubuntu" \ 
       --input-instance-type "m4.xlarge" \ 
-      --output-installation-log-s3-bucket-name "ssm-logs-641549025415" \ 
+      --output-installation-log-s3-bucket-name "awsexamplebucket" \ 
       --input-automation-role SSMAutomationRole \ 
       --input-instance-profile SSMInstanceRole 
       --region eu-west-1
@@ -495,7 +495,7 @@ $ aws marketplaceimagebuild describe-builds --build-ids "1f84f17b-35c6-4e5b-9170
      "OutputImage": 
       {"Description": "Ubuntu 16.04", 
        "Name": "Ubuntu"}, 
-     "OutputInstallationLogS3BucketName": "ssm-logs-s3-bucket", 
+     "OutputInstallationLogS3BucketName": "awsexamplebucket", 
      "StartTime": 1529960569.43, 
      "Status": "InProgress"}, 
   ]

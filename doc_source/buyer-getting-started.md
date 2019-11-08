@@ -47,7 +47,7 @@
 
 ### To Create an AWS Account<a name="to-create-an-aws-account"></a>
 
-1.  From the **Sign In or Create an Account**page, choose **Create a New Account**\. 
+1.  From the **Sign In or Create an Account** page, choose **Create a New Account**\. 
 
 1.  Follow the on\-screen instructions\. 
 

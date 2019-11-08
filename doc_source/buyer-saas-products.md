@@ -23,7 +23,7 @@ For those companies that offer SaaS contracts, you can make the purchase through
 1.  Choose **Set Up Your Account**, which takes you to the company’s website\. While your account is being configured and the payment is being verified, you will see the following message on the AWS Marketplace details page for the product\.    
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/marketplace/latest/buyerguide/images/saas-contracts-subscribe-04.png)
 
- After configuration is complete, if you return to the product page, you will see the following message\. The software will appear under **Your Marketplace Software**when you are signed in to your AWS Marketplace account\. You can now start using the software\. If you do not complete the setup process for your account, the following message will be displayed if you revisit that offering on AWS Marketplace\. Follow the link to complete your account setup\.  
+ After configuration is complete, if you return to the product page, you will see the following message\. The software will appear under **Your Marketplace Software** when you are signed in to your AWS Marketplace account\. You can now start using the software\. If you do not complete the setup process for your account, the following message will be displayed if you revisit that offering on AWS Marketplace\. Follow the link to complete your account setup\.  
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/marketplace/latest/buyerguide/images/saas-contracts-subscribe-05.png)
 
