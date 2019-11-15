@@ -54,3 +54,5 @@ For more information on these policies, their permissions, and other IAM managed
 For more information about managing IAM users and groups, see [Identities \(Users, Groups, and Roles\)](https://docs.aws.amazon.com/IAM/latest/UserGuide/id.html) in the *IAM User Guide*\. 
 
 For more information about managing IAM permissions and policies, see [Controlling Access Using Policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_permissions.html) in the *IAM User Guide*\. 
+
+For more information about managing IAM permissions and policies for data products in AWS Data Exchange, see [Identity and Access Management in AWS Data Exchange](https://docs.aws.amazon.com/data-exchange/latest/userguide/auth-access.html) in the *AWS Data Exchange User Guide*\.

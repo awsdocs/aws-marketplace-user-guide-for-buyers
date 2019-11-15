@@ -1,6 +1,6 @@
 # Product Types<a name="buyer-product-types"></a>
 
- AWS Marketplace includes popular open source and commercial software\. This software is available in different ways: as individual Amazon Machine Images \(AMIs\), as a cluster of AMIs deployed through an AWS CloudFormation template, and as software\-as\-a\-service \(SaaS\)\. 
+AWS Marketplace includes popular open source and commercial software, as well as free and paid data products from AWS Data Exchange\. These products are available in different ways: as individual Amazon Machine Images \(AMIs\), as a cluster of AMIs deployed through an AWS CloudFormation template, as software\-as\-a\-service \(SaaS\), and as AWS Data Exchange data products\.
 
 ## What is an AMI?<a name="what-is-an-ami"></a>
 

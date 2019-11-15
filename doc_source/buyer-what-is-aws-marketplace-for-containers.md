@@ -4,6 +4,11 @@
 
 Free, Paid and Bring Your Own License \(BYOL\) products are available for use on Amazon ECS and Amazon EKS\. Amazon ECS can operate in two modes: [Fargate](https://docs.aws.amazon.com/AmazonECS/latest/userguide/ECS_GetStarted_Fargate.html) launch type and launch type\. For paid products, you are billed by AWS as with any AWS Marketplace product according to the pricing model, which might be a fixed monthly fee or an hourly price that is charged per second\. 
 
+Pricing details will be shown on the detail page and when you subscribe to the product\. If the product is paid, you'll pay for one of the following:
++ A fixed monthly charge that provides unlimited usage
++ Upfront for usage of the product for the duration of a long term contract
++ As you go \(typically hourly\) based on usage of the product\.
+
  This guide explains how to use AWS Marketplace for containers to find, purchase, and launch container products, with examples of tasks you should perform, test, and validate to provide feedback to the AWS Marketplace team\.
 
 ## Docker Containers and Kubernetes<a name="buyer-introduction-to-docker-containers-and-kubernetes"></a>

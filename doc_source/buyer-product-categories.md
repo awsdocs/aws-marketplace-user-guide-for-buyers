@@ -1,6 +1,6 @@
 # Product Categories<a name="buyer-product-categories"></a>
 
- AWS Marketplace is organized into four primary categories, with subcategories under each\. On the AWS Marketplace website, you can search and filter based on the categories and subcategories\. 
+ AWS Marketplace is organized into seven primary categories, with subcategories under each\. On the AWS Marketplace website, you can search and filter based on the categories and subcategories\. 
 
 ## Infrastructure Software<a name="infrastructure-software-category"></a>
 
@@ -193,3 +193,7 @@
 
 **Utilities**  
  Utility\-focused applications for various job roles\. 
+
+## Data Products<a name="data-products"></a>
+
+The products in this category are sets of file\-based data\. For more information, see the [AWS Data Exchange User Guide](https://docs.aws.amazon.com/data-exchange/latest/userguide/what-is.html)\.

@@ -6,6 +6,9 @@
 + Removing products from your company's private marketplace\.
 + Configuring the look and feel of your company's private marketplace\.
 
+**Note**  
+Currently, data products are not supported for use in a private marketplace\.
+
 You grant IAM permissions to administer your private marketplace by attaching the **AWSPrivateMarketplaceAdminFullAccess** policy to an IAM user, group, or role\. We recommend using a group or role\. See [IAM Best Practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html) for more information on recommended practices for using IAM\.
 
 For your reference we have included the contents of the **AWSPrivateMarketplaceAdminFullAccess** policy here:

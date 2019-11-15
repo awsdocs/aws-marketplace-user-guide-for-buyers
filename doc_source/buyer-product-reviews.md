@@ -1,6 +1,9 @@
 # Product Reviews<a name="buyer-product-reviews"></a>
 
- AWS Marketplace wants customers to get the information they need to make smart buying choices, and we'd love to have your help doing that\. As an AWS customer, you can submit written reviews for items listed in AWS Marketplace\. We encourage you to share your opinions, both favorable and unfavorable\. 
+AWS Marketplace wants subscribers to get the information they need to make smart buying choices, and we'd love to have your help doing that\. As an AWS customer, you can submit written reviews for items listed in AWS Marketplace\. We encourage you to share your opinions, both favorable and unfavorable\. 
+
+**Note**  
+Data products don't support product reviews\.
 
 ## Who can create customer reviews?<a name="who-can-create-customer-reviews"></a>
 

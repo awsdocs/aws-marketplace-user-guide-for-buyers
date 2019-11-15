@@ -1,6 +1,19 @@
 # Getting Started<a name="buyer-getting-started"></a>
 
- It's easy to get started with AWS Marketplace\. In this walkthrough you will learn the following\.
+The following topics outline the process of getting started with software products as a AWS Marketplace subscriber\.
+
+**Topics**
++ [Step 1: Choose Your Software ](#step-1-choose-your-software)
++ [Step 2: Sign In to the AWS Marketplace](#step-2-sign-in-to-the-aws-marketplace)
++ [Step 3: Launch Your Software on Amazon Elastic Compute Cloud \(Amazon EC2\)](#step-3-launch-your-software-on-amazon-elastic-compute-cloud-amazon-ec2)
++ [Step 4: Manage Your Software](#step-4-manage-your-software)
++ [Step 5: Terminate Your Instance](#step-5-terminate-your-instance)
++ [Where to Go Next](#where-to-go-next)
++ [Subscribing to Products](buyer-subscribing-to-products.md)
++ [Launching Software](buyer-launching-software.md)
++ [Software and Services on AWS Marketplace](buyer-software-and-services.md)
+
+For information on getting started with data products, see [Subscribing to Data Products on AWS Data Exchange](https://docs.aws.amazon.com/data-exchange/latest/userguide/subscribe-to-data-sets.html) in the *AWS Data Exchange User Guide*\.
 
 ## Step 1: Choose Your Software <a name="step-1-choose-your-software"></a>
 

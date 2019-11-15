@@ -32,7 +32,7 @@
 
 ### Where can I see all my purchased annual subscriptions?<a name="where-can-i-see-all-my-purchased-annual-subscriptions"></a>
 
- You can review all of your annual subscriptions on the [Your Marketplace Software](https://aws.amazon.com/marketplace/library?ref_=header_user_your_software) page\. 
+ You can review all of your annual software subscriptions on the [Your Marketplace Software](https://aws.amazon.com/marketplace/library?ref_=header_user_your_software) page\. 
 
 ### When will I be billed for my annual subscriptions?<a name="when-will-i-be-billed-for-my-annual-subscriptions"></a>
 

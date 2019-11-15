@@ -6,6 +6,9 @@ Your private marketplace is shared across [AWS Organizations](https://docs.aws.a
 
  You have full visibility into your AWS Marketplace spend by product, and can also find full subscription details\. Private Marketplace gives you broad catalog of products you select, as well as fine\-grained control\. For the members of your organization, procuring products is efficient and simplified\. 
 
+**Note**  
+Currently, data products are not supported for private marketplaces\.
+
 ## Product Detail Page Visit<a name="product-detail-page-visit"></a>
 
 Members of your organization can only subscribe to products you have added to your private marketplace\. They can browse and see the detail page for any product, but the subscription button only enabled for products you have added to your private marketplace\. If a product is not currently in your private marketplace, the user sees a red banner at the top of the page\.
