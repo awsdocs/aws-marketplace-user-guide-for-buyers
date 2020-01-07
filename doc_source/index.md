@@ -1,7 +1,7 @@
 # AWS Marketplace Subscribers Guide
 
 -----
-*****Copyright &copy; 2019 Amazon Web Services, Inc. and/or its affiliates. All rights reserved.*****
+*****Copyright &copy; 2020 Amazon Web Services, Inc. and/or its affiliates. All rights reserved.*****
 
 -----
 Amazon's trademarks and trade dress may not be used in 
@@ -46,7 +46,7 @@ Amazon's trademarks and trade dress may not be used in
    + [Subscribing to an AMI Private Offer](buyer-private-offers-subscribing-ami-private-offer.md)
    + [Modifying or Unsubscribing from a Private Offer](buyer-private-offers-modifying.md)
 + [Integrating AWS Marketplace with Procurement Systems](procurement-system-integration.md)
-   + [Setting Up the Integration](procurement-system-integration-setup.md)
+   + [Setting Up Coupa Integration](procurement-system-integration-setup.md)
 + [Free Trials](buyer-free-trials.md)
 + [Using AWS Free Tier with AWS Marketplace](buyer-aws-free-tier.md)
 + [Adding AWS Marketplace Subscriptions to AWS Service Catalog](service-catalog.md)

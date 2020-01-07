@@ -1,8 +1,8 @@
-# Setting Up the Integration<a name="procurement-system-integration-setup"></a>
+# Setting Up Coupa Integration<a name="procurement-system-integration-setup"></a>
 
 To configure the integration between AWS Marketplace and Coupa, you start the process in AWS Marketplace and complete it in Coupa\. You use the information generated in AWS Marketplace to configure the Coupa punchout\. To complete the configuration, the accounts that you use must meet the following requirements:
-+  The account used to complete the AWS Marketplace configuration must be the payer account and have the IAM permissions defined in the `AWSMarketplaceProcurementSystemAdminFullAccess` managed policy
-+  The account used to complete the Coupa configuration must have Coupa administration access to set up a contract, supplier, and punchout
++  The account used to complete the AWS Marketplace configuration must be the payer account and have the IAM permissions defined in the `AWSMarketplaceProcurementSystemAdminFullAccess` managed policy\.
++  The account used to complete the Coupa configuration must have Coupa administration access to set up a contract, supplier, and punchout\.
 
 ## Configuring IAM Permissions<a name="procurement-system-integration-setup-iam-permissions"></a>
 
@@ -28,11 +28,11 @@ To configure the integration between AWS Marketplace and Coupa, you start the pr
 }
 ```
 
- We recommend that you use IAM managed permissions rather than manually configuring permissions\. Using this approach is less prone to human error, and if the permissions change, the managed policy is updated\. For more information on configuring and using IAM, see the following topics:
+ We recommend that you use IAM managed permissions rather than manually configuring permissions\. Using this approach is less prone to human error, and if the permissions change, the managed policy is updated\. For more information about configuring and using IAM, see the following topics:
 +  For more information about managing IAM users and groups, see [Identities \(Users, Groups, and Roles\)](https://docs.aws.amazon.com/IAM/latest/UserGuide/id.html) in the *IAM User Guide*
 +  For more information about managing IAM permissions and policies, see [Controlling Access Using Policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_permissions.html) in the *IAM User Guide*
 +  For a description of AWS Marketplace managed policies, see [AWS Managed Policies for AWS Marketplace ](buyer-iam-users-groups-policies.md#buyer-iam-builtin-policies)
-+  For more information on signing in as an IAM user, see [Signing In as an IAM User](buyer-iam-user-login.md) 
++  For more information about signing in as an IAM user, see [Signing In as an IAM User](buyer-iam-user-login.md)\.
 
 ## Configuring AWS Marketplace<a name="procurement-system-integration-setup-awsmp-configuration"></a>
 

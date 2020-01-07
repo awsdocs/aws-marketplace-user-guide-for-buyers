@@ -12,11 +12,11 @@ For software products, the provider chooses per listing which Regions they want 
 +  South America 
   +  South America \(São Paulo\) 
 +  EMEA 
-  +  EU \(Frankfurt\) 
-  +  EU \(Ireland\) 
-  +  EU \(London\) 
-  +  EU \(Paris\) 
-  +  EU \(Stockholm\) 
+  +  Europe \(Frankfurt\) 
+  +  Europe \(Ireland\) 
+  +  Europe \(London\) 
+  +  Europe \(Paris\) 
+  +  Europe \(Stockholm\) 
 +  APAC 
   +  Asia Pacific \(Singapore\) 
   +  Asia Pacific \(Sydney\) 
