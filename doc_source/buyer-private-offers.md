@@ -22,11 +22,11 @@ You can get private offers for the following product types\.
 | Offer Type | Description | 
 | --- | --- | 
 | Data products | For more information, see [Accepting a Private Offer](https://docs.aws.amazon.com/data-exchange/latest/userguide/subscribe-to-private-offer.html) in the *AWS Data Exchange User Guide*\. | 
-|  SaaS contract  |  With a SaaS contract, you can commit to upfront payment for your expected usage of a SaaS product, or negotiate a flexible payment schedule with the independent software vendor \(ISV\)\. Contract durations are one\-month, one\-year, two\-year, or three\-year terms\. If you commit to an upfront payment, you are billed in advance for the use of the product software\. If the ISV offers a flexible payment schedule, you are billed along the payment schedule dates at the amounts listed on the private offer\.  | 
+|  SaaS contract  |  With a software as a service \(SaaS\) contract, you can commit to upfront payment for your expected usage of a SaaS product, or negotiate a flexible payment schedule with the independent software vendor \(ISV\)\. Contract durations are one\-month, one\-year, two\-year, or three\-year terms\. If you commit to an upfront payment, you are billed in advance for the use of the product software\. If the ISV offers a flexible payment schedule, you are billed along the payment schedule dates at the amounts listed on the private offer\.  | 
 |  SaaS contract with a flexible payment schedule  |  Same as a SaaS contract, but with a custom payment schedule where payments can be spread over up to three years\.  | 
 |  SaaS contract with pay\-as\-you\-go pricing for additional usage  |  Same as a SaaS contract, but with negotiated pricing for usage beyond what you negotiated in your contract\.  | 
 |  SaaS subscription  |  With a SaaS subscription, you agree to a price for use of a product\. The independent software vendor \(ISV\) tracks and reports your usage to AWS Marketplace, and you're billed for what you use\.   | 
-|  AMI hourly  |  With AMI hourly, you negotiate an hourly rate for using an AMI, rounded up to the nearest hour\.   | 
+|  AMI hourly  |  With Amazon Machine Image \(AMI\) hourly, you negotiate an hourly rate for using an AMI, rounded up to the nearest hour\.   | 
 |  AMI annual  |  With AMI annual, you negotiate the hourly and total contract duration prices with upfront payment, or flexible payment schedule over any custom contract duration of up to three years, and specified number of licenses for the AMI\. If you commit to an upfront payment, you are billed in advance for the use of the AMI\. If the ISV offers a flexible payment schedule, you are billed along the payment schedule dates at the amounts listed on the private offer\.  | 
 |  AMI Bring Your Own License model \(BYOL\)  |  With AMI BYOL, you can negotiate a price for using an AMI and use software licenses that you already own\. This type of private offer requires that you work with the ISV or a channel partner to sign a custom transaction request \(CTF\) form to agree to pricing, terms, and payment schedule\. The form allows AWS Marketplace to subscribe to the BYOL AMI product on your behalf\.   | 
 
@@ -43,7 +43,7 @@ Billing and Cost Management is the service that you use to pay your AWS bill, mo
 Before accepting a private offer, verify that your payment method supports paying the entire cost of the private offer\. To verify your payment method, open the Billing and Cost Management console at [https://console\.aws\.amazon\.com/billing/](https://console.aws.amazon.com/billing/)\.
 
 **Note**  
-If the private offer is a SaaS contract with a flexible payment schedule, you must have invoicing in place before you accept the offer\.
+If the private offer is a SaaS or AMI contract with a flexible payment schedule, you must have invoicing in place before you accept the offer\.
 
 ### Verifying Your Tax Settings<a name="buyer-private-offers-prerequsite-steps-tax-settings"></a>
 

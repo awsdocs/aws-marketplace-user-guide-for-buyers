@@ -10,7 +10,7 @@
 
 ## Changing SaaS Dimensions or Adding More Users<a name="buyer-private-offers-upgrading-saas-dimensions-users"></a>
 
-If you have a SaaS contract in place, you can change SaaS dimensions or add more users to an existing private offer\. When you accept the updated private offer, the rates of the contract edits are prorated for the time left on the contract\. After you accept the change to the contract, no further action is necessary\. If you negotiated a flexible payment schedule, you can't change SaaS dimensions or add more users\. 
+If you have a software as a service \(SaaS\) contract in place, you can change SaaS dimensions or add more users to an existing private offer\. When you accept the updated private offer, the rates of the contract edits are prorated for the time left on the contract\. After you accept the change to the contract, no further action is necessary\. If you negotiated a flexible payment schedule, you can't change SaaS dimensions or add more users\. 
 
 ## Changing from a SaaS Subscription to a SaaS Contract<a name="buyer-private-offers-upgrading-saas-subscription-to-saas-contract"></a>
 
@@ -18,7 +18,7 @@ If you have a SaaS contract in place, you can change SaaS dimensions or add more
 
 ## Changing from an Existing SaaS or AMI Contract to a New Contract<a name="buyer-private-offers-upgrading-saas-contract-to-saas-contract"></a>
 
- If you have a SaaS or AMI contract in place from a previous private offer and you want to accept a new private offer for the same product, you must do one of the following:
+ If you have a SaaS or Amazon Machine Image \(AMI\) contract in place from a previous private offer and you want to accept a new private offer for the same product, you must do one of the following:
 + Wait for the current contract to expire before accepting the new one
 + Work with the product vendor and the AWS Marketplace customer support team to terminate your current contract
 + Accept the private offer using a different AWS account from the one that has the contract

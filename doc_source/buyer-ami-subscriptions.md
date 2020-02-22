@@ -36,7 +36,7 @@
 
 ### When will I be billed for my annual subscriptions?<a name="when-will-i-be-billed-for-my-annual-subscriptions"></a>
 
- Your purchase of an annual subscription is billed immediate to your credit card, or an invoice is immediately generated\. 
+ Your purchase of an annual subscription is billed immediately to your credit card, or an invoice is immediately generated\. 
 
 ### What happens when the annual subscription period is over?<a name="what-happens-when-the-annual-subscription-period-is-over"></a>
 

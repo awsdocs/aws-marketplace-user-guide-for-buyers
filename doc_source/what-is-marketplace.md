@@ -15,26 +15,17 @@ Every software product on AWS Marketplace has been through a curation process\. 
 
 Software products can be purchased at the listed price using the ISV’s standard end user license agreement \(EULA\) or offered with customer pricing and EULA\. Products can also be purchased under a contract with specified time or usage boundaries\. Once the product subscriptions are in place, the consumer can copy the product to their AWS Service Catalog to manage how the product is accessed and used in the consumer’s organization\. 
 
-## Using AWS Marketplace as a Subscriber<a name="using-aws-marketplace-as-a-subscriber"></a>
+## Using AWS Marketplace as a Buyer<a name="using-aws-marketplace-as-a-subscriber"></a>
 
- As a subscriber, you visit [AWS Marketplace](https://aws.amazon.com/marketplace) to search, filter, and navigate to a product that runs on Amazon Web Services\. The software products can be available in many forms, such as AMIs or SaaS products\. When you choose a software product, you are taken to the product’s page\. The page has information about the product, pricing, usage, support, and product reviews\. To subscribe to the software product, you log in to your AWS account and are taken to a subscription page that has the EULA, terms and conditions of usage, and any options available for customizing your subscription\. 
+As a buyer, you visit [AWS Marketplace](https://aws.amazon.com/marketplace) to search, filter, and navigate to a product that runs on Amazon Web Services\. You can also find AWS Marketplace products on Deloitte and DLT\.
+
+When you choose a software product, you are taken to the product’s page\. The page has information about the product, pricing, usage, support, and product reviews\. To subscribe to the software product, you log in to your AWS account and are taken to a subscription page that has the EULA, terms and conditions of usage, and any options available for customizing your subscription\. 
 
  Once the subscription is processed, you can configure fulfillment options, software versions, and regions you want to use the product on, and then launch the software product\. You can also find or launch your products by visiting [Your Marketplace Software](https://aws.amazon.com/marketplace/library?ref_=header_user_your_software) on the AWS Marketplace website, from your AWS Marketplace or Amazon Elastic Compute Cloud \(Amazon EC2\) console, or through AWS Service Catalog\. Use the following links to find more information about products and product categories available using AWS Marketplace\. 
-+  For more information on software categories, see [Product Categories](https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-product-categories.html)\. 
-+  For more information on container products, see [Container Products](https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-what-is-aws-marketplace-for-containers.html)\. 
-+  For more information on desktop products, see [Desktop Products](https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-desktop-products.html)\. 
-+  For more information on machine learning products, see [Machine Learning Products](https://docs.aws.amazon.com/marketplace/latest/buyerguide/aws-machine-learning-marketplace.html)\. 
-+  For more information on SaaS products, see [SaaS Products](url-mkt-buyer;buyer-saas-products.html)\. 
-+  For more information on server products, see [Server Products](url-mkt-buyer;buyer-server-products.html)\. 
++  For more information on software categories, see [Product Categories](buyer-product-categories.md)\. 
++  For more information on container products, see [Container Products](buyer-what-is-aws-marketplace-for-containers.md)\. 
++  For more information on desktop products, see [Desktop Products](buyer-desktop-products.md)\. 
++  For more information on machine learning products, see [Machine Learning Products](aws-machine-learning-marketplace.md)\. 
++  For more information on SaaS products, see [SaaS Products](buyer-saas-products.md)\.
++  For more information on server products, see [Server Products](buyer-server-products.md)\. 
 + For more information on data products, see [What is AWS Data Exchange?](https://docs.aws.amazon.com/data-exchange/latest/userguide/what-is.html) in the *AWS Data Exchange User Guide*\.
-
-## Using AWS Marketplace as a Provider<a name="using-aws-marketplace-as-a-provider"></a>
-
- As a provider, you visit the [AWS Marketplace Management Portal](https://aws.amazon.com/marketplace/management) to register\. If you're providing a data product, or charging for use of your software product, you must also provide tax and banking information as part of your registration\. You create a profile for your company or yourself that is discoverable on AWS Marketplace, as well as create and manage product pages for your products\. Use the following links to find more information about creating the product types in AWS Marketplace\.
-+ For more information on creating desktop application products, see [AWS Marketplace for Desktop Application \(AMDA\)](https://docs.aws.amazon.com/marketplace/latest/userguide/amda.html)\.
-+ For more information on creating AMI\-based products, see [AMI\-Based Products](https://docs.aws.amazon.com/marketplace/latest/userguide/ami-products.html)\.
-+ For more information on creating container\-based products, see [Container\-Based Products](https://docs.aws.amazon.com/marketplace/latest/userguide/container-based-products.html)\.
-+ For more information on creating machine learning products, see [Machine Learning Products](https://docs.aws.amazon.com/marketplace/latest/userguide/machine-learning-products.html)\.
-+ For more information on creating SaaS\-based products, see [Software\-as\-a\-Service–Based Products](https://docs.aws.amazon.com/marketplace/latest/userguide/software-as-a-service-based-products-saas)\.
-
- After you are registered as a provider, you use the AMMP to manage your account and products, and to access reports of usage of your products\. 
