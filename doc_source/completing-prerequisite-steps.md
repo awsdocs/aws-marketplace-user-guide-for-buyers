@@ -1,4 +1,4 @@
-# Completing Prerequisite Steps<a name="completing-prerequisite-steps"></a>
+# Completing prerequisite steps<a name="completing-prerequisite-steps"></a>
 
  The prerequisite steps described here require administrative\-level permissions that configure IAM so that you can grant the ability to build private images to other users\. Once the IAM policies and roles are created you can attach them to group \(or user\) accounts so the associated users can build private images\. 
 
@@ -14,7 +14,7 @@
 
  As an administrator, you create the two roles that are required and their associated policies\. The first role is an [instance profile](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html#instance-profiles-manage-console) that is attached to the instance created during the image build process\. An instance profile is a container for an IAM role that you can use to pass role information to an Amazon EC2 instance when the instance starts\. The second is an IAM role that provides access to [AWS Systems Manager](https://docs.aws.amazon.com/systems-manager/latest/userguide/auth-and-access-control.html) and Amazon EC2\. To configure the instance profile, attach a permissions policy that provides the required permissions\. Then edit the trust policy for the role to grant permission for Amazon EC2 and AWS Systems Manager to assume the role\. 
 
-## Creating an Instance Profile Role<a name="creating-an-instance-profile-role"></a>
+## Creating an instance profile role<a name="creating-an-instance-profile-role"></a>
 
  To create the instance profile role through the IAM console: 
 
@@ -91,7 +91,7 @@
    }
    ```
 **Note**  
-You'll need to create the bucket, *awsexamplebucket* before you begin this process\. This bucket is also the same one you defined in the `aws marketplaceimagebuild start-build` command, using the `--output-installation-log-s3-bucket-name` option\. For more information on this command, see [Building a Private Image Using the CLI](api-reference.md#building-a-private-image-using-the-cli)\.
+You'll need to create the bucket, *awsexamplebucket* before you begin this process\. This bucket is also the same one you defined in the `aws marketplaceimagebuild start-build` command, using the `--output-installation-log-s3-bucket-name` option\. For more information on this command, see [Building a private image using the CLI](api-reference.md#building-a-private-image-using-the-cli)\.
 
 1.  Choose **Review policy**\. 
 
@@ -127,7 +127,7 @@ You'll need to create the bucket, *awsexamplebucket* before you begin this proce
 
 1.  Choose **Update Trust Policy**\. 
 
-## Creating an AWS Systems Manager Automation Role<a name="creating-an-aws-systems-manager-automation-role"></a>
+## Creating an AWS Systems Manager automation role<a name="creating-an-aws-systems-manager-automation-role"></a>
 
  To create the AWS Systems Automation role: 
 
@@ -227,7 +227,7 @@ You'll need to create the bucket, *awsexamplebucket* before you begin this proce
 
  You have now created the two roles and associated policies that you will use during the private image build process\. 
 
-## Using a Policy to Access the AWS Marketplace Website<a name="using-a-policy-to-access-the-aws-marketplace-website"></a>
+## Using a policy to access the AWS Marketplace website<a name="using-a-policy-to-access-the-aws-marketplace-website"></a>
 
  Most organizations don't allow users to log in with root account credentials\. Instead, they create IAM users with limited permissions based on organizational roles or tasks that only certain people can perform\. AWS Marketplace provides two primary IAM managed policies for working with AWS Marketplace tools\. Use these two managed policies to provide the ability to perform the described tasks: 
 +  **AWSMarketplaceFullAccess** \- Provides the ability to subscribe and unsubscribe to AWS Marketplace software, allows users to manage Marketplace software instances from the Marketplace 'Your Software' page, and provides administrative access to EC2\. 

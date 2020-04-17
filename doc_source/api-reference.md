@@ -1,6 +1,6 @@
-# API Reference<a name="api-reference"></a>
+# API reference<a name="api-reference"></a>
 
- You can use this reference to build private images using the AWS Marketplace Image Build Service API\. The AWS account that you use to build a private image must have the IAM permissions specified in the `AWSMarketplaceImageBuildFullAccess` or `AWSMarketplaceFullAccess` managed policies\. You can use an existing role or create a new role using this\. To add the `AWSMarketplaceImageBuildFullAccess` policy to a user, group or role: 
+You can use this reference to build private images using the AWS Marketplace Image Build Service API\. The AWS account that you use to build a private image must have the IAM permissions specified in the `AWSMarketplaceImageBuildFullAccess` or `AWSMarketplaceFullAccess` managed policies\. You can use an existing role or create a new role using this\. To add the `AWSMarketplaceImageBuildFullAccess` policy to a user, group or role: 
 
 1.  Sign in to the AWS Management Console and open the AWS IAM console at [https://console\.aws\.amazon\.com/iam/](https://console.aws.amazon.com/iam/)\. 
 
@@ -22,7 +22,7 @@ Three of the actions described in the `AWSMarketplaceImageBuildFullAccess` polic
 
 With the permissions defined by these policies in place, the next time that a user or member of a group or role you selected accesses the AWS Marketplace website, they can perform private image build related tasks\.
 
-## Building a Private Image Using the CLI<a name="building-a-private-image-using-the-cli"></a>
+## Building a private image using the CLI<a name="building-a-private-image-using-the-cli"></a>
 
  Configure your CLI by creating a JSON file using the following code, and then executing the following command\. 
 

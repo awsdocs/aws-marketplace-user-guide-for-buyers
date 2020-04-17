@@ -1,18 +1,18 @@
-# SaaS Products<a name="buyer-saas-products"></a>
+# SaaS products<a name="buyer-saas-products"></a>
 
- For software as a service \(SaaS\) products, you subscribe to products through AWS Marketplace, but you access the product in the software vendor's environment\. AWS Marketplace oﬀers two pricing models for SaaS listings: SaaS subscriptions and SaaS contracts\. 
+ For software as a service \(SaaS\) products, you subscribe to products through AWS Marketplace, but you access the product in the software seller's environment\. AWS Marketplace oﬀers two pricing models for SaaS listings: SaaS subscriptions and SaaS contracts\. 
 
-## SaaS Subscriptions<a name="saas-subscriptions"></a>
+## SaaS pubscriptions<a name="saas-subscriptions"></a>
 
- With SaaS subscriptions, the software vendor tracks your usage and you pay only for what you use\. This pay\-as\-you go pricing model is similar to that of many Amazon Web Services \(AWS\) services\. Billing for your usage of a SaaS product is managed through your AWS bill\. 
+With SaaS subscriptions, the software seller tracks your usage and you pay only for what you use\. This pay\-as\-you go pricing model is similar to that of many Amazon Web Services \(AWS\) services\. Billing for your usage of a SaaS product is managed through your AWS bill\. 
 
-## SaaS Contracts<a name="buyer-saas-contracts"></a>
+## SaaS contracts<a name="buyer-saas-contracts"></a>
 
- Some companies make SaaS contracts available for purchase through AWS Marketplace\. This allows you to purchase discrete quantities of licenses or data ingest for these products and have them billed, in advance, through your AWS account\. For example, you might purchase 10 user access licenses for a year, or you might purchase 10 GB of data ingest per day for a year\. 
+Some companies make SaaS contracts available for purchase through AWS Marketplace\. This allows you to purchase discrete quantities of licenses or data ingest for these products and have them billed, in advance, through your AWS account\. For example, you might purchase 10 user access licenses for a year, or you might purchase 10 GB of data ingest per day for a year\. 
 
-### How do I subscribe?<a name="how-do-i-subscribe"></a>
+### <a name="how-do-i-subscribe"></a>
 
-For those companies that offer SaaS contracts, you can make the purchase through the product’s detail page on AWS Marketplace\. If this option is available, **Software as a Service \(SaaS\) Contracts** appears for **Delivery Method** on the product’s detail page\. When you make the purchase, you will be directed to the product’s website for account setup and configuration\. The usage charges will then appear on your regular AWS account billing report\.
+You can purchase using the product’s detail page on AWS Marketplace\. If this option is available, **Software as a Service \(SaaS\) Contracts** appears for **Delivery Method** on the product’s detail page\. When you make the purchase, you will be directed to the product’s website for account setup and configuration\. The usage charges will then appear on your regular AWS account billing report\.
 
 **To subscribe with a SaaS contract**
 

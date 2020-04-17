@@ -1,4 +1,4 @@
-# Cost Allocation Tagging<a name="cost-allocation-tagging-ami-marketplace"></a>
+# Cost allocation tagging<a name="cost-allocation-tagging-ami-marketplace"></a>
 
 AWS Marketplace supports cost allocation tagging for AMI\-based software products\. New and existing Amazon EC2 instance tags will automatically populate against corresponding AWS Marketplace AMI usage\. You can use activated cost allocation tags to identify and track AMI usage through Cost Explorer, the AWS Cost and Usage report, AWS Budgets or other cloud spend analysis tools\.
 
@@ -6,13 +6,13 @@ You can use tags to organize your resources, and cost allocation tags to track y
 
 Cost allocation tagging will only track costs from the point in time when the tags where activated in the Billing and Cost Management console\. Only AWS account owners, AWS Organizations master account owners, and IAM users with the appropriate permissions can access the Billing and Cost Management console for an account\. There's no change to how much you're billed when using or not using cost allocation tagging\. Using or not using cost allocation tags has no impact on the functionality of your AMI\-based software products\.
 
-## Tracking Cost Allocation Tags for One AMI Across Multiple Instances<a name="multi-instances-cost-allocation-tagging-marketplace"></a>
+## Tracking cost allocation tags for one AMI across multiple instances<a name="multi-instances-cost-allocation-tagging-marketplace"></a>
 
 Each launched Amazon EC2 instance for a AWS Marketplace AMI subscription has a corresponding AWS Marketplace software usage line item in the AWS Cost and Usage report\. Your AWS Marketplace usage will always reflect the specific tags applied to the corresponding Amazon EC2 instance\. This allows you to distinguish your AWS Marketplace usage costs based on the different tag values that were assigned, at an instance level\.
 
 You can also sum up your tag\-based usage costs to equal the AMI software usage charge reflected in your bill with either the Cost Explorer or the AWS Cost and Usage report\.
 
-## Finding Budgets With Cost Allocated Tagged Instances<a name="cost-allocation-tag-script-marketplace"></a>
+## Finding budgets with cost allocated tagged instances<a name="cost-allocation-tag-script-marketplace"></a>
 
 If you already have active budgets filtered on cost allocation tags over a number of Amazon EC2 instances in the Billing and Cost Management console, it might be difficult to find all of them\. The following Python script returns a list of budgets which contain Amazon EC2 instances from the AWS Marketplace in your current AWS Region\.
 
@@ -86,7 +86,7 @@ if __name__ == "__main__":
     getInstances()
 ```
 
-**Example Output**
+**Example output**
 
 ```
 Using account 123456789012 in region us-east-2
@@ -96,7 +96,7 @@ EC2 simple
 MP-test-2
 ```
 
-## Related Topics<a name="cost-allocation-tagging-related-topics"></a>
+## Related topics<a name="cost-allocation-tagging-related-topics"></a>
 
 For more information, see the following links:
 + [Using Cost Allocation Tags](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.html) in the *AWS Billing and Cost Management User Guide*\. 

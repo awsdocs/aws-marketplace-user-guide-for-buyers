@@ -1,4 +1,4 @@
-# Machine Learning Products<a name="aws-machine-learning-marketplace"></a>
+# Machine learning products<a name="aws-machine-learning-marketplace"></a>
 
  AWS Marketplace has a category for machine learning products you can subscribe to through AWS Marketplace\. The product category is Machine Learning\. The products in this category include machine learning \(ML\) algorithms and model packages\. 
 
@@ -10,18 +10,18 @@ An **Amazon SageMaker *algorithm*** is a unique Amazon SageMaker entity that is 
 
  To assess the quality and suitability of a model, you can review product descriptions, usage instructions, customer reviews, sample [Jupyter notebooks](https://docs.aws.amazon.com/sagemaker/latest/dg/nbi.html), pricing, and support information\. You deploy models directly from the Amazon SageMaker console, through a Jupyter notebook, with the Amazon SageMaker SDK, or using the AWS Command Line Interface AWS CLI\. Amazon SageMaker provides a secure environment to run your training and inference jobs by running a static scan on all marketplace products\. 
 
-## Find, Subscribe, and Deploy<a name="machine-learning-find-subscribe-and-deploy"></a>
+## Find, subscribe, and deploy<a name="machine-learning-find-subscribe-and-deploy"></a>
 
- To find, buy and deploy machine learning products, you find and subscribe to products on AWS Marketplaceand then deploy the product on Amazon SageMaker\. 
+To find, buy and deploy machine learning products, you find and subscribe to products on AWS Marketplaceand then deploy the product on Amazon SageMaker\. 
 
- You pay only for your usage, with no minimum fees or upfront commitments\. AWS Marketplace provides a consolidated bill for algorithms and model packages, and AWS infrastructure usage charges\. To find, subscribe, and deploy Amazon SageMaker algorithms and model packages: 
+You pay only for your usage, with no minimum fees or upfront commitments\. AWS Marketplace provides a consolidated bill for algorithms and model packages, and AWS infrastructure usage charges\. To find, subscribe, and deploy Amazon SageMaker algorithms and model packages: 
 
-1.  From the [AWS Marketplace website](https://aws.amazon.com/marketplace/search/results?page=1&filters=fulfillment_options&fulfillment_options=SAGEMAKER), under **Find AWS Marketplace products that meet your needs**, use the **Categories** drop\-down menu to find the subcategory under **Machine Learning** that you are interested in\. You can refine your search results by applying resource type, category, and pricing filters\. From search results, you can access the product detail page, which allows you to review the product description, usage instructions, customer reviews, data requirements, sample Jupyter notebooks, and pricing and support information\. 
+1. From the [AWS Marketplace website](https://aws.amazon.com/marketplace/search/results?page=1&filters=fulfillment_options&fulfillment_options=SAGEMAKER), under **Find AWS Marketplace products that meet your needs**, use the **Categories** drop\-down menu to find the subcategory under **Machine Learning** that you are interested in\. You can refine your search results by applying resource type, category, and pricing filters\. From search results, you can access the product detail page, which allows you to review the product description, usage instructions, customer reviews, data requirements, sample Jupyter notebooks, and pricing and support information\. 
 
-1.  To view the procurement page, from the product detail page, choose **Continue to subscribe**\. After reviewing the product pricing information and the end user license agreement \(EULA\), you can subscribe\. After subscribing, you can configure the product \(for example, by selecting a specific version or deployment region\) on the AWS Marketplace website\. 
+1. To view the procurement page, from the product detail page, choose **Continue to subscribe**\. After reviewing the product pricing information and the end user license agreement \(EULA\), you can subscribe\. After subscribing, you can configure the product \(for example, by selecting a specific version or deployment region\) on the AWS Marketplace website\. 
 
-1.  After configuring the product, you can view the Amazon SageMaker product detail page by choosing **View in Amazon SageMaker**\. From the Amazon SageMaker console, you can deploy the algorithms and model packages using the Amazon SageMaker console, Jupyter notebook, Amazon SageMaker CLI commands, or API operations\. 
+1. After configuring the product, you can view the Amazon SageMaker product detail page by choosing **View in Amazon SageMaker**\. From the Amazon SageMaker console, you can deploy the algorithms and model packages using the Amazon SageMaker console, Jupyter notebook, Amazon SageMaker CLI commands, or API operations\. 
 
- To deploy a third\-party algorithm/model package on Amazon SageMaker, you need a valid subscription\. Find the suitable algorithm/model package from AWS Marketplace and then subscribe to the products\. Navigate to [Your Marketplace Software](https://aws.amazon.com/marketplace/ai/library?productType=ml&ref_=lbr_tab_ml) and make sure that you have a valid subscription to the algorithm you want to deploy\. 
+To deploy a third\-party algorithm/model package on Amazon SageMaker, you need a valid subscription\. Find the suitable algorithm/model package from AWS Marketplace and then subscribe to the products\. Navigate to [Your Marketplace Software](https://aws.amazon.com/marketplace/ai/library?productType=ml&ref_=lbr_tab_ml) and make sure that you have a valid subscription to the algorithm you want to deploy\. 
 
  For more information about deploying on Amazon SageMaker, see [Getting Started](https://docs.aws.amazon.com/sagemaker/latest/dg/gs.html)\. 

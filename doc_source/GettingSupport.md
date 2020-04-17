@@ -1,4 +1,4 @@
-# Finding the Account Number for Customer Support<a name="GettingSupport"></a>
+# Finding the account number for customer support<a name="GettingSupport"></a>
 
 If you or your users need to contact customer service, you need your AWS account number\.
 

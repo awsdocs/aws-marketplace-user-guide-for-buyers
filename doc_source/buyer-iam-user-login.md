@@ -1,4 +1,4 @@
-# Signing In as an IAM User<a name="buyer-iam-user-login"></a>
+# Signing in as an IAM user<a name="buyer-iam-user-login"></a>
 
 After you have created users in IAM, users can sign in with their own user names and passwords\. To do so, they need to use a unique URL that is associated with your AWS account\.
 

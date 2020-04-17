@@ -1,11 +1,11 @@
-# Integrating AWS Marketplace with Procurement Systems<a name="procurement-system-integration"></a>
+# Integrating AWS Marketplace with procurement systems<a name="procurement-system-integration"></a>
 
 You can configure the integration of AWS Marketplace and your Coupa or SAP Ariba \(beta\) procurement software\. After you complete the configuration, users in your organization can use your procurement software to search and request a subscription to AWS Marketplace products\. After the subscription request is approved, the transaction is completed, and the user is notified that the software subscription is available\. When the user signs in to AWS Marketplace, the software product is listed as a purchased subscription and is available for use\.
 
 **Important**  
 If you'd like to participate in our beta to integrate with SAP Ariba, contact us at awsmp\-eprocurement@amazon\.com and we'll help you configure a level 1 punchout\.
 
-## How Coupa Integration Works<a name="procurement-system-integration-how-it-works"></a>
+## How Coupa integration works<a name="procurement-system-integration-how-it-works"></a>
 
 You can configure Coupa procurement software to integrate with AWS Marketplace following the commerce extensible markup language \(cXML\) protocol\. This integration creates an access point into a third party's catalog, or a *punchout*\. Open Buy is a feature of Coupa that allows users to search AWS Marketplace, directly from Coupa\. Coupa displays search results, and when the user chooses a result, they're redirected to AWS Marketplace\. After an administrator configures the punchout integration, users of Coupa's procurement software can discover the AWS Marketplace catalog in the **Shop Online** section of their home page\. They can also use the Coupa Open Buy feature and search the AWS Marketplace catalog directly from Coupa's search function\. 
 

@@ -1,4 +1,4 @@
-# Subscribing to an AMI Private Offer<a name="buyer-private-offers-subscribing-ami-private-offer"></a>
+# Subscribing to an AMI private offer<a name="buyer-private-offers-subscribing-ami-private-offer"></a>
 
  The panes and configuration options available for your AMI private offer depend on the contract that you negotiate\. The following image shows the private offer page layout for AMI private offers and a brief description of each of the areas that you might negotiate with the product vendor\.
 
@@ -18,10 +18,7 @@
 
  After you have reviewed and agreed with all of the details for your private offer, choose **Accept Terms**\. Choose **Continue to Configuration** to accept the private offer and continue to the configuration process for your AMI\. 
 
-**Note**  
- If you're negotiating a bring\-your\-own\-license model \(BYOL\) contract, you need to complete some manual steps\. You must work with the ISV or your channel partner to sign a custom transaction form \(CTF\) that describes the pricing, terms, and payment schedule\. The form is routed to AWS Marketplace for processing\. The form gives us permission to subscribe to the AMI BYOL product on your behalf\. After the subscription is complete, we send you an email notification\. You can then view the subscription on the AWS Marketplace console at [https://console\.aws\.amazon\.com/marketplace](https://console.aws.amazon.com/marketplace)\. 
-
-## Steps to Subscribe to an AMI Private Offer<a name="buyer-private-offers-subscribing-ami-private-offer-steps"></a>
+## Subscribing to an AMI private offer<a name="buyer-private-offers-subscribing-ami-private-offer-steps"></a>
 
 You must accept the private offer on the AWS Marketplace website\. You can't accept it on the AWS Marketplace console or the Amazon EC2 console\.
 
@@ -41,7 +38,7 @@ You must accept the private offer on the AWS Marketplace website\. You can't acc
 
  When you're ready to configure the AMI, choose **Continue to Configuration**\. You must complete the subscription process for each use of the product\.
 
-## Steps to Subscribe to an Annual AMI Private Offer<a name="buyer-private-offers-subscribing-ami-annual-private-offer-steps"></a>
+## Subscribing to an annual AMI private offer<a name="buyer-private-offers-subscribing-ami-annual-private-offer-steps"></a>
 
 You must accept the private offer on the AWS Marketplace website\. You can't accept it on the AWS Marketplace console or the Amazon EC2 console\.
 
@@ -52,7 +49,7 @@ The process to accept a private offer with a flexible payment schedule uses this
 
 1. Verify that you're viewing the correct private offer\. The vendor can create multiple private offers to you for their product\. Any additional private offers appear in the additional private offers pane\. Validate that the offer that you want to accept appears as **Viewing This Offer**\.
 **Note**  
- In many cases, the payer account isn't the account that uses the product\. We recommend that you launch the product manually rather than selecting the one\-click option if you accept the offer using the payer account\. 
+In many cases, the payer account isn't the account that uses the product\. We recommend that you launch the product manually rather than selecting the one\-click option if you accept the offer using the payer account\. 
 
 1. Verify that the offer expiration date and the pricing information are what you negotiated for the private offer\. If they aren't, verify that you're viewing the correct private offer\.
 
@@ -74,7 +71,7 @@ Optionally, you can add additional instance types during this step\.
 
  When you're ready to configure the AMI, choose **Continue to Configuration**\. You must complete the subscription process for each use of the product\.
 
-## Steps to Subscribe to a Custom Duration or Multi\-Year AMI Private Offer<a name="buyer-private-offers-subscribing-ami-annual-private-offer-steps"></a>
+## Subscribing to a custom duration or multi\-year AMI private offer<a name="buyer-private-offers-subscribing-ami-annual-private-offer-steps"></a>
 
 You must accept the private offer on the AWS Marketplace website\. You can't accept it on the You can't accept it on the AWS Marketplace console or the Amazon EC2 console\.
 

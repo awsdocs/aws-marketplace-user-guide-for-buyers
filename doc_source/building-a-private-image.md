@@ -1,6 +1,6 @@
-# Building a Private Image<a name="building-a-private-image"></a>
+# Building a private image<a name="building-a-private-image"></a>
 
- When you create a private image, you select the software package in AWS Marketplace and the base AMI in your Amazon EC2 console that you will use to create the new private image\. Before starting the build process you must configure your AWS environment so that you can provide: 
+When you create a private image, you select the software package in AWS Marketplace and the base AMI in your Amazon EC2 console that you will use to create the new private image\. Before starting the build process you must configure your AWS environment so that you can provide: 
 +  The AMI ID for the base image that you will install the AWS Marketplace product on 
 +  The name of an Amazon S3 bucket to store the build logs in\. The S3 bucket must be in the region that the AMI will be available in 
 +  The Amazon EC2 instance profile that the package will be installed with \(see the previous section\) 

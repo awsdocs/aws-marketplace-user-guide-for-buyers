@@ -1,10 +1,10 @@
-# Launching a Product<a name="buyer-configuring-a-product"></a>
+# Launching a product<a name="buyer-configuring-a-product"></a>
 
  After you have an active subscription, choose **Continue to Configuration**, where you can select an available fulfillment option\. For container products, there might be up to four fulfillment options, which represent different configurations for the software\. For example, an ISV might create one fulfillment option that is a simple configuration used for testing the product, and another fulfillment option that is intended to be deployed at scale within an enterprise\. 
 
  Each fulfillment option includes information about which services are supported \(for example, Amazon ECS or Amazon EKS\) and also provides software version details\. After you have chosen the appropriate fulfillment option, you can choose **Continue to Fulfillment**\. 
 
-## Launch Process<a name="buyer-launching-a-product"></a>
+## Launch process<a name="buyer-launching-a-product"></a>
 
  On the launch or fulfillment page for the product, deploy your selected fulfillment option, which is shown in the **Configuration Details** section\. Choose **Usage Instructions** to see documentation from the ISV about how to use the product, such as how to sign in to a web server, or post\-launch configuration\. 
 
@@ -31,6 +31,6 @@ After you have access to the deployment template or templates and container imag
 }
 ```
 
-## Canceling a Subscription<a name="buyer-cancelling-a-subscription"></a>
+## Canceling a subscription<a name="buyer-cancelling-a-subscription"></a>
 
  To cancel a subscription to a product, use the **Your Software** page\. 

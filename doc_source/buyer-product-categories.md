@@ -1,8 +1,8 @@
-# Product Categories<a name="buyer-product-categories"></a>
+# Product categories<a name="buyer-product-categories"></a>
 
  AWS Marketplace is organized into seven primary categories, with subcategories under each\. On the AWS Marketplace website, you can search and filter based on the categories and subcategories\. 
 
-## Infrastructure Software<a name="infrastructure-software-category"></a>
+## Infrastructure software<a name="infrastructure-software-category"></a>
 
  The products in this category provide infrastructure\-related solutions\. 
 
@@ -39,7 +39,7 @@
 **Storage and Backup**  
  Products used for storage and backup solutions\. 
 
-## Developer Tools<a name="developer-tools-category"></a>
+## Developer tools<a name="developer-tools-category"></a>
 
  The products in this category provide tools focused on developers and developer teams\. 
 
@@ -58,7 +58,7 @@
 **Testing**  
  Products used for automated testing of software products\. 
 
-## Business Software<a name="business-software-category"></a>
+## Business software<a name="business-software-category"></a>
 
  The products in this category help you run your business\. 
 
@@ -92,7 +92,7 @@
 **Project Management**  
  Tools for project management\. 
 
-## Machine Learning<a name="machine-learning-category"></a>
+## Machine learning<a name="machine-learning-category"></a>
 
  The products in this category provide machine learning algorithms and model packages that work with Amazon SageMaker\. 
 
@@ -151,7 +151,7 @@
 **Smart Home and City**  
  Products used to enable smart home and smart city solutions\. 
 
-## Desktop Applications<a name="desktop-applications-category"></a>
+## Desktop applications<a name="desktop-applications-category"></a>
 
  The products in this category provide infrastructure\-related solutions\. 
 
@@ -194,6 +194,6 @@
 **Utilities**  
  Utility\-focused applications for various job roles\. 
 
-## Data Products<a name="data-products"></a>
+## Data products<a name="data-products"></a>
 
 The products in this category are sets of file\-based data\. For more information, see the [AWS Data Exchange User Guide](https://docs.aws.amazon.com/data-exchange/latest/userguide/what-is.html)\.

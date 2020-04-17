@@ -1,4 +1,4 @@
-# Error Messages<a name="private-image-build-error-messages"></a>
+# Error messages<a name="private-image-build-error-messages"></a>
 
  Use the following table to troubleshoot error messages that you might receive during the build process\. 
 
