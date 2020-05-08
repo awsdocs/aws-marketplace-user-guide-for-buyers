@@ -58,4 +58,4 @@ Amazon's trademarks and trade dress may not be used in
    + [Finding the account number for customer support](GettingSupport.md)
    + [Creating a private marketplace IT administrator](it-administrator.md)
 + [Document history](document-history.md)
-+ [AWS Glossary](glossary.md)
++ [AWS glossary](glossary.md)

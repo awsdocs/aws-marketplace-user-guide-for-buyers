@@ -42,7 +42,7 @@ You're not limited to the permissions in the AWS managed policies that are descr
 
  After creating users, we recommend that you create groups and apply AWS managed policies to provide basic AWS Marketplace permissions\. Then, for any unique scenarios, you can create your own polices and apply them to the groups with the specific requirements for your scenario\. The following basic AWS Marketplace managed policies are available to you to control who has which permissions:
 + `AWSMarketplaceRead-only`
-+ `AWSMarketplaceManagedSubscriptions`
++ `AWSMarketplaceManageSubscriptions`
 + `AWSPrivateMarketplaceRequests`
 + `AWSPrivateMarketplaceAdminFullAccess`
 + `AWSMarketplaceFullAccess`
