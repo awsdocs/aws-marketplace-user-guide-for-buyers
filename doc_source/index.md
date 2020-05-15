@@ -35,8 +35,6 @@ Amazon's trademarks and trade dress may not be used in
       + [Private image build](buyer-private-image-build.md)
          + [Completing prerequisite steps](completing-prerequisite-steps.md)
          + [Building a private image](building-a-private-image.md)
-         + [API reference](api-reference.md)
-            + [Error messages](private-image-build-error-messages.md)
    + [Data products](buyer-data-products.md)
 + [Paying for products](buyer-paying-for-products.md)
 + [Private marketplaces](private-marketplace.md)

@@ -9,7 +9,7 @@ When you create a private image, you select the software package in AWS Marketpl
 
  If you have experience using AWS services, you are likely familiar with choosing regions, finding the AMI ID on your Amazon EC2 dashboard, and working with Amazon S3 buckets\. 
 
- To find a product that supports building a private image, go to the [AWS Marketplace product search page](https://aws.amazon.com/marketplace/search/results?page=1&ref_=hmpg_categories_all) and, for the **Delivery Method** search filter, choose **Private Image Build** to locate a product with a Private Amazon Machine Image fulfillment option\. From the detail page for the product, you configure procurement, configuration, and fulfillment options\. The product that you build is added to your AWS account\. 
+ To find a product that supports building a private image, go to the [AWS Marketplace product search page](https://aws.amazon.com/marketplace/search/results?page=1&ref_=hmpg_categories_all) and, for the **Delivery Method** search filter, choose **Private Amazon Machine Image**\. From the detail page for the product, you configure procurement, configuration, and fulfillment options\. The product that you build is added to your AWS account\. 
 
  In addition to the prerequisites specified in the previous section, your base AMI must meet the following requirements: 
 +  Linux AMIs must have either Wget or cURL installed and configured\. Windows AMIs must have PowerShell installed\. 

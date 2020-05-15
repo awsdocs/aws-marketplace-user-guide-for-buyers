@@ -10,7 +10,7 @@
 
  Resource\-based policies control what actions a specified principal can perform on that resource and under what conditions\. Resource\-based policies are inline policies, and there are no managed resource\-based policies\. Although IAM identities are technically AWS resources, you can't attach a resource\-based policy to an IAM identity\. You must use identity\-based policies in IAM\. *Trust policies* are resource\-based policies that are attached to a role that define which principals can assume the role\. When you create a role in IAM, the role must have two things: a trust policy that indicates who can assume the role and a permission policy that indicates what they can do with that role\. Remember that adding an account to the trust policy of a role is only half of establishing the trust relationship\. By default, no users in the trusted accounts can assume the role until the administrator for that account grants the users the permission to assume the role\. 
 
- The AWS Marketplace Image Building Service uses two IAM roles, and each role has a permissions policy and a trust policy\. If you have IAM users access the AWS Marketplace website to build private images, those users also need IAM permissions to list and assign the roles needed to create and view the private images they build\. If you prefer to use the AWS Marketplace Image Building Service API, your users need a different role that grants permission to call the service API\. 
+ The AWS Marketplace Image Building Service uses two IAM roles, and each role has a permissions policy and a trust policy\. If you have IAM users access the AWS Marketplace website to build private images, those users also need IAM permissions to list and assign the roles needed to create and view the private images they build\. 
 
  As an administrator, you create the two roles that are required and their associated policies\. The first role is an [instance profile](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html#instance-profiles-manage-console) that is attached to the instance created during the image build process\. An instance profile is a container for an IAM role that you can use to pass role information to an Amazon EC2 instance when the instance starts\. The second is an IAM role that provides access to [AWS Systems Manager](https://docs.aws.amazon.com/systems-manager/latest/userguide/auth-and-access-control.html) and Amazon EC2\. To configure the instance profile, attach a permissions policy that provides the required permissions\. Then edit the trust policy for the role to grant permission for Amazon EC2 and AWS Systems Manager to assume the role\. 
 
@@ -91,7 +91,7 @@
    }
    ```
 **Note**  
-You'll need to create the bucket, *awsexamplebucket* before you begin this process\. This bucket is also the same one you defined in the `aws marketplaceimagebuild start-build` command, using the `--output-installation-log-s3-bucket-name` option\. For more information on this command, see [Building a private image using the CLI](api-reference.md#building-a-private-image-using-the-cli)\.
+You'll need to create the bucket, *awsexamplebucket* before you begin this process\. 
 
 1.  Choose **Review policy**\. 
 
@@ -248,7 +248,3 @@ You'll need to create the bucket, *awsexamplebucket* before you begin this proce
 1.  Select the users, groups and roles you want to attach this policy to, and then choose **Attach Policy**\. 
 
  The next time that a user or member of a group or role you selected accesses the AWS Marketplace website, they can perform the tasks associated with the private image build process\. 
-
- There is also an IAM managed policy named AWSMarketplaceImageBuildFullAccess that can be used to provide all the permissions needed to use AWS Marketplace Private Image Build when using the AWS Command Line Interface \(AWS CLI\) or the AWS Marketplace Image Build Service API\. You can also use this managed policy as a baseline to grant more restrictive permissions \(than AWSMarketplaceFullAccess\) to AWS Marketplace Private Image Build website users\. You will also need to add permissions for IAM and AWS EC2\. 
-
- You can also complete the prerequisite steps to building a private image by using the AWS Command Line Interface \(AWS CLI\)\. Details for using that approach are described in the API Reference section\. 
