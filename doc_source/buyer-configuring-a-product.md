@@ -4,6 +4,9 @@
 
  Each fulfillment option includes information about which services are supported \(for example, Amazon ECS or Amazon EKS\) and also provides software version details\. After you have chosen the appropriate fulfillment option, you can choose **Continue to Fulfillment**\. 
 
+**Note**  
+For a walk\-through showing how to subscribe to and deploy a container\-based product, you can also refer to the video, [ Deploying AWS Marketplace Containers on Amazon ECS Clusters](https://www.youtube.com/watch?v=XaiUAiQQJtk) \(3:34\)\.
+
 ## Launch process<a name="buyer-launching-a-product"></a>
 
  On the launch or fulfillment page for the product, deploy your selected fulfillment option, which is shown in the **Configuration Details** section\. Choose **Usage Instructions** to see documentation from the ISV about how to use the product, such as how to sign in to a web server, or post\-launch configuration\. 

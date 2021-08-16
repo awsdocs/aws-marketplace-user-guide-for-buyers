@@ -4,6 +4,8 @@ The following table describes the documentation for this release of the *AWS Mar
 
 | Change | Description | Date | 
 | --- |--- |--- |
+| [Support for sharing licenses through AWS License Manager](https://docs.aws.amazon.com/marketplace/latest/buyerguide/organizations-sharing.html) | You can share licenses to products that you purchase with other accounts in your AWS organization\. | December 3, 2020 | 
+| [AWS Marketplace supports professional services offerings](https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-proserv-products.html) | AWS Marketplace now supports purchasing professional services\. | December 3, 2020 | 
 | [Support for preferred currency](https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-paying-for-products.html) | You can pay for AWS Marketplace purchases using your preferred currency\. | July 27, 2020 | 
 | [You can review and accept private offer upgrades and renewals](https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-private-offers.html) | Sellers can provide upgrade and renewal private offers for SaaS contract and SaaS contract with consumption products that you can review and accept while on an existing agreement\. | May 28, 2020 | 
 | [AWS Marketplace supports data products through AWS Data Exchange](https://docs.aws.amazon.com/data-exchange/latest/userguide/subscribe-to-data-sets.html) | You can now subscribe to AWS Data Exchange data products in AWS Marketplace\. | November 13, 2019 | 

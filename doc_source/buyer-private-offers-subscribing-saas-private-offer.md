@@ -31,4 +31,4 @@ To navigate to the private offer page, either follow the link that the seller se
 
 1. In the EULA and contract creation pane, validate that the EULA is the one you negotiated with the seller\. After you review all of the terms and conditions for the contract, choose **Create contract** to accept the offer\.
 
-After you accept the offer, a conformation page opens, indicating that you successfully subscribed to the product\. Choose **Set Up Your Account** to be redirected to the seller's page and finish configuring your account on the seller's website\.
+After you accept the offer, a confirmation page opens, indicating that you successfully subscribed to the product\. Choose **Set Up Your Account** to be redirected to the seller's page and finish configuring your account on the seller's website\.

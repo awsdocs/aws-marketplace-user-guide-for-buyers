@@ -151,6 +151,25 @@
 **Smart Home and City**  
  Products used to enable smart home and smart city solutions\. 
 
+## Professional services<a name="professional-services-category"></a>
+
+The products in this category provide consulting services related to AWS Marketplace products\.
+
+**Assessment**  
+Evaluation of your current operating environment to find the the right solutions for your organization\.
+
+**Implementation**  
+Help with configuration, setup, and deployment of third\-party software\.
+
+**Premium support**  
+Access to guidance and assistance from experts, designed for your needs\.
+
+**Managed services**  
+End\-to\-end environment management on your behalf\.
+
+**Training**  
+Tailored workshops, programs, and educational tools provided by experts to help your employees learn best practices\.
+
 ## Desktop applications<a name="desktop-applications-category"></a>
 
  The products in this category provide infrastructure\-related solutions\. 

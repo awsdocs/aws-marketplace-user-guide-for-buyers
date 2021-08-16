@@ -13,6 +13,8 @@ For example, suppose that you run software for 720 hours on an EC2 small instanc
 
 For more information about subscribing to data products, see [Subscribing to Data Products on AWS Data Exchange](https://docs.aws.amazon.com/data-exchange/latest/userguide/subscribe-to-data-sets.html) in the *AWS Data Exchange User Guide*\.
 
+For more information about paying your AWS bill, see the [AWS Billing and Cost Management User Guide](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-what-is.html)\.
+
 ## Information about refunds<a name="buyer-refunds"></a>
 
 For information about refunds related to your AWS Marketplace purchases, see the following pages in the *AWS Marketplace Seller Guide*:

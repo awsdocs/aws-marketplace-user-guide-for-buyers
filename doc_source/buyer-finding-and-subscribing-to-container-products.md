@@ -15,3 +15,6 @@
  If you want to use a product, you will need to subscribe to it first\. On the subscription page you can view pricing information for paid products, and access the end\-user license agreement \(EULA\) for the software\.
 
 Choose **Accept Terms** to proceed\. This will create a *subscription* to the product, which provides an *entitlement* to use the software\. It will take a minute or two for the subscription to complete\. Once you receive an entitlement to a paid product, if you start using the software you will be charged\. If you cancel your subscription without terminating all running instances of the software, you will continue to be charged for any software usage\. You may also incur infrastructure charges related to using the product\. For example, if you create a new Amazon EKS cluster to host the software product, you will be charged for that service\. 
+
+**Note**  
+For a walk\-through showing how to subscribe to and deploy a container\-based product, you can also refer to the video, [ Deploying AWS Marketplace Containers on Amazon ECS Clusters](https://www.youtube.com/watch?v=XaiUAiQQJtk) \(3:34\)\.

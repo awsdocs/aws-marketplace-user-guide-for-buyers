@@ -84,14 +84,14 @@
                    "s3:GetObject",
                    "s3:PutObject"
                ],
-               "Resource": "arn:aws:s3:::awsexamplebucket>/*",
+               "Resource": "arn:aws:s3:::DOC-EXAMPLE-BUCKET/*",
                "Effect": "Allow"
            }
        ]
    }
    ```
 **Note**  
-You'll need to create the bucket, *awsexamplebucket* before you begin this process\. 
+You'll need to create the bucket, *DOC\-EXAMPLE\-BUCKET* before you begin this process\. 
 
 1.  Choose **Review policy**\. 
 

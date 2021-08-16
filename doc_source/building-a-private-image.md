@@ -42,7 +42,7 @@ When you create a private image, you select the software package in AWS Marketpl
 
 1.  For **Automation Role**, choose the automation role that you created as a prerequisite step\. 
 
-1.  For **Build Logs**, type the name of an Amazon S3 bucket that you want the logs to be stored in\. This is the simple bucket name, for example *myawsbucket*, rather than the full DNS name\. 
+1.  For **Build Logs**, type the name of an Amazon S3 bucket that you want the logs to be stored in\. This is the simple bucket name, for example *DOC\-EXAMPLE\-BUCKET*, rather than the full DNS name\. 
 
 1.  For **Private Image Name**, type the name for the new private image\. 
 

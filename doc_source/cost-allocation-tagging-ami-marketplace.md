@@ -1,10 +1,12 @@
-# Cost allocation tagging<a name="cost-allocation-tagging-ami-marketplace"></a>
+# Cost allocation tagging in AMI products<a name="cost-allocation-tagging-ami-marketplace"></a>
 
-AWS Marketplace supports cost allocation tagging for AMI\-based software products\. New and existing Amazon EC2 instance tags will automatically populate against corresponding AWS Marketplace AMI usage\. You can use activated cost allocation tags to identify and track AMI usage through Cost Explorer, the AWS Cost and Usage report, AWS Budgets or other cloud spend analysis tools\.
+AWS Marketplace supports cost allocation tagging for Amazon Machine Image \(AMI\)\-based software products\. New and existing Amazon Elastic Compute Cloud \(Amazon EC2\) instance tags automatically populate against corresponding AWS Marketplace AMI usage\. You can use activated cost allocation tags to identify and track AMI usage through AWS Cost Explorer, the AWS Cost and Usage Reports, AWS Budgets, or other cloud spend analysis tools\.
+
+The vendor that provided the AMI may also record other custom tags in the metering for AMI\-based products, based on information specific to the product\. For more details, see [Cost allocation tagging](cost-allocation-tagging.md)\.
 
 You can use tags to organize your resources, and cost allocation tags to track your AWS costs on a detailed level\. After you activate cost allocation tags, AWS uses the cost allocation tags to organize your resource costs on your cost allocation report, to make it easier for you to categorize and track your AWS costs\.
 
-Cost allocation tagging will only track costs from the point in time when the tags where activated in the Billing and Cost Management console\. Only AWS account owners, AWS Organizations master account owners, and IAM users with the appropriate permissions can access the Billing and Cost Management console for an account\. There's no change to how much you're billed when using or not using cost allocation tagging\. Using or not using cost allocation tags has no impact on the functionality of your AMI\-based software products\.
+Cost allocation tagging only tracks costs from the time when the tags were activated in the Billing and Cost Management console\. Only AWS account owners, AWS Organizations management account owners, and AWS Identity and Access Management \(IAM\) users with the appropriate permissions can access the Billing and Cost Management console for an account\. Regardless of whether you use cost allocation tagging, there's no change to how much you're billed\. Whether you use cost allocation tags has no impact on the functionality of your AMI\-based software products\.
 
 ## Tracking cost allocation tags for one AMI across multiple instances<a name="multi-instances-cost-allocation-tagging-marketplace"></a>
 
@@ -98,7 +100,7 @@ MP-test-2
 
 ## Related topics<a name="cost-allocation-tagging-related-topics"></a>
 
-For more information, see the following links:
+For more information, see the following topics:
 + [Using Cost Allocation Tags](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.html) in the *AWS Billing and Cost Management User Guide*\. 
 + [Activating the AWS\-Generated Cost Allocation Tags](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/activate-built-in-tags.html) in the *AWS Billing and Cost Management User Guide*\. 
 + [Tagging Your Amazon EC2 Resources](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Using_Tags.html) in the Amazon EC2 User Guide for Linux Instances\.

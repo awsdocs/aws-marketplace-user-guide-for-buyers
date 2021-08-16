@@ -1,6 +1,6 @@
-# Supported regions<a name="supported-regions"></a>
+# Supported Regions<a name="supported-regions"></a>
 
-For software products, the seller chooses which Regions to make their software available in, as well as the instance types\. We encourage making products available in all available Regions and on all instance types that make sense\. The AWS Marketplace website is available worldwide and supports the following Regions:
+For software products, the seller chooses which AWS Regions to make their software available in, as well as the instance types\. We encourage making products available in all available Regions and on all instance types that make sense\. The AWS Marketplace website is available worldwide and supports the following Regions:
 +  North America 
   +  US East \(Ohio\) 
   +  US East \(N\. Virginia\) 
@@ -27,7 +27,8 @@ For software products, the seller chooses which Regions to make their software a
   +  Asia Pacific \(Tokyo\) 
   +  Asia Pacific \(Seoul\) 
   +  Asia Pacific \(Hong Kong\) 
+  + Asia Pacific \(Osaka\)
 +  Middle East 
   +  Middle East \(Bahrain\) 
 
- For more information on supported AWS Regions for data products, see [Endpoints and AWS Regions](https://docs.aws.amazon.com/data-exchange/latest/userguide/limits.html#api-endpoints) in the *AWS Data Exchange User Guide*\.
+ For more information on supported Regions for data products, see [Endpoints and AWS Regions](https://docs.aws.amazon.com/data-exchange/latest/userguide/limits.html#api-endpoints) in the *AWS Data Exchange User Guide*\.
