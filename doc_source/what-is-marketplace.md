@@ -39,5 +39,5 @@ After the subscription is processed, you can configure fulfillment options, soft
 +  [Machine learning products](aws-machine-learning-marketplace.md) 
 +  [Professional services products](buyer-proserv-products.md) 
 +  [SaaS products](buyer-saas-products.md)
-+  [Server products](buyer-server-products.md) 
++  [AMI\-based server products](buyer-server-products.md) 
 + [What is AWS Data Exchange?](https://docs.aws.amazon.com/data-exchange/latest/userguide/what-is.html) in the *AWS Data Exchange User Guide*

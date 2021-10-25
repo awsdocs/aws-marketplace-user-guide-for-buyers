@@ -2,6 +2,16 @@
 
  AWS Marketplace is organized into seven primary categories, with subcategories under each\. On the AWS Marketplace website, you can search and filter based on the categories and subcategories\. 
 
+**Topics**
++ [Infrastructure software](#infrastructure-software-category)
++ [Developer tools](#developer-tools-category)
++ [Business software](#business-software-category)
++ [Machine learning](#machine-learning-category)
++ [IoT](#iot-category)
++ [Professional services](#professional-services-category)
++ [Desktop applications](#desktop-applications-category)
++ [Data products](#data-products)
+
 ## Infrastructure software<a name="infrastructure-software-category"></a>
 
  The products in this category provide infrastructure\-related solutions\. 

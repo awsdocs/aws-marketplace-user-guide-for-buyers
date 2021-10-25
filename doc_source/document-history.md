@@ -4,6 +4,9 @@ The following table describes the documentation for this release of the *AWS Mar
 
 | Change | Description | Date | 
 | --- |--- |--- |
+| [Support for SAP Ariba integration](https://docs.aws.amazon.com/marketplace/latest/buyerguide/procurement-system-integration.html) | AWS Marketplace supports integration with the SAP Ariba procurement system\. | October 13, 2021 | 
+| [Support for AMI aliases](https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-ami-aliases) | AWS Marketplace supports using aliases for AMI IDs that can be used across regions\. | September 8, 2021 | 
+| [Removed unused permissions in managed policy](https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-security-iam-awsmanpol.html#security-iam-awsmanpol-awsprivatemarketplaceadminfullaccess) | Unused permissions from `AWSPrivateMarketplaceAdminFullAccess` AWS managed policy have been removed\. | August 27, 2021 | 
 | [Support for sharing licenses through AWS License Manager](https://docs.aws.amazon.com/marketplace/latest/buyerguide/organizations-sharing.html) | You can share licenses to products that you purchase with other accounts in your AWS organization\. | December 3, 2020 | 
 | [AWS Marketplace supports professional services offerings](https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-proserv-products.html) | AWS Marketplace now supports purchasing professional services\. | December 3, 2020 | 
 | [Support for preferred currency](https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-paying-for-products.html) | You can pay for AWS Marketplace purchases using your preferred currency\. | July 27, 2020 | 

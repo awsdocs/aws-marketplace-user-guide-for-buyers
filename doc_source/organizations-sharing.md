@@ -4,7 +4,7 @@ When you subscribe to products in AWS Marketplace, an agreement is created that 
 
 **Note**  
 For more information about AWS Organizations, see the [AWS Organizations User Guide](https://docs.aws.amazon.com/organizations/latest/userguide/)\.  
-For more information about sharing licenses with your organization in AWS License Manager, see [ Granted licenses](https://docs.aws.amazon.com/license-manager/latest/userguide/granted-licenses.html) in the *AWS License Manager User Guide*\.
+For more information about sharing licenses with your organization in AWS License Manager, see [ Granted licenses](https://docs.aws.amazon.com/license-manager/latest/userguide/granted-licenses.html) in the *AWS License Manager User Guide*\. For a walkthrough of the license sharing experience, you can refer to this video, [Distribute your AWS Marketplace License Entitlements](https://www.youtube.com/watch?v=BY3O1p6xHvo) \(3:56\)\.
 
 The following topics outline the process of sharing the licenses across accounts\.
 
@@ -26,7 +26,7 @@ You manage and share licenses using AWS License Manager\. However, you can use A
 
 **To view licenses for your subscribed products**
 
-1. In [AWS Marketplace](https://aws.amazon.com/marketplace/), sign in and choose **Manage Subscriptions**\.
+1. In [AWS Marketplace](https://console.aws.amazon.com/marketplace/), sign in and choose **Manage Subscriptions**\.
 
 1. You can view all licenses or view the license for a specific subscription\.
    + To view all licenses
@@ -40,7 +40,7 @@ You manage and share licenses using AWS License Manager\. However, you can use A
 
 **Note**  
 Subscriptions in AWS Marketplace have an **Access level** shown in the product details\. Products with an **Agreement** level have a license that you can use and share with other accounts in your organization\. Products with an **Entitlement** level are licenses that have been shared with your account—you can use these products, but you can't share them\.  
-Only AMI, container, and machine learning products will have licences that can be shared\.
+Only AMI, container, and machine learning products will have licenses that can be shared\.
 
 From License Manager, you can share your license with other accounts in your organization\. For more details about using License Manager with AWS managed licenses, see the [ Granted licenses](https://docs.aws.amazon.com/license-manager/latest/userguide/granted-licenses.html) and [Seller issued licenses](https://docs.aws.amazon.com/license-manager/latest/userguide/granted-licenses.html) topics in the *AWS License Manager User Guide*\.
 

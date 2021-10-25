@@ -8,7 +8,7 @@ For more details about these product types, see the following topics:
 + [Machine learning products](aws-machine-learning-marketplace.md)
 + [Professional services products](buyer-proserv-products.md)
 + [SaaS products](buyer-saas-products.md)
-+ [Server products](buyer-server-products.md) \(including AMI and private image products\)
++ [AMI\-based server products](buyer-server-products.md) \(including AMI and private image products\)
 + [Data products](buyer-data-products.md)
 
 ## What is an AMI?<a name="what-is-an-ami"></a>

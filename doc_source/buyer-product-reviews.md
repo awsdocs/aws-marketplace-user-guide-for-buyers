@@ -28,7 +28,7 @@ AWS reserves the right to remove reviews that include any of the following conte
   + Reviews written by a customer without a verifiable subscription to the product
 + Inappropriate content, including:
   + Content copied from others, including excessive quotations
-  + Phone numbers, postal mailing addresses, and URLs external to Amazon\.com 
+  + Contact information or URLs external to Amazon\.com 
   + Details about availability or alternate ordering/shipping 
   + Videos with watermarks 
   + Comments on other reviews visible on the page, because page visibility is subject to change without notice

@@ -4,7 +4,7 @@ To add permissions to users, groups, and roles, it is easier to use AWS managed 
 
 AWS services maintain and update AWS managed policies\. You can't change the permissions in AWS managed policies\. Services occasionally add additional permissions to an AWS managed policy to support new features\. This type of update affects all identities \(users, groups, and roles\) where the policy is attached\. Services are most likely to update an AWS managed policy when a new feature is launched or when new operations become available\. Services do not remove permissions from an AWS managed policy, so policy updates won't break your existing permissions\.
 
-Additionally, AWS supports managed policies for job functions that span multiple services\. For example, the **ReadOnlyAccess** AWS managed policy provides read\-only access to all AWS services and resources\. When a service launches a new feature, AWS adds read\-only permissions for new operations and resources\. For a list and descriptions of job function policies, see [AWS managed policies for job functions](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_job-functions.html) in the *IAM User Guide*\.
+Additionally, AWS supports managed policies for job functions that span multiple services\. For example, the **ViewOnlyAccess** AWS managed policy provides read\-only access to many AWS services and resources\. When a service launches a new feature, AWS adds read\-only permissions for new operations and resources\. For a list and descriptions of job function policies, see [AWS managed policies for job functions](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_job-functions.html) in the *IAM User Guide*\.
 
 This section lists each of the policies used to manage buyer access to AWS Marketplace\. For information about seller policies, see [AWS managed policies for AWS Marketplace sellers](https://docs.aws.amazon.com/marketplace/latest/userguide/security-iam-awsmanpol.html) in the *AWS Marketplace Seller Guide*\.
 
@@ -395,21 +395,10 @@ This policy grants admin permissions that allow full access to manage private ma
         {
             "Effect": "Allow",
             "Action": [
-                "aws-marketplace:CreatePrivateMarketplace",
-                "aws-marketplace:StartPrivateMarketplace",
-                "aws-marketplace:StopPrivateMarketplace",
-                "aws-marketplace:DescribePrivateMarketplaceStatus",
                 "aws-marketplace:AssociateProductsWithPrivateMarketplace",
                 "aws-marketplace:DisassociateProductsFromPrivateMarketplace",
-                "aws-marketplace:ListPrivateMarketplaceProducts",
-                "aws-marketplace:DescribePrivateMarketplaceProducts",
                 "aws-marketplace:ListPrivateMarketplaceRequests",
-                "aws-marketplace:DescribePrivateMarketplaceRequests",
-                "aws-marketplace:UpdatePrivateMarketplaceSettings",
-                "aws-marketplace:DescribePrivateMarketplaceSettings",
-                "aws-marketplace:CreatePrivateMarketplaceProfile",
-                "aws-marketplace:UpdatePrivateMarketplaceProfile",
-                "aws-marketplace:DescribePrivateMarketplaceProfile"
+                "aws-marketplace:DescribePrivateMarketplaceRequests"
             ],
             "Resource": [
                 "*"
@@ -469,5 +458,6 @@ View details about updates to AWS managed policies for AWS Marketplace since thi
 
 | Change | Description | Date | 
 | --- | --- | --- | 
+|  [ AWSPrivateMarketplaceAdminFullAccess](#security-iam-awsmanpol-awsprivatemarketplaceadminfullaccess) – Update to an existing policy  |  AWS Marketplace removed unused permissions in the `AWSPrivateMarketplaceAdminFullAccess` policy\.  | August 27, 2021 | 
 |  [ AWSMarketplaceFullAccess](#security-iam-awsmanpol-awsmarketplacefullaccess) – Update to an existing policy  |  AWS Marketplace removed a duplicate `ec2:DescribeAccountAttributes` permission from `AWSMarketplaceFullAccess` policy\.  | July 20, 2021 | 
 |  AWS Marketplace started tracking changes  |  AWS Marketplace started tracking changes for its AWS managed policies\.  | April 20, 2021 | 
