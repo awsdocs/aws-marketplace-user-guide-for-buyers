@@ -1,35 +1,30 @@
 # Product categories<a name="buyer-product-categories"></a>
 
- AWS Marketplace is organized into seven primary categories, with subcategories under each\. On the AWS Marketplace website, you can search and filter based on the categories and subcategories\. 
+ The AWS Marketplace website is organized into primary categories, with subcategories under each\. You can search and filter based on the categories and subcategories\. 
 
 **Topics**
-+ [Infrastructure software](#infrastructure-software-category)
-+ [Developer tools](#developer-tools-category)
-+ [Business software](#business-software-category)
-+ [Machine learning](#machine-learning-category)
++ [Infrastructure Software](#infrastructure-software-category)
++ [DevOps](#developer-tools-category)
++ [Business Applications](#business-software-category)
++ [Machine Learning](#machine-learning-category)
 + [IoT](#iot-category)
-+ [Professional services](#professional-services-category)
++ [Professional Services](#professional-services-category)
 + [Desktop applications](#desktop-applications-category)
-+ [Data products](#data-products)
++ [Data Products](#data-products)
++ [Industries](#industries)
 
-## Infrastructure software<a name="infrastructure-software-category"></a>
+## Infrastructure Software<a name="infrastructure-software-category"></a>
 
  The products in this category provide infrastructure\-related solutions\. 
 
-**Application Development**  
- Products used for application development\. 
+**Backup and Recovery**  
+ Products used for storage and backup solutions\. 
 
-**Application Servers**  
- Servers used for application development\. 
+**Data Analytics**  
+ Products used for data analysis\. 
 
-**Application Stacks**  
- Stacks used for application development\. 
-
-**Big Data**  
- Tools used for your big data projects\. 
-
-**Databases and Caching**  
- Database and caching\-related products\. 
+**Security**  
+Security products for your infrastructure\.
 
 **High Performance Computing**  
  High performance computing products\. 
@@ -46,14 +41,35 @@
 **Security**  
  Security products for your infrastructure\. 
 
-**Storage and Backup**  
- Products used for storage and backup solutions\. 
+**Storage**  
+ Applications focused on job roles involved in storage\. 
 
-## Developer tools<a name="developer-tools-category"></a>
+## DevOps<a name="developer-tools-category"></a>
 
  The products in this category provide tools focused on developers and developer teams\. 
 
-**Issues and Bug Tracking**  
+**Application Development**  
+ Products used for application development\. 
+
+**Application Servers**  
+ Servers used for application development\. 
+
+**Application Stacks**  
+ Stacks used for application development\. 
+
+**Continuous Integration and Continuous Delivery**  
+ Products used for CI/CD\. 
+
+**Infrastructure as Code**  
+ Products used for infrastructure\. 
+
+**Testing**  
+ Products used for testing\. 
+
+**Agile Lifecycle Management**  
+ Products used for Agile SDLM\. 
+
+**Issues & Bug Tracking**  
  Products used by developer teams to track and manage software bugs\. 
 
 **Monitoring**  
@@ -68,14 +84,26 @@
 **Testing**  
  Products used for automated testing of software products\. 
 
-## Business software<a name="business-software-category"></a>
+## Business Applications<a name="business-software-category"></a>
 
  The products in this category help you run your business\. 
+
+**IT Business Management**  
+ Products used for enabling IT business management in your organization\. 
+
+**Contact Center**  
+ Products used for enabling Contact Centers in your organization\. 
+
+**Blockchain**  
+ Products used for blockchain\. 
+
+**Human Resources**  
+ Products used for enabling Human Resources in your organization\. 
 
 **Business Intelligence**  
  Products used for enabling business intelligence in your organization\. 
 
-**Collaboration**  
+**Collaboration & Productivity**  
  Products used to enable collaboration in your business\. 
 
 **Content Management**  
@@ -87,22 +115,13 @@
 **ecommerce**  
  Products that provide ecommerce solutions\. 
 
-**Education and Research**  
- Products aimed at providing education and research solutions\. 
-
-**Financial Services**  
- Products that enable financial services in your organization\. 
-
-**Healthcare and Life Sciences**  
- Products used in the healthcare and life sciences industries\. 
-
-**Media**  
- Media\-related products and solutions\. 
+**eLearning**  
+ Products that provide eLearning solutions\. 
 
 **Project Management**  
  Tools for project management\. 
 
-## Machine learning<a name="machine-learning-category"></a>
+## Machine Learning<a name="machine-learning-category"></a>
 
  The products in this category provide machine learning algorithms and model packages that work with Amazon SageMaker\. 
 
@@ -128,7 +147,7 @@
  Products that enable image analysis capability\. Examples include 3D, captioning, classification, edit/processing, embedding/feature extraction, generation, grammar/parsing, handwriting recognition, human/faces, object detection, segmentation/pixel labeling, and text/OCR\. 
 
 **Video**  
- Products that enable video analysis capability\. Examples include classification, object detection, edit/processing, anomaly detection, speaker identification, motion, reidentification, summarization, text/captioning, and tracking\. 
+ Products that enable video analysis capability\. Examples include classification, object detection, edit/processing, anomaly detection, speaker identification, motion, re\-identification, summarization, text/captioning, and tracking\. 
 
 **Audio**  
  Products that enable audio analysis capability\. Examples include speaker identification, speech\-to\-text, classification, song identification, and segmentation\. 
@@ -158,24 +177,24 @@
 **Industrial IoT**  
  Products focused on providing industrial\-related IoT solutions\. 
 
-**Smart Home and City**  
+**Smart Home & City**  
  Products used to enable smart home and smart city solutions\. 
 
-## Professional services<a name="professional-services-category"></a>
+## Professional Services<a name="professional-services-category"></a>
 
 The products in this category provide consulting services related to AWS Marketplace products\.
 
-**Assessment**  
-Evaluation of your current operating environment to find the the right solutions for your organization\.
+**Assessments**  
+Evaluation of your current operating environment to find the right solutions for your organization\.
 
 **Implementation**  
 Help with configuration, setup, and deployment of third\-party software\.
 
-**Premium support**  
-Access to guidance and assistance from experts, designed for your needs\.
-
-**Managed services**  
+**Managed Services**  
 End\-to\-end environment management on your behalf\.
+
+**Premium Support**  
+Access to guidance and assistance from experts, designed for your needs\.
 
 **Training**  
 Tailored workshops, programs, and educational tools provided by experts to help your employees learn best practices\.
@@ -223,6 +242,26 @@ Tailored workshops, programs, and educational tools provided by experts to help 
 **Utilities**  
  Utility\-focused applications for various job roles\. 
 
-## Data products<a name="data-products"></a>
+## Data Products<a name="data-products"></a>
 
 The products in this category are sets of file\-based data\. For more information, see the [AWS Data Exchange User Guide](https://docs.aws.amazon.com/data-exchange/latest/userguide/what-is.html)\.
+
+## Industries<a name="industries"></a>
+
+**Education & Research**  
+ Products aimed at providing education and research solutions\. 
+
+**Financial Services**  
+ Products that enable financial services in your organization\. 
+
+**Healthcare & Life Sciences**  
+ Products used in the healthcare and life sciences industries\. 
+
+**Media & Entertainment**  
+ Media\-related products and solutions\. 
+
+**Industrial**  
+ Industry\-related products and solutions\. 
+
+**Energy**  
+ Energy\-related products and solutions\. 

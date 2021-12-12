@@ -1,6 +1,6 @@
 # Sharing subscriptions in an organization<a name="organizations-sharing"></a>
 
-When you subscribe to products in AWS Marketplace, an agreement is created that grants you license to use those products\. If your AWS account is a member of an organization, you can share that license for AMI, container, and machine learning products with the other accounts in that organization\. You must set up license support in AWS Marketplace, and then share from within AWS License Manager\.
+When you subscribe to products in AWS Marketplace, an agreement is created that grants you license to use those products\. If your AWS account is a member of an organization, you can share that license for Amazon Machine Image \(AMI\), container, and machine learning products with the other accounts in that organization\. You must set up license support in AWS Marketplace, and then share from within AWS License Manager\.
 
 **Note**  
 For more information about AWS Organizations, see the [AWS Organizations User Guide](https://docs.aws.amazon.com/organizations/latest/userguide/)\.  
@@ -15,7 +15,7 @@ The following topics outline the process of sharing the licenses across accounts
 ## Prerequisites for license sharing<a name="license-sharing-prereqs"></a>
 
 Before you can share licenses in AWS Marketplace you must set up license sharing for your organization\. Complete the following tasks to set up license sharing for your organization:
-+ Give AWS Marketplace permission to manage licenses on your behalf so that it can create the associated license grants when you purchase or share your licenses\. For more information, see [Service\-linked roles for AWS Marketplace](buyer-using-service-linked-roles.md)\.
++ Give AWS Marketplace permission to manage licenses on your behalf so that it can create the associated license grants when you purchase or share your licenses\. For more information, see [Using roles to share entitlements for AWS Marketplace](buyer-using-service-linked-roles-license-manager.md)\.
 + Set up AWS License Manager for first use\. For more information, see [ Getting started with AWS License Manager](https://docs.aws.amazon.com/license-manager/latest/userguide/getting-started.html) in the *AWS License Manager User Guide*\.
 
 ## Viewing and sharing your licenses<a name="view-share-licenses"></a>
@@ -40,9 +40,9 @@ You manage and share licenses using AWS License Manager\. However, you can use A
 
 **Note**  
 Subscriptions in AWS Marketplace have an **Access level** shown in the product details\. Products with an **Agreement** level have a license that you can use and share with other accounts in your organization\. Products with an **Entitlement** level are licenses that have been shared with your account—you can use these products, but you can't share them\.  
-Only AMI, container, and machine learning products will have licenses that can be shared\.
+Only AMI, container, and machine learning products have licenses that can be shared\.
 
-From License Manager, you can share your license with other accounts in your organization\. For more details about using License Manager with AWS managed licenses, see the [ Granted licenses](https://docs.aws.amazon.com/license-manager/latest/userguide/granted-licenses.html) and [Seller issued licenses](https://docs.aws.amazon.com/license-manager/latest/userguide/granted-licenses.html) topics in the *AWS License Manager User Guide*\.
+From License Manager, you can share your license with other accounts in your organization\. For more details about using License Manager with AWS managed licenses, see [ Granted licenses](https://docs.aws.amazon.com/license-manager/latest/userguide/granted-licenses.html) and [Seller issued licenses](https://docs.aws.amazon.com/license-manager/latest/userguide/granted-licenses.html) in the *AWS License Manager User Guide*\.
 
 **Note**  
-For products that are restricted to specific regions, an account you share your license with will only be able to activate the license if the account is within an allowed region\.
+For products that are restricted to specific AWS Regions, an account you share your license with can only activate the license if the account is within an allowed Region\.

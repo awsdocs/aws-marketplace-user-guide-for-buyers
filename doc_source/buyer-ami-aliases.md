@@ -2,7 +2,7 @@
 
 An Amazon Machine Image \(AMI\) is identified with an `AMI ID`\. You can use the `AMI ID` to indicate which AMI you want to use when launching a product\. The `AMI ID` has the form `ami-<identifier>`, for example, ami\-123example456\. Each version of each product in each AWS Region has a different AMI \(and different `AMI ID`\)\.
 
-When you launch a product from AWS Marketplace, the `AMI ID` is automatically filled in for you\. Having the `AMI ID` is useful if you want to automate launching products from the AWS Command Line Interface \(AWS CLI\) or by using Amazon Elastic Compute Cloud \(Amazon EC2\)\. You can find the `AMI ID` when you configure your software at launch time\. For more information, see [Step 2: Select your software configuration](buyer-getting-started.md#step-2-configure-your-software)\. 
+When you launch a product from AWS Marketplace, the `AMI ID` is automatically filled in for you\. Having the `AMI ID` is useful if you want to automate launching products from the AWS Command Line Interface \(AWS CLI\) or by using Amazon Elastic Compute Cloud \(Amazon EC2\)\. You can find the `AMI ID` when you configure your software at launch time\. For more information, see [Step 2: Configuring your software](buyer-getting-started.md#step-2-configure-your-software)\. 
 
 The `Ami Alias` is also in the same location as the `AMI ID`, when configuring your software\. The `Ami Alias` is a similar ID to the `AMI ID`, but it's easier to use in automation\. An `AMI alias` has the form `aws/service/marketplace/prod-<identifier>/<version>` , for example,` aws/service/marketplace/prod-1234example5678/12.2`\. You can use this `Ami Alias` Id in any Region, and AWS automatically maps it to the correct Regional `AMI ID`\. 
 

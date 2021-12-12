@@ -2,8 +2,15 @@
 
 The following table describes the documentation for this release of the *AWS Marketplace Buyer Guide*\.
 
+For notiﬁcation about updates to this documentation, you can subscribe to the RSS feed\.
+
 | Change | Description | Date | 
 | --- |--- |--- |
+| [Helm chart delivery method for container\-based products](https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-configuring-a-product.html#buyer-launch-container-helm) | Buyers can now launch container\-based products by installing a Helm chart in their launch environments\. | November 29, 2021 | 
+| [General updates and reorganization of container\-based product documentation](https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-what-is-aws-marketplace-for-containers.html.html) | Updated container\-based product documentation to add more information and clarity around finding, subscribing to, and launching container\-based products\. | November 29, 2021 | 
+| [Added documentation for QuickLaunch](https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-configuring-a-product.html#buyer-launch-container-quicklaunch) | Buyers can now use QuickLaunch when launching container\-based products with a Helm chart delivery method\. QuickLaunch is a feature in AWS Marketplace that leverages AWS CloudFormation to quickly create a new Amazon EKS cluster and launch a container\-based application on it\. | November 29, 2021 | 
+| [Contract pricing for AMI\-based products and container\-based products](https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-ami-contracts.html) | Buyers are now able to purchase an AMI\-based product or a Container\-based product with upfront pricing\. | November 17, 2021 | 
+| [Support for purchase orders in SaaS products](https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-purchase-orders.html) | AWS Marketplace supports adding purchase order numbers to purchases of software as a service \(SaaS\) contracts\. | October 28, 2021 | 
 | [Support for SAP Ariba integration](https://docs.aws.amazon.com/marketplace/latest/buyerguide/procurement-system-integration.html) | AWS Marketplace supports integration with the SAP Ariba procurement system\. | October 13, 2021 | 
 | [Support for AMI aliases](https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-ami-aliases) | AWS Marketplace supports using aliases for AMI IDs that can be used across regions\. | September 8, 2021 | 
 | [Removed unused permissions in managed policy](https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-security-iam-awsmanpol.html#security-iam-awsmanpol-awsprivatemarketplaceadminfullaccess) | Unused permissions from `AWSPrivateMarketplaceAdminFullAccess` AWS managed policy have been removed\. | August 27, 2021 | 

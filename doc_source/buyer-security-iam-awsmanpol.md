@@ -236,7 +236,7 @@ This policy grants contributor permissions that allow full access to the AWS Mar
 
 ## AWS managed policy: AWSMarketplaceLicenseManagementServiceRolePolicy<a name="security-iam-awsmanpol-awsmarketplacelicensemanagementservicerolepolicy"></a>
 
-You can't attach AWSMarketplaceLicenseManagementServiceRolePolicy to your IAM entities\. This policy is attached to a service\-linked role that allows AWS Marketplace to perform actions on your behalf\. For more information, see [Service\-linked roles for AWS Marketplace](buyer-using-service-linked-roles.md)\.
+You can't attach AWSMarketplaceLicenseManagementServiceRolePolicy to your IAM entities\. This policy is attached to a service\-linked role that allows AWS Marketplace to perform actions on your behalf\. For more information, see [Using service\-linked roles for AWS Marketplace](buyer-using-service-linked-roles.md)\.
 
 This policy grants contributor permissions that allow AWS Marketplace to manage licenses on your behalf\.
 

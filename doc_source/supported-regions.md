@@ -31,4 +31,4 @@ For software products, the seller chooses which AWS Regions to make their softwa
 +  Middle East 
   +  Middle East \(Bahrain\) 
 
- For more information on supported Regions for data products, see [Endpoints and AWS Regions](https://docs.aws.amazon.com/data-exchange/latest/userguide/limits.html#api-endpoints) in the *AWS Data Exchange User Guide*\.
+ For more information about supported Regions for data products, see [AWS Data Exchange endpoints and quotas](https://docs.aws.amazon.com/general/latest/gr/dataexchange.html) in the *AWS General Reference*\. 

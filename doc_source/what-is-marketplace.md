@@ -32,12 +32,15 @@ Many sellers offer the same standardized license terms on their listings, the *S
 The *Enterprise Contract for AWS Marketplace \(ECMP\)* offers standardized license terms that address the unique requirements of large enterprise and regulated buyers\.
 To learn more, see [Standardized License Terms](http://aws.amazon.com/marketplace/features/standardized-license-terms/)\.
 
-After the subscription is processed, you can configure fulfillment options, software versions, and AWS Regions where you want to use the product, and then launch the software product\. You can also find or launch your products by visiting [Your Marketplace Software](https://aws.amazon.com/marketplace/library?ref_=header_user_your_software) on the AWS Marketplace website, from your AWS Marketplace or Amazon Elastic Compute Cloud \(Amazon EC2\) console, or through AWS Service Catalog\. For more information about products and product categories available using AWS Marketplace, see the following: 
-+  [Product categories](buyer-product-categories.md)
+After the subscription is processed, you can configure fulfillment options, software versions, and AWS Regions where you want to use the product, and then launch the software product\. You can also find or launch your products by visiting [Your Marketplace Software](https://aws.amazon.com/marketplace/library?ref_=header_user_your_software) on the AWS Marketplace website, from your AWS Marketplace or Amazon Elastic Compute Cloud \(Amazon EC2\) console, or through AWS Service Catalog\. 
+
+For more information about product categories available using AWS Marketplace, see [Product categories](buyer-product-categories.md)\.
+
+For more information about delivery methods for software products on AWS Marketplace, see:
++  [AMI\-based server products](buyer-server-products.md) 
 +  [Container products](buyer-what-is-aws-marketplace-for-containers.md) 
 +  [Desktop products](buyer-desktop-products.md) 
 +  [Machine learning products](aws-machine-learning-marketplace.md) 
 +  [Professional services products](buyer-proserv-products.md) 
 +  [SaaS products](buyer-saas-products.md)
-+  [AMI\-based server products](buyer-server-products.md) 
-+ [What is AWS Data Exchange?](https://docs.aws.amazon.com/data-exchange/latest/userguide/what-is.html) in the *AWS Data Exchange User Guide*
++ Data products – See [What is AWS Data Exchange?](https://docs.aws.amazon.com/data-exchange/latest/userguide/what-is.html) in the *AWS Data Exchange User Guide*
