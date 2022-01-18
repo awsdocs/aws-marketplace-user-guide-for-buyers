@@ -41,7 +41,7 @@ Amazon's trademarks and trade dress may not be used in
    + [SaaS products](buyer-saas-products.md)
    + [Data products](buyer-data-products.md)
 + [Paying for products](buyer-paying-for-products.md)
-   + [Specifying purchase order numbers](buyer-purchase-orders.md)
+   + [Specifying purchase order numbers for SaaS contract products](buyer-purchase-orders.md)
    + [Information about refunds](buyer-refunds.md)
 + [Cost allocation tagging](cost-allocation-tagging.md)
 + [Private marketplaces](private-marketplace.md)

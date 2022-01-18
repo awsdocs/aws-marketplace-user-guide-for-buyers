@@ -24,7 +24,15 @@ You can purchase software products at the listed price using the ISV’s standar
 
 As a buyer, you go to [AWS Marketplace](https://aws.amazon.com/marketplace) to search, filter, and navigate to a product that runs on Amazon Web Services\. You can also find AWS Marketplace products on Deloitte and DLT\.
 
-When you choose a software product, you are taken to the product’s page\. The page has information about the product, pricing, usage, support, and product reviews\. To subscribe to the software product, you log in to your AWS account and are taken to a subscription page that has the EULA, terms and conditions of usage, and any options available for customizing your subscription\. 
+When you choose a software product, you are taken to the product’s page\. The page has information about the product, pricing, usage, support, and product reviews\. To subscribe to the software product, you sign in to your AWS account and are taken to a subscription page that has the EULA, terms and conditions of usage, and any options available for customizing your subscription\. 
+
+AWS Marketplace purchases made by your accounts based in Europe, the Middle East, and Africa \(excluding Turkey and South Africa\) from EMEA\-eligible sellers are facilitated by Amazon Web Services EMEA SARL\.
+
+For customers in certain countries, Amazon Web Services EMEA SARL charges local value\-added tax \(VAT\) on your AWS Marketplace purchases\. For more information about taxes, see the [AWS Marketplace Buyers Tax help page](https://aws.amazon.com/tax-help/marketplace-buyers/)\.
+
+For more information about Amazon Web Services EMEA SARL, see the [Amazon Web Services EMEA SARL FAQs](https://aws.amazon.com/legal/aws-emea/)\.
+
+Customers who transact with EMEA\-eligible sellers receive an invoice from Amazon Web Services EMEA SARL\. All other transactions continue to go through AWS Inc\.For more information, see [Paying for products](https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-paying-for-products.html)\.
 
 **Tip**  
 Note the following tips about license terms and contracts:  
@@ -32,7 +40,7 @@ Many sellers offer the same standardized license terms on their listings, the *S
 The *Enterprise Contract for AWS Marketplace \(ECMP\)* offers standardized license terms that address the unique requirements of large enterprise and regulated buyers\.
 To learn more, see [Standardized License Terms](http://aws.amazon.com/marketplace/features/standardized-license-terms/)\.
 
-After the subscription is processed, you can configure fulfillment options, software versions, and AWS Regions where you want to use the product, and then launch the software product\. You can also find or launch your products by visiting [Your Marketplace Software](https://aws.amazon.com/marketplace/library?ref_=header_user_your_software) on the AWS Marketplace website, from your AWS Marketplace or Amazon Elastic Compute Cloud \(Amazon EC2\) console, or through AWS Service Catalog\. 
+After the subscription is processed, you can configure fulfillment options, software versions, and AWS Regions where you want to use the product, and then launch the software product\. You can also find or launch your products by visiting [Your Marketplace Software](https://aws.amazon.com/marketplace/library?ref_=header_user_your_software) on the AWS Marketplace website, from your AWS Marketplace or Amazon Elastic Compute Cloud \(Amazon EC2\) console, or through the AWS Service Catalog\. 
 
 For more information about product categories available using AWS Marketplace, see [Product categories](buyer-product-categories.md)\.
 

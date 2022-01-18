@@ -1,11 +1,8 @@
 # Paying for products<a name="buyer-paying-for-products"></a>
 
-Your AWS Marketplace purchases are displayed in the currency you specified for your AWS account\. You can change your preferred currency for your account in the AWS Billing and Cost Management console\. For instructions, see [Changing which currency you use to pay your bill](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/manage-account-payment.html#manage-account-payment-change-currency) in the *AWS Billing and Cost Management User Guide*\.
+At the beginning of the month, you receive a bill from Amazon Web Services \(AWS\) for your AWS Marketplace charges\. For software products, the bill includes a calculation of the hourly fee for the software multiplied by the number of hours any Amazon Machine Image \(AMI\) instance with this software runs\. You also receive a bill for usage of AWS infrastructure services such as Amazon Elastic Compute Cloud \(Amazon EC2\), Amazon Simple Storage Service \(Amazon S3\), Amazon Elastic Block Store \(Amazon EBS\), and for bandwidth\. 
 
-**Note**  
- Changing your preferred currency changes your remittance instructions\. To view updated remittance instructions, see your AWS Marketplace invoice or view the **Account Settings** page in the [AWS Billing and Cost Management](https://console.aws.amazon.com/billing/home?#account) console\.
-
-At the beginning of the month, you receive a bill from Amazon Web Services \(AWS\) for your AWS Marketplace charges\. For software products, the bill includes a calculation of the hourly fee for the software multiplied by the number of hours any Amazon Machine Image \(AMI\) instance with this software runs\. You also receive a bill for usage of AWS infrastructure services such as Amazon Elastic Compute Cloud \(Amazon EC2\), Amazon Simple Storage Service \(Amazon S3\), Amazon Elastic Block Store \(Amazon EBS\), and bandwidth\. 
+If your AWS account is based in Europe, the Middle East, and Africa \(EMEA\), excluding Turkey and South Africa, and your purchase is from an EMEA\-eligible seller, you receive a bill from Amazon Web Services EMEA SARL \(AWS Europe\)\. Otherwise, you receive a bill from AWS Inc\. 
 
 **Note**  
 For contract purchases, the invoice for the subscription fees happens at the time of subscription, rather than in the consolidated monthly bill\. Flexible payments on contracts are invoiced at the time of the scheduled payment\. For contracts that have usage components \(pay as you go\), the usage appears in your consolidated monthly bill\.
@@ -18,6 +15,40 @@ For more information about subscribing to data products, see [Subscribing to dat
 
 For more information about paying your AWS bill, see the [AWS Billing and Cost Management User Guide](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-what-is.html)\.
 
+For more information about managing your payments in Amazon Web Services EMEA SARL \(AWS Europe\), see [Managing your payments in AWSEurope](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/emea-payments.html) in the *AWS Billing and Cost Management User Guide*\.
+
 **Topics**
-+ [Specifying purchase order numbers](buyer-purchase-orders.md)
++ [Specifying purchase order numbers for SaaS contract products](buyer-purchase-orders.md)
 + [Information about refunds](buyer-refunds.md)
++ [Changing your preferred currency](#changing-your-preferred-currency)
++ [Updating remittance instructions](#Updating-remittance-instructions)
+
+## Changing your preferred currency<a name="changing-your-preferred-currency"></a>
+
+Your AWS Marketplace purchases are displayed in the currency that you specified for your AWS account\. You can change your preferred currency for your account in the [AWS Billing and Cost Management console](https://console.aws.amazon.com/billing/home?account)\. For instructions, see [Changing which currency you use to pay your bill](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/manage-account-payment.html#manage-account-payment-change-currency) in the *AWS Billing and Cost Management User Guide*\.
+
+**Note**  
+Changing your preferred currency changes your remittance instructions\. To view updated remittance instructions, see your AWS Marketplace invoice or view the **Account Settings** page in the [AWS Billing and Cost Management console](https://console.aws.amazon.com/billing/home?account)\.
+
+## Updating remittance instructions<a name="Updating-remittance-instructions"></a>
+
+Customers with AWS accounts based in Europe, the Middle East, and Africa \(EMEA\), excluding Turkey and South Africa, who have purchased software products from EMEA\-eligible sellers receive a bill from Amazon Web Services EMEA SARL\. Amazon Web Services EMEA SARL \(AWS Europe\) invoices have different remittance instructions from AWS, Inc\. You can find remittance information on your bills when signed in to the [AWS Billing and Cost Management console](https://console.aws.amazon.com/billing/)\. The bank accounts listed under the remittance information portion of the invoice are different from AWS Cloud services purchases through Amazon Web Services EMEA SARL\. Amazon Web Services EMEA SARL uses Amazon Payments Europe, S\.C\.A\., a licensed electronic money institution in Luxembourg, as its payment processor for AWS Marketplace invoices\. All invoices must be settled in full\. Any payments that don't cover the full invoice amount will be refunded to your bank account\.
+
+The following table outlines the transaction types, the transacting entity, and the corresponding remittance instructions \(**Account Name** listed under **Electronic funds transfer details** on the invoice\)\.
+
+
+| Type of transaction | Transacting entity | Remittance instructions  | 
+| --- | --- | --- | 
+| AWS Cloud services purchases | Amazon Web Services EMEA SARL | Amazon Web Services EMEA SARL | 
+| Eligible AWS Marketplace seller | Amazon Web Services EMEA SARL | Amazon Payments Europe, S\.C\.A\.  | 
+| Ineligible AWS Marketplace seller | AWS Inc\. | AWS | 
+
+To request a bank letter for the remittance instructions, select **Billing or account support** and create an **Account and billing support** case at [Contact AWS](https://aws.amazon.com/contact-us/) or send an email message to awslux\-receivables\-support@email\.amazon\.com\.
+
+Amazon Web Services EMEA SARL supports the following currencies: US dollar \(USD\), euro \(EUR\), British pound sterling \(GBP\), Swiss franc \(CHF\), Danish krone \(DKK\), Norwegian krone \(NOK\), Swedish krona \(SEK\), and South African Rand \(ZAR\)\. If you currently pay in an unsupported currency, your future invoices will be in US dollars\.
+
+For more information about how to change your currency preference to a supported currency, see [Changing which currency you use to pay your bill](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/manage-account-payment.html#manage-account-payment-change-currency) in the *AWS* Billing User Guide\. 
+
+If your AWS account is based in EMEA, you can pay for your AWS Marketplace purchases through a Single EU Payment Account \(SEPA\) direct debit\. In addition, Amazon Web Services EMEA SARL accepts payments by electronic funds transfer, by MasterCard, VISA, and American Express credit cards\. Diner's Club or Discover credit cards are not accepted\. 
+
+For more information, see [AWS Marketplace Buyer Tax Help](http://aws.amazon.com/tax-help/marketplace-buyers/)\.

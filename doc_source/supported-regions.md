@@ -11,16 +11,16 @@ For software products, the seller chooses which AWS Regions to make their softwa
   +  Canada \(Central\) 
 + Africa
   + Africa \(Cape Town\)
-+  South America 
++ South America 
   +  South America \(São Paulo\) 
-+  EMEA 
++ EMEA 
   +  Europe \(Frankfurt\) 
   +  Europe \(Ireland\) 
   +  Europe \(London\) 
   + Europe \(Milan\)
   +  Europe \(Paris\) 
   +  Europe \(Stockholm\) 
-+  APAC 
++ APAC 
   +  Asia Pacific \(Singapore\) 
   +  Asia Pacific \(Sydney\) 
   +  Asia Pacific \(Mumbai\) 
@@ -28,6 +28,7 @@ For software products, the seller chooses which AWS Regions to make their softwa
   +  Asia Pacific \(Seoul\) 
   +  Asia Pacific \(Hong Kong\) 
   + Asia Pacific \(Osaka\)
+  + Asia Pacific \(Jakarta\)
 +  Middle East 
   +  Middle East \(Bahrain\) 
 

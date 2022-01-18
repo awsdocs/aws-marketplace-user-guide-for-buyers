@@ -5,7 +5,11 @@ After you have an active subscription to a container product in AWS Marketplace,
  You can see which fulfillment options are available in the **Usage Information** section of the product details page in AWS Marketplace\. Each fulfillment option includes information about which services are supported and provides software version details\. Examples of services include Amazon Elastic Container Service \(Amazon ECS\) and Amazon Elastic Kubernetes Service \(Amazon EKS\)\. You can choose **Usage instructions** to see documentation from the seller about how to use the product, such as how to sign in to a web server, or post\-launch configuration\.
 
 **Note**  
-For a walkthrough showing how to subscribe to and deploy a container\-based product, you can also refer to the video [ Deploying AWS Marketplace Containers on Amazon ECS Clusters](https://www.youtube.com/watch?v=XaiUAiQQJtk) \(3:34\)\.
+For a walkthrough showing how to subscribe to and deploy a container\-based product, you can also refer to the following videos:  
+[ Deploying AWS Marketplace Containers on Amazon ECS Clusters](https://www.youtube.com/watch?v=XaiUAiQQJtk) \(3:34\)
+[ Deploying AWS Marketplace Container\-based Products using Amazon ECS Anywhere](https://www.youtube.com/watch?v=9SFjG2UaxXs) \(5:07\)
+
+[![AWS Videos](http://img.youtube.com/vi/https://www.youtube.com/embed/9SFjG2UaxXs/0.jpg)](http://www.youtube.com/watch?v=https://www.youtube.com/embed/9SFjG2UaxXs)
 
 ## Launch container software from AWS Marketplace<a name="buyer-launching-a-product"></a>
 

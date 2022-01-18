@@ -458,6 +458,6 @@ View details about updates to AWS managed policies for AWS Marketplace since thi
 
 | Change | Description | Date | 
 | --- | --- | --- | 
-|  [ AWSPrivateMarketplaceAdminFullAccess](#security-iam-awsmanpol-awsprivatemarketplaceadminfullaccess) – Update to an existing policy  |  AWS Marketplace removed unused permissions in the `AWSPrivateMarketplaceAdminFullAccess` policy\.  | August 27, 2021 | 
-|  [ AWSMarketplaceFullAccess](#security-iam-awsmanpol-awsmarketplacefullaccess) – Update to an existing policy  |  AWS Marketplace removed a duplicate `ec2:DescribeAccountAttributes` permission from `AWSMarketplaceFullAccess` policy\.  | July 20, 2021 | 
+|  [AWSPrivateMarketplaceAdminFullAccess](#security-iam-awsmanpol-awsprivatemarketplaceadminfullaccess) – Update to an existing policy  |  AWS Marketplace removed unused permissions in the `AWSPrivateMarketplaceAdminFullAccess` policy\.  | August 27, 2021 | 
+|  [AWSMarketplaceFullAccess](#security-iam-awsmanpol-awsmarketplacefullaccess) – Update to an existing policy  |  AWS Marketplace removed a duplicate `ec2:DescribeAccountAttributes` permission from `AWSMarketplaceFullAccess` policy\.  | July 20, 2021 | 
 |  AWS Marketplace started tracking changes  |  AWS Marketplace started tracking changes for its AWS managed policies\.  | April 20, 2021 | 

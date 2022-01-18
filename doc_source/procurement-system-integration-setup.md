@@ -6,7 +6,7 @@ To configure the integration between AWS Marketplace and your procurement system
 
 ## Configuring IAM permissions<a name="procurement-system-integration-setup-iam-permissions"></a>
 
- The following IAM permissions are in the [ AWS managed policy: AWSMarketplaceProcurementSystemAdminFullAccess](buyer-security-iam-awsmanpol.md#security-iam-awsmanpol-awsmarketplaceprocurementsystemadminfullaccess) managed policy and are required to configure the integration between AWS Marketplace and a procurement system\. 
+ The following IAM permissions are in the [AWS managed policy: AWSMarketplaceProcurementSystemAdminFullAccess](buyer-security-iam-awsmanpol.md#security-iam-awsmanpol-awsmarketplaceprocurementsystemadminfullaccess) managed policy and are required to configure the integration between AWS Marketplace and a procurement system\. 
 
 ```
 {
