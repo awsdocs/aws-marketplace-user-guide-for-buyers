@@ -24,9 +24,9 @@ The following tutorial describes how to buy an Amazon Machine Image \(AMI\) prod
 
 ### Step 1: Creating an AWS account<a name="step-1-creating-an-aws-account"></a>
 
-You can shop on the AWS Marketplace website \([https://aws\.amazon\.com/marketplace](https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-paying-for-products.html)\) without being signed in to your AWS account\. However, you must sign in to subscribe to or launch products\.
+You can browse the AWS Marketplace website \([https://aws\.amazon\.com/marketplace](https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-paying-for-products.html)\) without being signed in to your AWS account\. However, you must sign in to subscribe to or launch products\.
 
-You must be signed in to your AWS account to view the AWS Marketplace console\.
+You must be signed in to your AWS account to access the AWS Marketplace console\.
 
 **To create an AWS account**
 
