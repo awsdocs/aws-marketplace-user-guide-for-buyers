@@ -121,7 +121,7 @@ The following IAM permissions are required in the IAM policy\.
 
 **To view a generated license**
 
-1. Sign in to to AWS License Manager with your AWS account\.
+1. Sign in to AWS License Manager with your AWS account\.
 
 1. Under **Granted licenses**, view all of your granted licenses\.
 
@@ -130,3 +130,38 @@ The following IAM permissions are required in the IAM policy\.
 1. Choose the **License ID** and view the **License details**\. 
 
 1. You can view the **Issuer** \(AWS/Marketplace\)and the **Entitlements** \(the units that the license grants the right to use, access, or consume an application or resource\)\. 
+
+## Modifying an existing contract<a name="modify-existing-contract"></a>
+
+### <a name="modify-existing-contract"></a>
+
+If they have an existing upfront commitment for an AMI product, AWS Marketplace buyers can modify some aspects of a contract\. An AMI contract is supported through contract terms based offers as opposed to hourly or annual flexible consumption pricing \(FCP\) offers\. This feature is available only to applications that are integrated with AWS License Manager\. Buyers can purchase additional licenses within the entitlement of the same offer in the current contract\. However, buyers can't reduce the entitlement counts purchased in the contract\. Buyers can also cancel the automatic subscription renewal if the option is enabled by the Seller\. 
+
+**Note**  
+A flexible payment schedule \(FPS\) contract offer can't be modified\. There are no entitlement changes available to the buyer for an FPS purchased contract\. An entitlement is a right to use, access, or consume an application or resource\. FPS offers are not changeable\.
+
+**Manage your subscription**
+
+1. On the AWS Marketplace console, navigate to **View Subscription** and view the license for the software product\. 
+
+1. On the **Procurement** page, select **Manage License**\.
+
+1. From the list, select **View Terms**\.
+
+1. In the **Contract options** section, increase your entitlements by using the arrows\. You can't reduce the entitlement counts below the entitlements purchased\.
+
+1. The contract details and total price displays in the **Pricing details** section\.
+
+
+
+**To cancel your automatic subscription renewal**
+
+1. On the AWS Marketplace console, navigate to **View Subscription** and view the license for the software product\. 
+
+1. On the **Procurement** page, select **Manage License**\.
+
+1. On the **Subscription** page, locate the **Renewal Settings** section\.
+
+1. Ensure you understand the terms and conditions with cancellation\.
+
+1. Select the check box to cancel the automatic renewal\.

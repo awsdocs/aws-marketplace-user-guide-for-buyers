@@ -15,17 +15,51 @@ For more information about subscribing to data products, see [Subscribing to dat
 
 For more information about paying your AWS bill, see the [AWS Billing and Cost Management User Guide](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-what-is.html)\.
 
-For more information about managing your payments in Amazon Web Services EMEA SARL \(AWS Europe\), see [Managing your payments in AWSEurope](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/emea-payments.html) in the *AWS Billing and Cost Management User Guide*\.
+For more information about managing your payments in Amazon Web Services EMEA SARL \(AWS Europe\), see [Managing your payments in AWSEurope](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/emea-payments.html) in the *AWS Billing User Guide*\.
 
 **Topics**
 + [Specifying purchase order numbers for SaaS contract products](buyer-purchase-orders.md)
 + [Information about refunds](buyer-refunds.md)
++ [Supported currencies](#supported-currencies)
 + [Changing your preferred currency](#changing-your-preferred-currency)
 + [Updating remittance instructions](#Updating-remittance-instructions)
 
+## Supported currencies<a name="supported-currencies"></a>
+
+The following lists include all existing supported currencies for AWS and Amazon Web Services EMEA SARL\.
+
+**Note**  
+The Indian rupee \(INR\) is not a supported currency because Amazon Internet Services Private Limited \(AISPL\) isn't currently supported on AWS Marketplace\. For more information, see [What are the differences between AWS accounts and AISPL accounts](http://aws.amazon.com/premiumsupport/knowledge-center/aws-aispl-differences/)\.
+
+The supported currencies for Amazon Web Services are as follows:
++ Australian dollar \(AUD\)
++ British pound \(GBP\)
++ Canadian dollar \(CAD\) 
++ Danish krone \(DKK\)
++ Euro \(EUR\)
++ Hong Kong dollar \(HKD\)
++ Japanese yen \(JPY\)
++ New Zealand dollar \(NZD\)
++ Norwegian krone \(NOK\)
++ Singapore dollar \(SGD\)
++ South African rand \(ZAR\)
++ Swedish krona \(SEK\)
++ Swiss franc \(CHF\)
++ US dollar \(USD\)
+
+The supported currencies for Amazon Web Services EMEA SARL are as follows:
++ British pound \(GBP\)
++ Danish krone \(DKK\)
++ Euro \(EUR\)
++ Norwegian krone \(NOK\)
++ South African rand \(ZAR\)
++ Swedish krona \(SEK\)
++ Swiss franc \(CHF\)
++ US dollar \(USD\)
+
 ## Changing your preferred currency<a name="changing-your-preferred-currency"></a>
 
-Your AWS Marketplace purchases are displayed in the currency that you specified for your AWS account\. You can change your preferred currency for your account in the [AWS Billing and Cost Management console](https://console.aws.amazon.com/billing/home?account)\. For instructions, see [Changing which currency you use to pay your bill](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/manage-account-payment.html#manage-account-payment-change-currency) in the *AWS Billing and Cost Management User Guide*\.
+Your AWS Marketplace purchases are displayed in the currency that you specified for your AWS account\. You can change your preferred currency for your account in the [AWS Billing and Cost Management console](https://console.aws.amazon.com/billing/home?account)\. For instructions, see [Changing which currency you use to pay your bill](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/manage-account-payment.html#manage-account-payment-change-currency) in the *AWS Billing User Guide*\.
 
 **Note**  
 Changing your preferred currency changes your remittance instructions\. To view updated remittance instructions, see your AWS Marketplace invoice or view the **Account Settings** page in the [AWS Billing and Cost Management console](https://console.aws.amazon.com/billing/home?account)\.
@@ -44,8 +78,6 @@ The following table outlines the transaction types, the transacting entity, and 
 | Ineligible AWS Marketplace seller | AWS Inc\. | AWS | 
 
 To request a bank letter for the remittance instructions, select **Billing or account support** and create an **Account and billing support** case at [Contact AWS](https://aws.amazon.com/contact-us/) or send an email message to awslux\-receivables\-support@email\.amazon\.com\.
-
-Amazon Web Services EMEA SARL supports the following currencies: US dollar \(USD\), euro \(EUR\), British pound sterling \(GBP\), Swiss franc \(CHF\), Danish krone \(DKK\), Norwegian krone \(NOK\), Swedish krona \(SEK\), and South African Rand \(ZAR\)\. If you currently pay in an unsupported currency, your future invoices will be in US dollars\.
 
 For more information about how to change your currency preference to a supported currency, see [Changing which currency you use to pay your bill](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/manage-account-payment.html#manage-account-payment-change-currency) in the *AWS* Billing User Guide\. 
 

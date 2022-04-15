@@ -4,7 +4,7 @@ To add permissions to users, groups, and roles, it is easier to use AWS managed 
 
 AWS services maintain and update AWS managed policies\. You can't change the permissions in AWS managed policies\. Services occasionally add additional permissions to an AWS managed policy to support new features\. This type of update affects all identities \(users, groups, and roles\) where the policy is attached\. Services are most likely to update an AWS managed policy when a new feature is launched or when new operations become available\. Services do not remove permissions from an AWS managed policy, so policy updates won't break your existing permissions\.
 
-Additionally, AWS supports managed policies for job functions that span multiple services\. For example, the **ViewOnlyAccess** AWS managed policy provides read\-only access to many AWS services and resources\. When a service launches a new feature, AWS adds read\-only permissions for new operations and resources\. For a list and descriptions of job function policies, see [AWS managed policies for job functions](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_job-functions.html) in the *IAM User Guide*\.
+Additionally, AWS supports managed policies for job functions that span multiple services\. For example, the `ViewOnlyAccess` AWS managed policy provides read\-only access to many AWS services and resources\. When a service launches a new feature, AWS adds read\-only permissions for new operations and resources\. For a list and descriptions of job function policies, see [AWS managed policies for job functions](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_job-functions.html) in the *IAM User Guide*\.
 
 This section lists each of the policies used to manage buyer access to AWS Marketplace\. For information about seller policies, see [AWS managed policies for AWS Marketplace sellers](https://docs.aws.amazon.com/marketplace/latest/userguide/security-iam-awsmanpol.html) in the *AWS Marketplace Seller Guide*\.
 
@@ -73,11 +73,7 @@ This policy grants administrative permissions that allow full access to AWS Mark
                 "ec2:CreateImage",
                 "ec2:DescribeInstanceStatus",
                 "ssm:GetAutomationExecution",
-                "ssm:UpdateDocumentDefaultVersion",
-                "ssm:CreateDocument",
-                "ssm:StartAutomationExecution",
                 "ssm:ListDocuments",
-                "ssm:UpdateDocument",
                 "ssm:DescribeDocument",
                 "sns:ListTopics",
                 "sns:GetTopicAttributes",
@@ -88,6 +84,22 @@ This policy grants administrative permissions that allow full access to AWS Mark
                 "iam:ListInstanceProfiles"
             ],
             "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "ssm:StartAutomationExecution"
+            ],
+            "Resource": [
+                "arn:aws:ssm:eu-central-1:906690553262:automation-definition/*",
+                "arn:aws:ssm:us-east-1:058657716661:automation-definition/*",
+                "arn:aws:ssm:ap-northeast-1:340648487307:automation-definition/*",
+                "arn:aws:ssm:eu-west-1:564714592864:automation-definition/*",
+                "arn:aws:ssm:us-west-2:243045473901:automation-definition/*",
+                "arn:aws:ssm:ap-southeast-2:362149219987:automation-definition/*",
+                "arn:aws:ssm:eu-west-2:587945719687:automation-definition/*",
+                "arn:aws:ssm:us-east-2:134937423163:automation-definition/*"
+            ]
         },
         {
             "Effect": "Allow",
@@ -118,8 +130,33 @@ This policy grants administrative permissions that allow full access to AWS Mark
             "Condition": {
                 "StringLike": {
                     "iam:PassedToService": [
-                        "ec2.amazonaws.com",
+                        "ec2.amazonaws.com"
+                    ]
+                }
+            }
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "iam:PassRole"
+            ],
+            "Resource": [
+                "*"
+            ],
+            "Condition": {
+                "StringLike": {
+                    "iam:PassedToService": [
                         "ssm.amazonaws.com"
+                    ],
+                    "iam:AssociatedResourceARN": [
+                "arn:aws:ssm:eu-central-1:906690553262:automation-definition/*",
+                "arn:aws:ssm:us-east-1:058657716661:automation-definition/*",
+                "arn:aws:ssm:ap-northeast-1:340648487307:automation-definition/*",
+                "arn:aws:ssm:eu-west-1:564714592864:automation-definition/*",
+                "arn:aws:ssm:us-west-2:243045473901:automation-definition/*",
+                "arn:aws:ssm:ap-southeast-2:362149219987:automation-definition/*",
+                "arn:aws:ssm:eu-west-2:587945719687:automation-definition/*",
+                "arn:aws:ssm:us-east-2:134937423163:automation-definition/*"
                     ]
                 }
             }
@@ -132,7 +169,7 @@ This policy grants administrative permissions that allow full access to AWS Mark
 
 You can attach the `AWSMarketplaceImageBuildFullAccess` policy to your IAM identities\.
 
-This policy grants contributor permissions that allow full access to the AWS Marketplace private image build feature\. In addition to creating private images, it also provides permisions to add tags to images, and to launch and terminate Amazon EC2 instances\.
+This policy grants contributor permissions that allow full access to the AWS Marketplace private image build feature\. In addition to creating private images, it also provides permissions to add tags to images, and to launch and terminate Amazon EC2 instances\.
 
 **Permissions details**
 
@@ -169,8 +206,7 @@ This policy grants contributor permissions that allow full access to the AWS Mar
             "Condition": {
                 "StringEquals": {
                     "iam:PassedToService": [
-                        "ec2.amazonaws.com",
-                        "ssm.amazonaws.com"
+                        "ec2.amazonaws.com"
                     ]
                 }
             }
@@ -178,12 +214,8 @@ This policy grants contributor permissions that allow full access to the AWS Mar
         {
             "Effect": "Allow",
             "Action": [
-                "ssm:GetAutomationExecution",
-                "ssm:CreateDocument",
-                "ssm:StartAutomationExecution",
-                "ssm:ListDocuments",
-                "ssm:UpdateDocument",
-                "ssm:UpdateDocumentDefaultVersion",
+                "ssm:GetAutomationExecution",                
+                "ssm:ListDocuments",                
                 "ssm:DescribeDocument",
                 "ec2:DeregisterImage",
                 "ec2:CopyImage",
@@ -200,6 +232,22 @@ This policy grants contributor permissions that allow full access to the AWS Mar
                 "iam:GetInstanceProfile"
             ],
             "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "ssm:StartAutomationExecution"
+            ],
+            "Resource": [
+                "arn:aws:ssm:eu-central-1:906690553262:automation-definition/*",
+                "arn:aws:ssm:us-east-1:058657716661:automation-definition/*",
+                "arn:aws:ssm:ap-northeast-1:340648487307:automation-definition/*",
+                "arn:aws:ssm:eu-west-1:564714592864:automation-definition/*",
+                "arn:aws:ssm:us-west-2:243045473901:automation-definition/*",
+                "arn:aws:ssm:ap-southeast-2:362149219987:automation-definition/*",
+                "arn:aws:ssm:eu-west-2:587945719687:automation-definition/*",
+                "arn:aws:ssm:us-east-2:134937423163:automation-definition/*"
+            ]
         },
         {
             "Effect": "Allow",
@@ -229,6 +277,49 @@ This policy grants contributor permissions that allow full access to the AWS Mar
             "Resource": [
                 "arn:aws:sns:*:*:*image-build*"
             ]
+        }
+        {
+            "Effect": "Allow",
+            "Action": [
+                "iam:PassRole"
+            ],
+            "Resource": [
+                "*"
+            ],
+            "Condition": {
+                "StringLike": {
+                    "iam:PassedToService": [
+                        "ssm.amazonaws.com"
+                    ],
+                    "iam:AssociatedResourceARN": [
+                "arn:aws:ssm:eu-central-1:906690553262:automation-definition/*",
+                "arn:aws:ssm:us-east-1:058657716661:automation-definition/*",
+                "arn:aws:ssm:ap-northeast-1:340648487307:automation-definition/*",
+                "arn:aws:ssm:eu-west-1:564714592864:automation-definition/*",
+                "arn:aws:ssm:us-west-2:243045473901:automation-definition/*",
+                "arn:aws:ssm:ap-southeast-2:362149219987:automation-definition/*",
+                "arn:aws:ssm:eu-west-2:587945719687:automation-definition/*",
+                "arn:aws:ssm:us-east-2:134937423163:automation-definition/*"
+                    ]
+                }
+            }
+        },
+        {
+            "Effect": "Deny",
+            "Action": [
+                "ec2:CreateTags"
+            ],
+            "Resource": [
+                "arn:aws:ec2:*:*:instance/*"
+            ],
+            "Condition": {
+                "StringLike": {
+                    "aws:RequestTag/marketplace-image-build:build-id": "*"
+                },
+                "StringNotEquals": {
+                    "ec2:CreateAction": "RunInstances"
+                }
+            }
         }
     ]
 }
@@ -458,6 +549,7 @@ View details about updates to AWS managed policies for AWS Marketplace since thi
 
 | Change | Description | Date | 
 | --- | --- | --- | 
+|  [AWSMarketplaceFullAccess](#security-iam-awsmanpol-awsmarketplacefullaccess) and [AWSMarketplaceImageBuildFullAccess](#security-iam-awsmanpol-awsmarketplaceimagebuildfullaccess) – Updates to an existing policies  |  AWS Marketplace removed no longer needed permissions to improve security\.  | March 4, 2022 | 
 |  [AWSPrivateMarketplaceAdminFullAccess](#security-iam-awsmanpol-awsprivatemarketplaceadminfullaccess) – Update to an existing policy  |  AWS Marketplace removed unused permissions in the `AWSPrivateMarketplaceAdminFullAccess` policy\.  | August 27, 2021 | 
 |  [AWSMarketplaceFullAccess](#security-iam-awsmanpol-awsmarketplacefullaccess) – Update to an existing policy  |  AWS Marketplace removed a duplicate `ec2:DescribeAccountAttributes` permission from `AWSMarketplaceFullAccess` policy\.  | July 20, 2021 | 
 |  AWS Marketplace started tracking changes  |  AWS Marketplace started tracking changes for its AWS managed policies\.  | April 20, 2021 | 

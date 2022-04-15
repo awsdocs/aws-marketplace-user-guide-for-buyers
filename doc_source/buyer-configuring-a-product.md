@@ -54,7 +54,7 @@ For a fulfillment option with a **Container image** delivery method, use the sel
 For a fulfillment option with a **Helm** delivery method, use the seller\-provided instructions to launch the product by installing a Helm chart using the Helm CLI\. You can launch the application on an existing Amazon EKS cluster, or a self\-managed cluster on EKS Anywhere, Amazon Elastic Compute Cloud \(Amazon EC2\), or on\-premises\.
 
 **Note**  
-The Helm CLI version in your launch environment must be less than 3\.7, for a list of Helm versions, see [Helm releases on GitHub](https://github.com/helm/helm/releases)\.
+Your launch environment must use Helm CLI version 3\.7\.1\. For a list of Helm versions, see [Helm releases on GitHub](https://github.com/helm/helm/releases)\.
 
 If the seller has enabled QuickLaunch, you can use it to launch the application\. QuickLaunch is a feature in AWS Marketplace that leverages AWS CloudFormation to quickly create an Amazon EKS cluster and launch the application on it\. For more information about QuickLaunch, see [QuickLaunch in AWS Marketplace](#buyer-launch-container-quicklaunch)\.
 
@@ -70,7 +70,7 @@ The instructions are provided by the seller and are different for each seller an
 
 1. If launching in an **Amazon managed Kubernetes** cluster:
 
-   1. To launch on an existing cluster in Amazon EKS, choose **Launch on existing cluster** and follow the provided instructions\. The instructions include creating an AWS Identity and Access Management \(IAM\) role and launching the application\. Ensure that you're using a Helm CLI version less than 3\.7\.
+   1. To launch on an existing cluster in Amazon EKS, choose **Launch on existing cluster** and follow the provided instructions\. The instructions include creating an AWS Identity and Access Management \(IAM\) role and launching the application\. Ensure that you're using Helm CLI version 3\.7\.1\.
 
    1. To use QuickLaunch to create a new Amazon EKS cluster and launch on it, choose **Launch on a new Amazon EKS cluster with QuickLaunch**\. Choose **Launch** to be redirected to create a stack in the AWS CloudFormation console\. This stack will create an Amazon EKS cluster and deploy the application by installing the seller\-provided Helm chart\.
 
@@ -82,7 +82,7 @@ For more information about QuickLaunch, including information about AWS CloudFor
 
 1. If launching in a **Self\-managed Kubernetes** cluster:
 
-   1. Ensure that you're using a Helm CLI version less than 3\.7\.
+   1. Ensure that you're using Helm CLI version 3\.7\.1\.
 
    1. Choose **Create token** to generate a license token and IAM role\. This token and role is used to communicate with AWS License Manager to validate product entitlements\.
 **Note**  

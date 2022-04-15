@@ -1,16 +1,22 @@
 # Sharing subscriptions in an organization<a name="organizations-sharing"></a>
 
-When you subscribe to products in AWS Marketplace, an agreement is created that grants you license to use those products\. If your AWS account is a member of an organization, you can share that license for Amazon Machine Image \(AMI\), container, and machine learning products with the other accounts in that organization\. You must set up license support in AWS Marketplace, and then share from within AWS License Manager\.
+When you subscribe to products in AWS Marketplace, an agreement is created that grants you a license to use those products\. If your AWS account is a member of an organization, you can share that license for Amazon Machine Image \(AMI\), container, machine learning, software as a service \(SaaS\), and data products with the other accounts in that organization\. You must set up license support in AWS Marketplace, and then share this from within AWS License Manager\.
 
 **Note**  
 For more information about AWS Organizations, see the [AWS Organizations User Guide](https://docs.aws.amazon.com/organizations/latest/userguide/)\.  
-For more information about sharing licenses with your organization in AWS License Manager, see [ Granted licenses](https://docs.aws.amazon.com/license-manager/latest/userguide/granted-licenses.html) in the *AWS License Manager User Guide*\. For a walkthrough of the license sharing experience, you can refer to this video, [Distribute your AWS Marketplace License Entitlements](https://www.youtube.com/watch?v=BY3O1p6xHvo) \(3:56\)\.
+For more information about sharing licenses with your organization in AWS License Manager, see [ Granted licenses](https://docs.aws.amazon.com/license-manager/latest/userguide/granted-licenses.html) in the *AWS License Manager User Guide*\. 
 
-The following topics outline the process of sharing the licenses across accounts\.
+The following video provides a walkthrough of the license sharing experience\.
+
+[![AWS Videos](http://img.youtube.com/vi/https://www.youtube.com/embed/BY3O1p6xHvo/0.jpg)](http://www.youtube.com/watch?v=https://www.youtube.com/embed/BY3O1p6xHvo)
+
+The following topics outline the process of viewing, sharing, and tracking licenses across accounts\.
 
 **Topics**
 + [Prerequisites for license sharing](#license-sharing-prereqs)
-+ [Viewing and sharing your licenses](#view-share-licenses)
++ [Viewing your licenses](#view-share-licenses)
++ [Sharing your licenses](#sharing-licenses)
++ [Tracking license usage](#tracking-lic-usage)
 
 ## Prerequisites for license sharing<a name="license-sharing-prereqs"></a>
 
@@ -18,9 +24,9 @@ Before you can share licenses in AWS Marketplace you must set up license sharing
 + Give AWS Marketplace permission to manage licenses on your behalf so that it can create the associated license grants when you purchase or share your licenses\. For more information, see [Using roles to share entitlements for AWS Marketplace](buyer-using-service-linked-roles-license-manager.md)\.
 + Set up AWS License Manager for first use\. For more information, see [ Getting started with AWS License Manager](https://docs.aws.amazon.com/license-manager/latest/userguide/getting-started.html) in the *AWS License Manager User Guide*\.
 
-## Viewing and sharing your licenses<a name="view-share-licenses"></a>
+## Viewing your licenses<a name="view-share-licenses"></a>
 
-AWS Marketplace automatically creates licenses for AMI, container, machine learning, and data products that you purchase\. You can share those licenses with other accounts in your organization\.
+AWS Marketplace automatically creates licenses for AMI, container, machine learning, SaaS, and data products that you purchase\. You can share those licenses with other accounts in your organization\.
 
 You manage and share licenses using AWS License Manager\. However, you can use AWS Marketplace to view the licenses for products that you purchased from within AWS Marketplace\.
 
@@ -38,11 +44,22 @@ You manage and share licenses using AWS License Manager\. However, you can use A
 
      1. From the **Actions** menu, select **View License** to view the license for that product in the License Manager console\.
 
-**Note**  
-Subscriptions in AWS Marketplace have an **Access level** shown in the product details\. Products with an **Agreement** level have a license that you can use and share with other accounts in your organization\. Products with an **Entitlement** level are licenses that have been shared with your account—you can use these products, but you can't share them\.  
-Only AMI, container, and machine learning products have licenses that can be shared\.
+## Sharing your licenses<a name="sharing-licenses"></a>
 
-From License Manager, you can share your license with other accounts in your organization\. For more details about using License Manager with AWS managed licenses, see [ Granted licenses](https://docs.aws.amazon.com/license-manager/latest/userguide/granted-licenses.html) and [Seller issued licenses](https://docs.aws.amazon.com/license-manager/latest/userguide/granted-licenses.html) in the *AWS License Manager User Guide*\.
+Only AMI, container, machine learning, and data products have licenses that can be shared\.
+
+**Note**  
+Subscriptions in AWS Marketplace have an **Access level** shown in the product details\. 
+Products with an **Agreement** level have a license that you can use and share with other accounts in your organization\. 
+Products with an **Entitlement** level are licenses that have been shared with your account—you can use these products, but you can't share them\.
+
+You can share your license with other accounts in your organization using AWS License Manager\. For more details about using License Manager with AWS managed licenses, see [Granted licenses](https://docs.aws.amazon.com/license-manager/latest/userguide/granted-licenses.html) and [Seller issued licenses](https://docs.aws.amazon.com/license-manager/latest/userguide/seller-issued-licenses.html) in the *AWS License Manager User Guide*\.
 
 **Note**  
 For products that are restricted to specific AWS Regions, an account you share your license with can only activate the license if the account is within an allowed Region\.
+
+## Tracking license usage<a name="tracking-lic-usage"></a>
+
+You can track your usage based license metrics for AMI and SaaS products with AWS License Manager by selecting the **Usage dashboard** tab in each respective license\. 
+
+For more information about using License Manager to track your license usage, see [Granted licenses](https://docs.aws.amazon.com/license-manager/latest/userguide/granted-licenses.html) in the *AWS License Manager User Guide*\.
