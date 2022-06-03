@@ -121,8 +121,6 @@ It can take up to 10 minutes for the subscription to process and a license to be
 
 ## Modifying an existing contract<a name="modify-existing-contract"></a>
 
-### <a name="modify-existing-contract.title"></a>
-
 If they have an existing upfront commitment for a Container product, AWS Marketplace buyers can modify some aspects of a contract\. A Container contract is supported through contract terms based offers as opposed to hourly or annual flexible consumption pricing \(FCP\) offers\. This feature is available only to applications that are integrated with AWS License Manager\. Buyers can purchase additional licenses within the entitlement of the same offer in the current contract\. However, buyers can't reduce the entitlement counts purchased in the contract\. Buyers can also cancel the automatic subscription renewal if the option is enabled by the Seller\. 
 
 **Note**  
@@ -136,7 +134,7 @@ A flexible payment schedule \(FPS\) contract offer can't be modified\. There are
 
 1. From the list, select **View Terms**\.
 
-1. In the **Contract options** section, increase your entitlements by using the arrows\. You can't reduce the entitlement counts below the entitlements purchased\.
+1. In the Contract options section, increase your entitlements using the arrows\. You cannot reduce the entitlement counts below the entitelements purchased\. 
 
 1. The contract details and total price displays in the **Pricing details** section\.
 
@@ -152,4 +150,4 @@ A flexible payment schedule \(FPS\) contract offer can't be modified\. There are
 
 1. Ensure you understand the terms and conditions with cancellation\.
 
-1. Select the check box to cancel the automatic renewal\.
+1. Select the checkbox to cancel the automatic renewal option\. 

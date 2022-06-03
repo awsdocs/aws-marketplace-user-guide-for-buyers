@@ -1,6 +1,6 @@
 # Buying products<a name="buyer-subscribing-to-products"></a>
 
-In AWS Marketplace, buying a product means that you have accepted the terms of the product as shown on the product’s listing page\. This includes pricing terms and the seller’s end user license agreement \(EULA\), and that you agree to use such product in accordance with the [AWS Customer Agreement](https://aws.amazon.com/agreement/)\. 
+In AWS Marketplace, buying a product means that you have accepted the terms of the product as shown on the product’s listing page\. This includes pricing terms and the seller’s end user license agreement \(EULA\), and that you agree to use such product in accordance with the [AWS Customer Agreement](https://aws.amazon.com/agreement/)\. You will receive an email notification to the email address associated with your AWS account for offers accepted in AWS Marketplace\.
 
 If the product has a monthly fee or is purchased with a subscription contract, you are charged the fee upon subscription\. The subscription is prorated based on the time remaining in the month\. No other charges are assessed until you take one of the following actions:
 + Launch an Amazon Elastic Compute Cloud \(Amazon EC2\) instance with the product Amazon Machine Image \(AMI\)\.

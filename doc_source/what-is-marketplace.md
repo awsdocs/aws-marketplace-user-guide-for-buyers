@@ -48,7 +48,7 @@ For more information about delivery methods for software products on AWS Marketp
 +  [AMI\-based server products](buyer-server-products.md) 
 +  [Container products](buyer-what-is-aws-marketplace-for-containers.md) 
 +  [Desktop products](buyer-desktop-products.md) 
-+  [Machine learning products](aws-machine-learning-marketplace.md) 
++  [Machine learning products](product-types-machine-learning-products.md) 
 +  [Professional services products](buyer-proserv-products.md) 
 +  [SaaS products](buyer-saas-products.md)
 + Data products – See [What is AWS Data Exchange?](https://docs.aws.amazon.com/data-exchange/latest/userguide/what-is.html) in the *AWS Data Exchange User Guide*

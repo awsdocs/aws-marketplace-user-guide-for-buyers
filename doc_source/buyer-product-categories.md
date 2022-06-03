@@ -1,6 +1,6 @@
 # Product categories<a name="buyer-product-categories"></a>
 
- The AWS Marketplace website is organized into primary categories, with subcategories under each\. You can search and filter based on the categories and subcategories\. 
+ The [AWS Marketplace](https://aws.amazon.com/marketplace) website is organized into primary categories, with subcategories under each\. You can search and filter based on the categories and subcategories\. 
 
 **Topics**
 + [Infrastructure Software](#infrastructure-software-category)
@@ -17,14 +17,11 @@
 
  The products in this category provide infrastructure\-related solutions\. 
 
-**Backup and Recovery**  
+**Backup & Recovery**  
  Products used for storage and backup solutions\. 
 
 **Data Analytics**  
  Products used for data analysis\. 
-
-**Security**  
-Security products for your infrastructure\.
 
 **High Performance Computing**  
  High performance computing products\. 
@@ -48,6 +45,9 @@ Security products for your infrastructure\.
 
  The products in this category provide tools focused on developers and developer teams\. 
 
+**Agile Lifecycle Management**  
+ Products used for Agile SDLM\. 
+
 **Application Development**  
  Products used for application development\. 
 
@@ -62,12 +62,6 @@ Security products for your infrastructure\.
 
 **Infrastructure as Code**  
  Products used for infrastructure\. 
-
-**Testing**  
- Products used for testing\. 
-
-**Agile Lifecycle Management**  
- Products used for Agile SDLM\. 
 
 **Issues & Bug Tracking**  
  Products used by developer teams to track and manage software bugs\. 
@@ -86,25 +80,16 @@ Security products for your infrastructure\.
 
 ## Business Applications<a name="business-software-category"></a>
 
- The products in this category help you run your business\. 
-
-**IT Business Management**  
- Products used for enabling IT business management in your organization\. 
-
-**Contact Center**  
- Products used for enabling Contact Centers in your organization\. 
+ The products in this category help you run your business\.
 
 **Blockchain**  
  Products used for blockchain\. 
 
-**Human Resources**  
- Products used for enabling Human Resources in your organization\. 
-
-**Business Intelligence**  
- Products used for enabling business intelligence in your organization\. 
-
 **Collaboration & Productivity**  
  Products used to enable collaboration in your business\. 
+
+**Contact Center**  
+ Products used for enabling Contact Centers in your organization\. 
 
 **Content Management**  
  Products focused on content management\. 
@@ -112,11 +97,20 @@ Security products for your infrastructure\.
 **CRM**  
  Tools focused on customer relationship management\. 
 
-**ecommerce**  
- Products that provide ecommerce solutions\. 
+**eCommerce**  
+ Products that provide eCommerce solutions\. 
 
 **eLearning**  
  Products that provide eLearning solutions\. 
+
+**Human Resources**  
+ Products used for enabling Human Resources in your organization\. 
+
+**IT Business Management**  
+ Products used for enabling IT business management in your organization\. 
+
+**Business Intelligence**  
+ Products used for enabling business intelligence in your organization\. 
 
 **Project Management**  
  Tools for project management\. 

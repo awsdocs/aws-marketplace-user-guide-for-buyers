@@ -92,7 +92,7 @@ For more information about the AMI alias, see [Using AMI aliases](buyer-ami-alia
 
 ### Step 4: Launching your software on Amazon EC2<a name="step-4-launch-your-software-on-amazon-elastic-compute-cloud-amazon-ec2"></a>
 
-Before you launch your Amazon EC2 instance, you need to decide if you want to launch with 1\-Click launch or if you want to launch using the Amazon EC2 Console\. 1\-Click launch helps you launch quickly with recommended default options such as security groups and instance types\. With 1\-Click launch, you can also see your estimated monthly bill\. If you prefer more options, such as launching in an Amazon Virtual Private Cloud \(Amazon VPC\) or using Spot Instances, then you should launch using the Amazon EC2 Console\. The following procedures walk you through subscribing to the product and launching an EC2 instance using either 1\-Click launch or the Amazon EC2 Console\. 
+Before you launch your Amazon EC2 instance, you need to decide if you want to launch with 1\-Click launch or if you want to launch using the Amazon EC2 console\. 1\-Click launch helps you launch quickly with recommended default options such as security groups and instance types\. With 1\-Click launch, you can also see your estimated monthly bill\. If you prefer more options, such as launching in an Amazon Virtual Private Cloud \(Amazon VPC\) or using Spot Instances, then you should launch using the Amazon EC2 console\. The following procedures walk you through subscribing to the product and launching an EC2 instance using either 1\-Click launch or the Amazon EC2 console\. 
 
 #### Launching on Amazon EC2 using 1\-Click launch<a name="to-launch-on-amazon-ec2-using-1-click-launch"></a>
 
@@ -149,9 +149,9 @@ Before you launch your Amazon EC2 instance, you need to decide if you want to la
 
 1. On the specific subscription page, choose **View instances** from the **Actions** dropdown list\. 
 
-1. Select the **Region** that the instance you want to terminate is in\. This opens the Amazon EC2 Console and shows the instances in that Region in a new tab\. If necessary, you can return to this tab to see the Instance ID for the instance to close\.
+1. Select the **Region** that the instance you want to terminate is in\. This opens the Amazon EC2 console and shows the instances in that Region in a new tab\. If necessary, you can return to this tab to see the Instance ID for the instance to close\.
 
-1.  In the Amazon EC2 Console, choose the **Instance ID** to open the **Instance details page**\. 
+1.  In the Amazon EC2 console, choose the **Instance ID** to open the **Instance details page**\. 
 
 1. From the **Instance state** dropdown list, choose **Terminate instance**\.
 

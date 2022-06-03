@@ -1,6 +1,6 @@
 # Sharing subscriptions in an organization<a name="organizations-sharing"></a>
 
-When you subscribe to products in AWS Marketplace, an agreement is created that grants you a license to use those products\. If your AWS account is a member of an organization, you can share that license for Amazon Machine Image \(AMI\), container, machine learning, software as a service \(SaaS\), and data products with the other accounts in that organization\. You must set up license support in AWS Marketplace, and then share this from within AWS License Manager\.
+When you subscribe to products in AWS Marketplace, an agreement is created that grants you a license to use those products\. If your AWS account is a member of an organization, you can share that license for Amazon Machine Image \(AMI\), container, machine learning, and data products with the other accounts in that organization\. You must set up license support in AWS Marketplace, and then share this from within AWS License Manager\.
 
 **Note**  
 For more information about AWS Organizations, see the [AWS Organizations User Guide](https://docs.aws.amazon.com/organizations/latest/userguide/)\.  
@@ -27,6 +27,9 @@ Before you can share licenses in AWS Marketplace you must set up license sharing
 ## Viewing your licenses<a name="view-share-licenses"></a>
 
 AWS Marketplace automatically creates licenses for AMI, container, machine learning, SaaS, and data products that you purchase\. You can share those licenses with other accounts in your organization\.
+
+**Note**  
+Although licenses are created for SaaS products, the sharing of SaaS licenses are not currently supported\.
 
 You manage and share licenses using AWS License Manager\. However, you can use AWS Marketplace to view the licenses for products that you purchased from within AWS Marketplace\.
 
@@ -60,6 +63,6 @@ For products that are restricted to specific AWS Regions, an account you share y
 
 ## Tracking license usage<a name="tracking-lic-usage"></a>
 
-You can track your usage based license metrics for AMI and SaaS products with AWS License Manager by selecting the **Usage dashboard** tab in each respective license\. 
+You can track your usage based license metrics for AMI products with AWS License Manager by selecting the **Usage dashboard** tab in each respective license\. 
 
 For more information about using License Manager to track your license usage, see [Granted licenses](https://docs.aws.amazon.com/license-manager/latest/userguide/granted-licenses.html) in the *AWS License Manager User Guide*\.

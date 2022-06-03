@@ -12,12 +12,22 @@ For subscriptions from EMEA\-eligible sellers, the Cost and Usage Report include
 
 ## Vendor\-metered tags<a name="vendor-metered-tags"></a>
 
-AWS Marketplace products with vendor metering \(including AMI, container, and SaaS products\) may have tags provided by the software vendor\. These tags are cost\-allocation tags that help you understand your AWS Marketplace resource usage across vendor\-provided metrics\.
+AWS Marketplace products with vendor metering \(including AMI, container, and SaaS products\) might have tags provided by the software vendor as an added service for their customers\. These tags are cost\-allocation tags that help you understand your AWS Marketplace resource usage across vendor\-provided metrics\. You can use these tags to identify and track AWS Marketplace resource usage through AWS Cost Explorer Service, AWS Cost and Usage Report, AWS Budgets, or other cloud cost analysis tools\. 
 
-Some things to remember when you use vendor\-metered tags include the following:
-+ Find vendor\-metered tags in the Billing and Cost Management console \(available at [ https://console\.aws\.amazon\.com/billing/home](https://console.aws.amazon.com/billing/home)\) by choosing **Cost allocation tags**, and then the **AWS\-generated cost allocation tags** tab\.
-+ Vendor\-metered tag key names start with `aws:marketplace:isv:` to make them easier to find\.
-+ Before you can use vendor\-metered tags to track your usage as cost allocation tags, you must activate them in the Billing and Cost Management console\.
+The tags appear in your AWS Billing console after you start using the AWS Marketplace product and the vendor sends metering records to AWS Marketplace\. If you're using a product based on an upfront commitment in a contract, you won't receive metering usage for the product\. As a result, you won't have the vendor\-metered tags in your AWS Billing console\. If you're managing a linked account, you must have both the `ModifyBilling` and `ViewBilling` permissions to view and activate tags in AWS Billing\. For more information, see [AWS Billing actions policies](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-permissions-ref.html#user-permissions) in the *AWS Billing User Guide*\.
+
+**Note**  
+Activating vendor\-metered tags could increase your cost and usage report's size\. Your cost and usage report is stored in Amazon S3\. Therefore, your Amazon S3 costs could increase also\.
+
+**To activate vendor\-metered tags for all eligible AWS Marketplace products**
+
+1. Sign in to the AWS Management Console and open the [AWS Billing console](https://console.aws.amazon.com/billing/)\. Then choose **Cost allocation tags** from the left navigation pane\.
+
+1. Choose the **AWS\-generated cost allocation tags** tab\.
+
+1. Search for `aws:marketplace:isv:` to find tags for all products that support vendor\-metered tagging\.
+
+1. Select the check boxes for all tags, and then choose **Activate**\. Your vendor\-metered tags will go into effect within 24 hours\.
 
 ## Related topics<a name="cost-allocation-tagging-related-topics"></a>
 

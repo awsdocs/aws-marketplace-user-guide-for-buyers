@@ -20,9 +20,14 @@ For more information about managing your payments in Amazon Web Services EMEA SA
 **Topics**
 + [Specifying purchase order numbers for SaaS contract products](buyer-purchase-orders.md)
 + [Information about refunds](buyer-refunds.md)
++ [Payment methods](#payment-methods)
 + [Supported currencies](#supported-currencies)
 + [Changing your preferred currency](#changing-your-preferred-currency)
 + [Updating remittance instructions](#Updating-remittance-instructions)
+
+## Payment methods<a name="payment-methods"></a>
+
+When you first created your AWS account, you set the payment method for that account\. You can manage your payment methods in the [AWS Billing and Cost Management console](https://console.aws.amazon.com/billing)\. For instructions, see [Managing your payments](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/manage-payments.html) in the *AWS Billing and Cost Management User Guide*\.
 
 ## Supported currencies<a name="supported-currencies"></a>
 

@@ -36,7 +36,7 @@ Amazon's trademarks and trade dress may not be used in
       + [Container products with contract pricing](buyer-container-contracts.md)
       + [Launching container software from AWS Marketplace](buyer-configuring-a-product.md)
    + [Desktop products](buyer-desktop-products.md)
-   + [Machine learning products](aws-machine-learning-marketplace.md)
+   + [Machine learning products](product-types-machine-learning-products.md)
    + [Professional services products](buyer-proserv-products.md)
    + [SaaS products](buyer-saas-products.md)
    + [Data products](buyer-data-products.md)
