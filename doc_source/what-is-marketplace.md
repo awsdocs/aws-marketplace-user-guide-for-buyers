@@ -18,7 +18,15 @@ When buying from [some non\-US sellers](https://docs.aws.amazon.com/marketplace/
 
 Products can take many forms\. For instance, a product can be offered as an Amazon Machine Image \(AMI\) that is instantiated using your AWS account\. The product could also be configured to use AWS CloudFormation templates for delivery to the consumer\. The product could also be software as a service \(SaaS\) offerings from an ISV, or a web ACL, set of rules, or conditions for AWS WAF\. 
 
-You can purchase software products at the listed price using the ISV’s standard end user license agreement \(EULA\) or from a private offer with custom pricing and EULA\. You can also purchase products under a contract with specified time or usage boundaries\. Once the product subscriptions are in place, you can copy the product to your AWS Service Catalog to manage how the product is accessed and used in your organization\. 
+You can purchase software products at the listed price using the ISV’s standard end user license agreement \(EULA\) or from a private offer with custom pricing and EULA\. You can also purchase products under a [standard contract](#what-is-aws-marketplace-contracts-and-agreements) to alleviate lengthy negotiations and streamline procurement\. 
+
+Once the product subscriptions are in place, you can copy the product to your AWS Service Catalog to manage how the product is accessed and used in your organization\. 
+
+## Standard Contract for AWS Marketplace<a name="what-is-aws-marketplace-contracts-and-agreements"></a>
+
+Many sellers offer the same standardized contract on their listings, the *Standard Contract for AWS Marketplace \(SCMP\)*\. Instead of reviewing custom EULAs for each purchase, you only need to review the SCMP once\. The [contract terms](https://s3.amazonaws.com/EULA/Standard+Contract+for+AWS+Marketplace+2019-04-24.pdf) are the same for all products that use the SCMP\. To find product listings that offer standardized license terms, use the **Standard Contract** filter when searching for products\. For private offers, ask the seller if they can replace their EULA with the SCMP and apply agreed upon amendments as necessary to support transaction\-specific requirements\.
+
+To learn more, see [Standardized Contracts](http://aws.amazon.com/marketplace/features/standardized-license-terms/)\.
 
 ## Using AWS Marketplace as a buyer<a name="using-aws-marketplace-as-a-subscriber"></a>
 
@@ -32,13 +40,7 @@ For customers in certain countries, Amazon Web Services EMEA SARL charges local 
 
 For more information about Amazon Web Services EMEA SARL, see the [Amazon Web Services EMEA SARL FAQs](https://aws.amazon.com/legal/aws-emea/)\.
 
-Customers who transact with EMEA\-eligible sellers receive an invoice from Amazon Web Services EMEA SARL\. All other transactions continue to go through AWS Inc\.For more information, see [Paying for products](https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-paying-for-products.html)\.
-
-**Tip**  
-Note the following tips about license terms and contracts:  
-Many sellers offer the same standardized license terms on their listings, the *Standard Contract for AWS Marketplace \(SCMP\)*\. Instead of reviewing custom EULAs for each purchase, you only need to review the SCMP once\. The license terms are the same for all products that use the SCMP\. To find product listings that offer standardized license terms, use the **Standard Contract** filter when searching for products\. 
-The *Enterprise Contract for AWS Marketplace \(ECMP\)* offers standardized license terms that address the unique requirements of large enterprise and regulated buyers\.
-To learn more, see [Standardized License Terms](http://aws.amazon.com/marketplace/features/standardized-license-terms/)\.
+Customers who transact with EMEA\-eligible sellers receive an invoice from Amazon Web Services EMEA SARL\. All other transactions continue to go through AWS Inc\. For more information, see [Paying for products](https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-paying-for-products.html)\.
 
 After the subscription is processed, you can configure fulfillment options, software versions, and AWS Regions where you want to use the product, and then launch the software product\. You can also find or launch your products by visiting [Your Marketplace Software](https://aws.amazon.com/marketplace/library?ref_=header_user_your_software) on the AWS Marketplace website, from your AWS Marketplace or Amazon Elastic Compute Cloud \(Amazon EC2\) console, or through the AWS Service Catalog\. 
 

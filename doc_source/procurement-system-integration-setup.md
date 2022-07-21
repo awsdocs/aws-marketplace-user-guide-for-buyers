@@ -32,7 +32,7 @@ We recommend that you use IAM managed permissions rather than manually configuri
 
 ## Configuring AWS Marketplace to integrate with Coupa<a name="coupa-integration-setup-awsmp-configuration"></a>
 
-After you have setup your IAM permissions, you are ready to configure AWS Marketplace integration with Coupa\. Navigate to **Manage procurement**\. In the **Manage procurement systems** pane, enter a name and description for the punchout\. You can also switch the integration to test mode so that users can test the integration without creating product subscriptions until you're ready\. To configure the AWS Marketplace portion of the integration, complete the following procedure\. 
+After you have set up your IAM permissions, you are ready to configure AWS Marketplace integration with Coupa\. Navigate to **Manage procurement**\. In the **Manage procurement systems** pane, enter a name and description for the punchout\. You can also switch the integration to test mode so that users can test the integration without creating product subscriptions until you're ready\. To configure the AWS Marketplace portion of the integration, complete the following procedure\. 
 
 **To configure AWS Marketplace for integrating with Coupa**
 
@@ -40,17 +40,15 @@ After you have setup your IAM permissions, you are ready to configure AWS Market
 
 1.  On the **Manage Coupa integration** page, under **Account information**, enter the name and description of your integration\. 
 
-1. Make sure that the **Enable redirect** option is on and that **Test mode** is enabled, then select **Save** to complete the integration in the AWS Marketplace system\.
+1. You can turn on or turn off the configuration settings for **Enable redirect** and **Test mode**, and then select **Save** to complete the integration in the AWS Marketplace system\.
 
-After you have completed the integration in AWS Marketplace, you must go on to setup the integration in Coupa\. You use the information generated on this page to configure the punchout in your Coupa system\. 
+After you have completed the integration in AWS Marketplace, you must go on to set up the integration in Coupa\. You use the information generated on this page to configure the punchout in your Coupa system\. 
 
 The AWS Marketplace configuration defaults to test mode being enabled\. In test mode, subscription requests go to the Coupa backend so you can see the full flow, but a final invoice is not created\. This helps you complete the configuration and enable the punchout in a planned manner\.
 
 **Note**  
 You can toggle testing mode on or off, as needed\.  
 Don't forget to turn off testing mode when you're finished with your integration\. Otherwise, users in your system will appear to be creating requests, but no software will be purchased\.
-
-Although AWS Marketplace uses cXML for the punchout integration, it uses Coupa Supplier Portal integration to invoice, not cXML invoicing\.
 
 ### Configuring Coupa<a name="coupa-integration-setup-coupa-configuration"></a>
 
@@ -84,7 +82,7 @@ For information about ANIDs in Ariba, and answers to other questions about Ariba
 **Note**  
 You need to have administrator access to your SAP Ariba system to create the *Supplier Relationship* with AWS Marketplace\.
 
-Following the instructions and configuration settings from the AWS Marketplace team, you create the integration in your SAP Ariba test environment, with AWS Marketplace running in *test mode*\. In the test environment, subscription requests go to the Ariba backend so you can see the full flow including approvals, without creating a subscription in AWS Marketplace, and no invoice is generated\. This approach enables testing the configuration prior to enabling the punchout in production\. After your testing is complete and you are ready to move to production, [contact us](https://aws.amazon.com/marketplace/help/contact-us) to setup the account in the production environment\.
+Following the instructions and configuration settings from the AWS Marketplace team, you create the integration in your SAP Ariba test environment, with AWS Marketplace running in *test mode*\. In the test environment, subscription requests go to the Ariba backend so you can see the full flow including approvals, without creating a subscription in AWS Marketplace, and no invoice is generated\. This approach enables testing the configuration prior to enabling the punchout in production\. After your testing is complete and you are ready to move to production, [contact us](https://aws.amazon.com/marketplace/help/contact-us) to set up the account in the production environment\.
 
 **Note**  
 Don't forget to move to production when you're finished with testing your integration\. Otherwise, users in your system will believe that they're creating requests, but no software will be purchased\.
@@ -96,7 +94,7 @@ For more information about configuring SAP Ariba, see the following topics from 
 + [Introduction to SAP Ariba PunchOut](https://blogs.sap.com/2019/11/27/introduction-to-sap-ariba-punchout/) on the *SAP Community* website
 
 **Note**  
-For information about UNSPSC codes used by AWS Marketplace, see [UNSPSC codes used by AWS Marketplace](#procurement-integration-setup-unspsc-codes) \.
+For information about UNSPSC codes used by AWS Marketplace, see [UNSPSC codes used by AWS Marketplace](#procurement-integration-setup-unspsc-codes)\.
 
 ## UNSPSC codes used by AWS Marketplace<a name="procurement-integration-setup-unspsc-codes"></a>
 

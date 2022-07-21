@@ -86,6 +86,6 @@ To request a bank letter for the remittance instructions, select **Billing or ac
 
 For more information about how to change your currency preference to a supported currency, see [Changing which currency you use to pay your bill](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/manage-account-payment.html#manage-account-payment-change-currency) in the *AWS* Billing User Guide\. 
 
-If your AWS account is based in EMEA, you can pay for your AWS Marketplace purchases through a Single EU Payment Account \(SEPA\) direct debit\. In addition, Amazon Web Services EMEA SARL accepts payments by electronic funds transfer, by MasterCard, VISA, and American Express credit cards\. Diner's Club or Discover credit cards are not accepted\. 
+Amazon Web Services EMEA SARL accepts payments by electronic funds transfer, by MasterCard, VISA, and American Express credit cards\. Diner's Club or Discover credit cards are not accepted\. 
 
 For more information, see [AWS Marketplace Buyer Tax Help](http://aws.amazon.com/tax-help/marketplace-buyers/)\.

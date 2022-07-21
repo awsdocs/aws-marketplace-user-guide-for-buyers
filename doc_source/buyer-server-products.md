@@ -28,7 +28,7 @@ You can use an AMI to deploy a single Amazon EC2 instance\. You can use a CloudF
 
 **Topics**
 + [AWS CloudFormation template](#what-is-aws-cloudformation)
-+ [AMI subscriptions](buyer-ami-subscriptions.md)
++ [AMI subscriptions in AWS Marketplace](buyer-ami-subscriptions.md)
 + [AMI products with contract pricing](buyer-ami-contracts.md)
 + [Metering\-enabled AMI products](buyer-ami-metering-enabled-products.md)
 + [Cost allocation tagging in AMI products](cost-allocation-tagging-ami-marketplace.md)

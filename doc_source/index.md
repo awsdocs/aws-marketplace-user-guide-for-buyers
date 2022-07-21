@@ -23,7 +23,7 @@ Amazon's trademarks and trade dress may not be used in
 + [Product categories](buyer-product-categories.md)
 + [Product types](buyer-product-types.md)
    + [AMI-based server products](buyer-server-products.md)
-      + [AMI subscriptions](buyer-ami-subscriptions.md)
+      + [AMI subscriptions in AWS Marketplace](buyer-ami-subscriptions.md)
       + [AMI products with contract pricing](buyer-ami-contracts.md)
       + [Metering-enabled AMI products](buyer-ami-metering-enabled-products.md)
       + [Cost allocation tagging in AMI products](cost-allocation-tagging-ami-marketplace.md)
