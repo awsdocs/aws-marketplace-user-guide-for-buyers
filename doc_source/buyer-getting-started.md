@@ -64,7 +64,7 @@ The experiences across the two locations are similar\. This procedure uses the A
 
 1. If you aren't already signed in, you are directed to sign in to AWS Marketplace\. If you already have an AWS account, you can use that account to sign in\. If you don't already have an AWS account, see [Step 1: Creating an AWS account](#step-1-creating-an-aws-account)\. 
 
-1. Read the Bitnami offer terms, then choose **Accept Terms** to agree to the subscription offer\.
+1. Read the Bitnami offer terms, then choose **Accept Contract** to agree to the subscription offer\.
 
 1. It may take a moment for the subscription action to complete\. When it does, you receive an email message about the subscription terms, and then you're able to continue\. Choose **Continue to Configuration** to configure and launch your software\.
 

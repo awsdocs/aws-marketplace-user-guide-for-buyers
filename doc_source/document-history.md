@@ -6,6 +6,8 @@ For notiﬁcation about updates to this documentation, you can subscribe to the 
 
 | Change | Description | Date | 
 | --- |--- |--- |
+| [Added two policies for AWS Marketplace Vendor Insights\.](https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-security-iam-awsmanpol.html) | Added two policies `AWSVendorInsightsAssessorFullAccess` and `AWSVendorInsightsAssessorReadOnly` for AWS Marketplace Vendor Insights a feature offering software risk assessment | July 26, 2022 | 
+| [AWS Marketplace Vendor Insights ](https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-vendor-insights.html) | AWS Marketplace Vendor Insights is a feature offering software risk assessment\. | July 26, 2022 | 
 | [Payment methods update](https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-paying-for-products.html) | Documentation\-only update to clarify how to change payment methods in the AWS Billing console\. | June 1, 2022 | 
 | [SaaS free trials for contracts](https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-saas-products.html) | Buyers can now subscribe to SaaS free trials for contracts to explore products before transitioning into paid trials\.  | May 31, 2022 | 
 | [Vendor\-metering tags added for AMI, Container, and SaaS products](https://docs.aws.amazon.com/marketplace/latest/buyerguide/cost-allocation-tagging.html) | New feature providing tags to help customers understand their AWS Marketplace resource usage across vendor\-provided metrics\. | May 27, 2022 | 

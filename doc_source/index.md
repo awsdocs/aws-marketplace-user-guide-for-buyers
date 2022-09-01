@@ -4,13 +4,13 @@
 *****Copyright &copy; Amazon Web Services, Inc. and/or its affiliates. All rights reserved.*****
 
 -----
-Amazon's trademarks and trade dress may not be used in 
-     connection with any product or service that is not Amazon's, 
-     in any manner that is likely to cause confusion among customers, 
-     or in any manner that disparages or discredits Amazon. All other 
-     trademarks not owned by Amazon are the property of their respective
-     owners, who may or may not be affiliated with, connected to, or 
-     sponsored by Amazon.
+Amazon's trademarks and trade dress may not be used in
+connection with any product or service that is not Amazon's,
+in any manner that is likely to cause confusion among customers,
+or in any manner that disparages or discredits Amazon. All other
+trademarks not owned by Amazon are the property of their respective
+owners, who may or may not be affiliated with, connected to, or
+sponsored by Amazon.
 
 -----
 ## Contents
@@ -19,7 +19,7 @@ Amazon's trademarks and trade dress may not be used in
 + [Getting started as a buyer](buyer-getting-started.md)
    + [Buying products](buyer-subscribing-to-products.md)
    + [Launching software](buyer-launching-software.md)
-+ [Supported Regions](supported-regions.md)
++ [Supported AWS Regions in AWS Marketplace](supported-regions.md)
 + [Product categories](buyer-product-categories.md)
 + [Product types](buyer-product-types.md)
    + [AMI-based server products](buyer-server-products.md)
@@ -58,6 +58,9 @@ Amazon's trademarks and trade dress may not be used in
 + [Adding AWS Marketplace subscriptions to AWS Service Catalog](service-catalog.md)
 + [Product reviews](buyer-product-reviews.md)
 + [Getting support](buyer-support.md)
++ [AWS Marketplace Vendor Insights](buyer-vendor-insights.md)
+   + [Getting started with AWS Marketplace Vendor Insights as a buyer](buyer-vendor-insights-getting-started.md)
+   + [Viewing a product's security profile with AWS Marketplace Vendor Insights](buyer-vendor-view-profile.md)
 + [Security on AWS Marketplace](buyer-security.md)
    + [Controlling access to AWS Marketplace subscriptions](buyer-iam-users-groups-policies.md)
    + [AWS managed policies for AWS Marketplace buyers](buyer-security-iam-awsmanpol.md)

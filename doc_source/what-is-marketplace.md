@@ -18,19 +18,27 @@ When buying from [some non\-US sellers](https://docs.aws.amazon.com/marketplace/
 
 Products can take many forms\. For instance, a product can be offered as an Amazon Machine Image \(AMI\) that is instantiated using your AWS account\. The product could also be configured to use AWS CloudFormation templates for delivery to the consumer\. The product could also be software as a service \(SaaS\) offerings from an ISV, or a web ACL, set of rules, or conditions for AWS WAF\. 
 
-You can purchase software products at the listed price using the ISV’s standard end user license agreement \(EULA\) or from a private offer with custom pricing and EULA\. You can also purchase products under a [standard contract](#what-is-aws-marketplace-contracts-and-agreements) to alleviate lengthy negotiations and streamline procurement\. 
+You can purchase software products at the listed price using the ISV’s standard end user license agreement \(EULA\) or from a private offer with custom pricing and EULA\. You can also purchase products under a [standard contract](#standard-contracts-for-aws-marketplace) with specified time or usage boundaries\.
 
 Once the product subscriptions are in place, you can copy the product to your AWS Service Catalog to manage how the product is accessed and used in your organization\. 
 
-## Standard Contract for AWS Marketplace<a name="what-is-aws-marketplace-contracts-and-agreements"></a>
+## Standard contracts for AWS Marketplace<a name="standard-contracts-for-aws-marketplace"></a>
 
-Many sellers offer the same standardized contract on their listings, the *Standard Contract for AWS Marketplace \(SCMP\)*\. Instead of reviewing custom EULAs for each purchase, you only need to review the SCMP once\. The [contract terms](https://s3.amazonaws.com/EULA/Standard+Contract+for+AWS+Marketplace+2019-04-24.pdf) are the same for all products that use the SCMP\. To find product listings that offer standardized license terms, use the **Standard Contract** filter when searching for products\. For private offers, ask the seller if they can replace their EULA with the SCMP and apply agreed upon amendments as necessary to support transaction\-specific requirements\.
+As you prepare to purchase a product, review the associated EULA or standardized contract\. Many sellers oﬀer the same standardized contract on their listings, the [Standard Contract for AWS Marketplace \(SCMP\)](https://s3.amazonaws.com/EULA/Standard+Contract+for+AWS+Marketplace+2019-04-24.pdf)\. AWS Marketplace developed the SCMP in collaboration with buyer and seller communities to govern usage and define the obligations of buyers and sellers for digital solutions\. Examples of digital solutions include server software, software as a service \(SaaS\), and artificial intelligence and machine learning \(AI/ML\) algorithms\.
 
-To learn more, see [Standardized Contracts](http://aws.amazon.com/marketplace/features/standardized-license-terms/)\.
+Instead of reviewing custom EULAs for each purchase, you only need to review the SCMP once\. The[ contract terms](https://s3.amazonaws.com/EULA/Standard%2BContract%2Bfor%2BAWS%2BMarketplace%2B2019-04-24.pdf) are the same for all products that use the SCMP\.
+
+Sellers may also use the following addendums with the SCMP:
++ [Enhanced Security Addendum](https://s3.amazonaws.com/EULA/ESA+for+ECMP_SCMP+(Final+6-10-19).pdf) – Supports transactions with elevated data security requirements\.
++ [HIPPA Business Associate Addendum](https://s3.amazonaws.com/EULA/HIPAA+BAA+for+SCMP_ECMP+(Final+6-10-19).pdf) – Supports transactions with HIPPA compliance requirements\.
+
+To find product listings that offer standardized contracts, use the **Standard Contract** filter when searching for products\. For private oﬀers, ask the seller if they can replace their EULA with the SCMP and apply agreed upon amendments as necessary to support transaction\-speciﬁc requirements\.
+
+For more information, see [Standardized Contracts in AWS Marketplace](http://aws.amazon.com/marketplace/features/standardized-contracts)\. 
 
 ## Using AWS Marketplace as a buyer<a name="using-aws-marketplace-as-a-subscriber"></a>
 
-As a buyer, you go to [AWS Marketplace](https://aws.amazon.com/marketplace) to search, filter, and navigate to a product that runs on Amazon Web Services\. You can also find AWS Marketplace products on Deloitte and DLT\.
+As a buyer, you go to [AWS Marketplace](https://aws.amazon.com/marketplace) to search, filter, and navigate to a product that runs on Amazon Web Services\.
 
 When you choose a software product, you are taken to the product’s page\. The page has information about the product, pricing, usage, support, and product reviews\. To subscribe to the software product, you sign in to your AWS account and are taken to a subscription page that has the EULA, terms and conditions of usage, and any options available for customizing your subscription\. 
 

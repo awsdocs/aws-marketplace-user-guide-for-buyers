@@ -39,3 +39,7 @@ AWS reserves the right to remove reviews that include any of the following conte
   + Feedback about typos or inaccuracies in our catalog or product description; instead, use the feedback form at the bottom of the product page
 
 For questions about customer reviews, [contact us](https://aws.amazon.com/marketplace/help/contact-us)\. 
+
+## Timing and expectations<a name="product-reviews-timing-and-expectations"></a>
+
+We strive to process product reviews as quickly as possible\. However, the AWS Marketplace team must communicate with both the reviewer and the seller to confirm and review the feedback for validity against our [Guidelines](#review-guidelines) and [Restrictions](#whats-not-allowed)\. We follow the same [timing and expectations](https://docs.aws.amazon.com/marketplace/latest/userguide/product-submission.html#timing-and-expectations) guidance that is described in the *AWS Marketplace Seller Guide* for how long it will take to complete the process\. 

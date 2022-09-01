@@ -17,7 +17,9 @@ This section lists each of the policies used to manage buyer access to AWS Marke
 + [AWS managed policy: AWSMarketplaceRead\-only](#security-iam-awsmanpol-awsmarketplaceread-only)
 + [AWS managed policy: AWSPrivateMarketplaceAdminFullAccess](#security-iam-awsmanpol-awsprivatemarketplaceadminfullaccess)
 + [AWS managed policy: AWSPrivateMarketplaceRequests](#security-iam-awsmanpol-awsprivatemarketplacerequests)
-+ [AWS Marketplace updates to AWS managed policies](#security-iam-awsmanpol-updates)
++ [AWS managed policy: AWSVendorInsightsAssessorFullAccess](#aws-vi-assessor-full-access)
++ [AWS managed policy: AWSVendorInsightsAssessorReadOnly](#aws-vi-assessor-read-only)
++ [AWS Marketplace updates to AWS managed policies](#buyer-security-iam-awsmanpol-updates)
 
 ## AWS managed policy: AWSMarketplaceFullAccess<a name="security-iam-awsmanpol-awsmarketplacefullaccess"></a>
 
@@ -536,19 +538,86 @@ This policy grants contributor permissions that allow access to request products
 }
 ```
 
+## AWS managed policy: AWSVendorInsightsAssessorFullAccess<a name="aws-vi-assessor-full-access"></a>
 
+You can attach the `AWSVendorInsightsAssessorFullAccess` policy to your IAM identities\.
 
-## AWS Marketplace updates to AWS managed policies<a name="security-iam-awsmanpol-updates"></a>
+This policy grants full access for viewing entitled AWS Marketplace Vendor Insights resources and managing AWS Marketplace Vendor Insights subscriptions\. These requests must be approved or denied by an administrator\.
+
+AWS Marketplace Vendor Insights identifies assessor is equal to buyer and vendor is equal to seller\. 
+
+**Permissions details**
+
+```
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "vendor-insights:GetProfileAccessTerms",
+        "vendor-insights:ListEntitledSecurityProfiles",
+        "vendor-insights:GetEntitledSecurityProfileSnapshot",
+        "vendor-insights:ListEntitledSecurityProfileSnapshots"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Action": [
+        "aws-marketplace:CreateAgreementRequest",
+        "aws-marketplace:GetAgreementRequest",
+        "aws-marketplace:AcceptAgreementRequest",
+        "aws-marketplace:CancelAgreementRequest",
+        "aws-marketplace:ListAgreementRequests",
+        "aws-marketplace:CancelAgreement"
+      ],
+      "Effect": "Allow",
+      "Resource": "*",
+      "Condition": {
+        "StringEquals": {
+          "aws-marketplace:AgreementType": "VendorInsightsAgreement"
+        }
+      }
+    }
+  ]
+}
+```
+
+## AWS managed policy: AWSVendorInsightsAssessorReadOnly<a name="aws-vi-assessor-read-only"></a>
+
+You can attach the `AWSVendorInsightsAssessorFullAccess` policy to your IAM identities\.
+
+This policy grants read\-only access for viewing entitled AWS Marketplace Vendor Insights resources\. These requests must be approved or denied by an administrator\.
+
+AWS Marketplace Vendor Insights identifies assessor as the buyer and vendor is equal to the seller for the purposes of this guide\.
+
+**Permissions details**
+
+```
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "vendor-insights:ListEntitledSecurityProfiles",
+        "vendor-insights:GetEntitledSecurityProfileSnapshot",
+        "vendor-insights:ListEntitledSecurityProfileSnapshots"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
+```
+
+## AWS Marketplace updates to AWS managed policies<a name="buyer-security-iam-awsmanpol-updates"></a>
 
 View details about updates to AWS managed policies for AWS Marketplace since this service began tracking these changes\. For automatic alerts about changes to this page, subscribe to the RSS feed on the AWS Marketplace [Document history](document-history.md) page\.
 
 
-
-
-
-
 | Change | Description | Date | 
 | --- | --- | --- | 
+|     [AWSVendorInsightsAssessorFullAccess](#aws-vi-assessor-full-access) and [AWSVendorInsightsAssessorReadOnly](#aws-vi-assessor-read-only) – Added policies for new feature in AWS Marketplace  |  AWS Marketplace added policies for the new feature AWS Marketplace Vendor Insights: `AWSVendorInsightsAssessorFullAccess` and `AWSVendorInsightsAssessorReadOnly`  | July 26, 2022 | 
 |  [AWSMarketplaceFullAccess](#security-iam-awsmanpol-awsmarketplacefullaccess) and [AWSMarketplaceImageBuildFullAccess](#security-iam-awsmanpol-awsmarketplaceimagebuildfullaccess) – Updates to an existing policies  |  AWS Marketplace removed no longer needed permissions to improve security\.  | March 4, 2022 | 
 |  [AWSPrivateMarketplaceAdminFullAccess](#security-iam-awsmanpol-awsprivatemarketplaceadminfullaccess) – Update to an existing policy  |  AWS Marketplace removed unused permissions in the `AWSPrivateMarketplaceAdminFullAccess` policy\.  | August 27, 2021 | 
 |  [AWSMarketplaceFullAccess](#security-iam-awsmanpol-awsmarketplacefullaccess) – Update to an existing policy  |  AWS Marketplace removed a duplicate `ec2:DescribeAccountAttributes` permission from `AWSMarketplaceFullAccess` policy\.  | July 20, 2021 | 
