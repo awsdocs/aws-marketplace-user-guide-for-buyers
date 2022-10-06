@@ -27,8 +27,6 @@ You can attach the `AWSMarketplaceFullAccess` policy to your IAM identities\.
 
 This policy grants administrative permissions that allow full access to AWS Marketplace and related services, both as a buyer and a seller\. These permissions include the ability to subscribe and unsubscribe to AWS Marketplace software, manage AWS Marketplace software instances from the AWS Marketplace, creating and managing private marketplace in your account, as well as access to Amazon EC2, AWS CloudFormation, and Amazon EC2 Systems Manager\.
 
-
-
 **Permissions details**
 
 ```
@@ -477,7 +475,7 @@ This policy grants read\-only permissions that allows viewing products and subsc
 
 You can attach the `AWSPrivateMarketplaceAdminFullAccess` policy to your IAM identities\.
 
-This policy grants admin permissions that allow full access to manage private marketplaces in your account \(or organization\)\.
+This policy grants administrator permissions that allow full access to manage private marketplaces in your account \(or organization\)\. For more information about using multiple administrators, see [Creating custom policies for private marketplace administrators](creating-custom-policies-for-private-marketplace-admin.md)\.
 
 **Permissions details**
 

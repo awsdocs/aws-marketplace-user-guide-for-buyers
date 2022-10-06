@@ -64,15 +64,15 @@ The instructions are provided by the seller and are different for each seller an
 
 1. Follow steps 1\-6 of [Launch container software from AWS Marketplace](#buyer-launching-a-product), and choose a fulfillment option with a **Helm chart** delivery method\.
 
-1. In **Deployment target**, choose the environment you want to deploy on:
+1. In **Launch target**, choose the environment you want to deploy on:
    + Choose **Amazon managed Kubernetes** to deploy the application in Amazon EKS\. If the seller has enabled QuickLaunch, you can use it to create a new Amazon EKS cluster and launch on it\.
    + Choose **Self\-managed Kubernetes** to deploy the application in [https://anywhere.eks.amazonaws.com/docs/overview/](https://anywhere.eks.amazonaws.com/docs/overview/) or on any Kubernetes cluster running in Amazon EC2 or on\-premises\.
 
 1. If launching in an **Amazon managed Kubernetes** cluster:
 
-   1. To launch on an existing cluster in Amazon EKS, choose **Launch on existing cluster** and follow the provided instructions\. The instructions include creating an AWS Identity and Access Management \(IAM\) role and launching the application\. Ensure that you're using Helm CLI version 3\.7\.1\.
+   1. To launch on an existing cluster in Amazon EKS, under **Launch method**, choose **Launch on existing cluster** and follow the **Launch instructions**\. The instructions include creating an AWS Identity and Access Management \(IAM\) role and launching the application\. Ensure that you're using Helm CLI version 3\.7\.1\.
 
-   1. To use QuickLaunch to create a new Amazon EKS cluster and launch on it, choose **Launch on a new Amazon EKS cluster with QuickLaunch**\. Choose **Launch** to be redirected to create a stack in the AWS CloudFormation console\. This stack will create an Amazon EKS cluster and deploy the application by installing the seller\-provided Helm chart\.
+   1. To use QuickLaunch to create a new Amazon EKS cluster and launch on it, under **Launch method**, choose **Launch on a new EKS cluster with QuickLaunch**\. Choose **Launch** to be redirected to create a stack in the AWS CloudFormation console\. This stack will create an Amazon EKS cluster and deploy the application by installing the seller\-provided Helm chart\.
 
    1. On the **Quick create stack** page, in **Stack name**, provide a name for this stack\.
 

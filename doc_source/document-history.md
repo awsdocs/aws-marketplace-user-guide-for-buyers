@@ -6,6 +6,8 @@ For notiﬁcation about updates to this documentation, you can subscribe to the 
 
 | Change | Description | Date | 
 | --- |--- |--- |
+| [AWS Marketplace website upgrade to IPv6 by December 2022](https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-security-ipv6-upgrade.html) | Buyers who currently use the IPv4 format address in their IAM policies are advised to update their IAM policies to IPv6 format addresses before December 15, 2022\.  | September 29, 2022 | 
+| [AWS Marketplace Private marketplace granular permissions](https://docs.aws.amazon.com/marketplace/latest/buyerguide/it-administrator.html) | Buyers now have more granular permissions to manage private marketplace experiences\. | September 8, 2022 | 
 | [Added two policies for AWS Marketplace Vendor Insights\.](https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-security-iam-awsmanpol.html) | Added two policies `AWSVendorInsightsAssessorFullAccess` and `AWSVendorInsightsAssessorReadOnly` for AWS Marketplace Vendor Insights a feature offering software risk assessment | July 26, 2022 | 
 | [AWS Marketplace Vendor Insights ](https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-vendor-insights.html) | AWS Marketplace Vendor Insights is a feature offering software risk assessment\. | July 26, 2022 | 
 | [Payment methods update](https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-paying-for-products.html) | Documentation\-only update to clarify how to change payment methods in the AWS Billing console\. | June 1, 2022 | 
